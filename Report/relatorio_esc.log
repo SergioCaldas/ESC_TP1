@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 FEB 2016 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 FEB 2016 19:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -520,30 +520,88 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.05249> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 384.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 408.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 411.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 414.
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 41
-7.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 40
+9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.03749> on input line 417.
+(Font)              <10.03749> on input line 409.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.0262> on input line 417.
+(Font)              <7.0262> on input line 409.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.01874> on input line 417.
+(Font)              <5.01874> on input line 409.
 
-Underfull \hbox (badness 1546) in paragraph at lines 415--417
-\OT1/ptm/m/n/10.03749 De-par-ta-mento de in-form[]atica da Uni-ver-si-dade do M
+Underfull \hbox (badness 1527) in paragraph at lines 412--413
+[]\OT1/ptm/m/n/10.03749 Este \OT1/ptm/m/it/10.03749 Ben-ch-mark []\OT1/ptm/m/n/
+10.03749 e cons-titu[]^^Pdo por 5 \OT1/ptm/m/it/10.03749 Ker-nels \OT1/ptm/m/n/
+10.03749 e 3
+ []
+
+
+./relatorio_esc.tex:418: Package inputenc Error: Unicode char \u8:̧ not set up
+ for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.418 ...medições precisas de tempos de execuç
+                                                  ão/ócio/bloqueio, da o...
+
+? 
+
+./relatorio_esc.tex:418: Package inputenc Error: Unicode char \u8:̃ not set up
+ for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.418 ...ições precisas de tempos de execuçã
+                                                  o/ócio/bloqueio, da ocup...
+
+? 
+
+./relatorio_esc.tex:418: Package inputenc Error: Unicode char \u8:́ not set up
+ for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.418 ...es precisas de tempos de execução/ó
+                                                  cio/bloqueio, da ocupaçã...
+
+? 
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 423.
+
+Underfull \hbox (badness 2828) in paragraph at lines 429--430
+[]\OT1/ptm/m/n/10.03749 IS [[]1[]] - Ordena[][]ao de in-tei-ros, acesso
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 437.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 437.
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 452.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 454.
+
+Underfull \hbox (badness 1436) in paragraph at lines 455--457
+\OT1/ptm/m/n/10.03749 De-par-ta-mento de In-form[]atica da Uni-ver-si-dade do M
 i-
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 444.
+(babel)             in language  on input line 484.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 543.
+(babel)             in language  on input line 583.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 543.
+(babel)             in language  on input line 583.
 (./relatorio_esc.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
@@ -566,52 +624,38 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 575.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 615.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 575.
+(babel)             in language  on input line 615.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 575.
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 575.
-
-(./relatorio_esc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 575.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 575.
-
-
-Package rerunfilecheck Warning: File `relatorio_esc.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `relatorio_esc.out':
-(rerunfilecheck)             Before: 019A5ACFFE6C79F04F0FAB6FBF2084D3;417
-(rerunfilecheck)             After:  688BD4291548FDB870D3470F8E8F7938;417.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 575.
+(babel)             in language  on input line 615.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
+ (./relatorio_esc.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 615.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 615.
+Package rerunfilecheck Info: File `relatorio_esc.out' has not changed.
+(rerunfilecheck)             Checksum: 5CB1299A10D363A98B73184C73BE3A06;509.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 615.
  ) 
 Here is how much of TeX's memory you used:
- 5863 strings out of 493089
- 90703 string characters out of 6134842
- 183519 words of memory out of 5000000
- 9308 multiletter control sequences out of 15000+600000
- 40262 words of font info for 74 fonts, out of 8000000 for 9000
+ 5889 strings out of 493089
+ 90970 string characters out of 6134842
+ 189642 words of memory out of 5000000
+ 9323 multiletter control sequences out of 15000+600000
+ 45175 words of font info for 79 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 29i,7n,32p,746b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.2} has been referenced but does not exis
-t, replaced by a fixed one
-
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on relatorio_esc.pdf (1 page, 64320 bytes).
+ 29i,7n,32p,746b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on relatorio_esc.pdf (2 pages, 76687 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

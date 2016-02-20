@@ -1,7 +1,26 @@
 \begin{thebibliography}{1}
 
+\bibitem{nas_site}
+Nasa advanced supercomputing division.
+\newblock \url{http://www.nas.nasa.gov/publications/npb.html}.
+
+\bibitem{classes}
+Problem sizes and parameters in nas parallel benchmarks.
+\newblock \url{http://www.nas.nasa.gov/publications/npb_problem_sizes.html}.
+
 \bibitem{search}
 Services and advanced research computing with htc/hpc clusters.
 \newblock \url{http://search6.di.uminho.pt/wordpress/?page_id=55}.
+
+\bibitem{nas_bench}
+R.~F.~V. der Wijngaart and M.~Frumkin.
+\newblock Nas grid benchmarks version 1.0.
+\newblock {\em NASA Technical Report NAS-02.005}, 7 2002.
+
+\bibitem{nas_bench_1}
+H.~Jin, M.~Frumkin, and J.~Yan.
+\newblock The openmp implementation of nas parallel benchmarks and its
+  performance.
+\newblock {\em NAS Technical Report NAS-99-011}, 10 1999.
 
 \end{thebibliography}

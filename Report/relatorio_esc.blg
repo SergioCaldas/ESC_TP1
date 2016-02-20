@@ -1,48 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: relatorio_esc.aux
-The style file: plain.bst
+The style file: abbrv.bst
 Database file #1: references.bib
+Warning--to sort, need author or key in nas_site
+Warning--to sort, need author or key in classes
 Warning--to sort, need author or key in search
-You've used 1 entry,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            500 strings with 4132 characters,
-and the built_in function-call counts, 179 in all, are:
-= -- 15
-> -- 1
+            518 strings with 4344 characters,
+and the built_in function-call counts, 1014 in all, are:
+= -- 93
+> -- 34
 < -- 0
-+ -- 1
-- -- 0
-* -- 7
-:= -- 26
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 3
++ -- 16
+- -- 10
+* -- 50
+:= -- 156
+add.period$ -- 12
+call.type$ -- 5
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 7
-empty$ -- 24
-format.name$ -- 0
-if$ -- 41
+cite$ -- 8
+duplicate$ -- 41
+empty$ -- 104
+format.name$ -- 10
+if$ -- 222
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 0
-pop$ -- 8
+int.to.str$ -- 5
+missing$ -- 2
+newline$ -- 25
+num.names$ -- 4
+pop$ -- 35
 preamble$ -- 1
-purify$ -- 2
+purify$ -- 15
 quote$ -- 0
-skip$ -- 8
+skip$ -- 39
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+substring$ -- 26
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 1
-while$ -- 0
-width$ -- 2
-write$ -- 9
-(There was 1 warning)
+type$ -- 20
+warning$ -- 3
+while$ -- 4
+width$ -- 6
+write$ -- 43
+(There were 3 warnings)
