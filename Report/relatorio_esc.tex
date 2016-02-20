@@ -89,7 +89,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
 
-
+\usepackage{url}
+\usepackage{hyperref} 
 
 % *** CITATION PACKAGES ***
 %
@@ -408,12 +409,41 @@ O \textit{NAS Parallel Benchmarck} é um ambiente de testes desenvolvido pela NA
 No desenvolvimento deste trabalho
 
 \section{Caracterização do \textit{Benchmark}}
-Subsection text here.
+
+
 
 \section{Caracterização do Ambiente de Testes}
-O ambiente de testes utilizado no decorrer deste trabalho foi o cluster "\textit{Search}, este cluster faz parte do Departamento de informática da Universidade do Minho, sendo este utilizado por uma vasta comunidade de ciêntistas/investigadores". O "{Search}" é constituído por um conjunto de nodos () com diferentes características.
+O ambiente de testes utilizado no decorrer deste trabalho foi o cluster "\textit{Search}, este cluster faz parte do Departamento de informática da Universidade do Minho, sendo este utilizado por uma vasta comunidade de ciêntistas/investigadores". O "{Search}" é constituído por um conjunto de nodos com diferentes arquiteturas. Os nodos constituintes do \textit{Search} são:
+\begin{itemize}
+\item Arquitectura \textit{Ivy Bridge}
+\begin{itemize}
+\item 6 Nodos 662
+\item 2 Nodos 652
+\item 20 Nodos 641
+\end{itemize}
+\item Arquitectura \textit{Sandy Bridge}
+\begin{itemize}
+\item 6 Nodos 541
+\end{itemize}
+\item Arquitetura \textit{Nehalem}
+\begin{itemize}
+\item 2 Nodos 432
+\item 4 Nodos 421
+\item 10 Nodos 431
+\end{itemize}
+\item Arquitetura \textit{Penryn}
+\begin{itemize}
+\item 6 Nodos 321
+\end{itemize}
+\item Arquitetura \textit{AMD Magny-Cours}
+\begin{itemize}
+\item 2 Nodos 262
+\end{itemize}
+\end{itemize}
+De notar que todos os detalhes de cada nodo, bem como o significado do \textit{rank} (valores do tipo 641, 652, etc. apresentados em cima) podem ser consultados no site do cluster \textit{Search}\cite{search}
 
-\subsection{Nodo ...}
+\subsection{Nodos de Teste}
+\subsubsection{Nodo ...}
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
 % For figures, \caption should occur after the \includegraphics.
@@ -511,30 +541,8 @@ O ambiente de testes utilizado no decorrer deste trabalho foi o cluster "\textit
 
 
 
-\section{Conclusion}
+\section{Conclusão}
 The conclusion goes here.
-
-
-
-
-% conference papers do not normally have an appendix
-
-
-
-% use section* for acknowledgment
-\ifCLASSOPTIONcompsoc
-  % The Computer Society usually uses the plural form
-  \section*{Acknowledgments}
-\else
-  % regular IEEE prefers the singular form
-  \section*{Acknowledgment}
-\fi
-
-
-The authors would like to thank...
-
-
-
 
 
 % trigger a \newpage just before the given reference
@@ -559,15 +567,9 @@ The authors would like to thank...
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
 % (used to reserve space for the reference number labels box)
-\begin{thebibliography}{1}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
-
-\end{thebibliography}
-
-
+\bibliographystyle{abbrvnat}
+\bibliography{references}
 
 
 % that's all folks
