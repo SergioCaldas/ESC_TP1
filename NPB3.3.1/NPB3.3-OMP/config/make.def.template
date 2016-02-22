@@ -29,7 +29,7 @@
 #---------------------------------------------------------------------------
 # This is the fortran compiler used for Fortran programs
 #---------------------------------------------------------------------------
-F77 = gfortran
+F77 = f77
 # This links fortran programs; usually the same as ${F77}
 FLINK	= $(F77)
 
@@ -75,7 +75,7 @@ FLINKFLAGS = -O
 #---------------------------------------------------------------------------
 # This is the C compiler used for C programs
 #---------------------------------------------------------------------------
-CC = gcc
+CC = cc
 # This links C programs; usually the same as ${CC}
 CLINK	= $(CC)
 
@@ -120,7 +120,7 @@ CLINKFLAGS = -O
 # this compiler go here also; typically there are few flags required; hence 
 # there are no separate macros provided for such flags.
 #---------------------------------------------------------------------------
-UCC	= gcc
+UCC	= cc
 
 
 #---------------------------------------------------------------------------
