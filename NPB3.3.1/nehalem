@@ -39,3 +39,9 @@ module load gnu/4.9.0
 
 sh script.sh
 
+cd ../NPB3.3-OMP
+
+module purge
+module load gnu/4.9.0
+
+sh script.sh

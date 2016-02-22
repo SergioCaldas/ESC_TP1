@@ -7,6 +7,10 @@ cd ~/ESC_TP1/NPB3.3.1/NPB3.3-SER/
 
 make suite
 
+cd ../NPB3.3-OMP/
+
+make suite
+
 cd ..
 
 qsub ivyBridge

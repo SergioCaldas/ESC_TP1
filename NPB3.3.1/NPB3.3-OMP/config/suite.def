@@ -9,13 +9,13 @@
 # (except that no classes C,D,E for DC and no class E for IS and UA).
 # No blank lines. 
 # The following example builds sample sizes of all benchmarks. 
-ft	S
-mg	S
-sp	S
-lu	S
-bt	S
-is	S
-ep	S
-cg	S
-ua	S
-dc      S
+#ft	S
+#mg	S
+#sp	S
+#lu	S
+#bt	S
+is	A
+ep	A
+cg	A
+#ua	S
+#dc     S
