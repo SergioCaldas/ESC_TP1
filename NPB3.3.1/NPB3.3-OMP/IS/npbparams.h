@@ -10,5 +10,5 @@
 #define CFLAGS "-O"
 #define CLINK "$(CC)"
 #define CLINKFLAGS "-O"
-#define C_LIB "(none)"
+#define C_LIB "-lm"
 #define C_INC "(none)"
