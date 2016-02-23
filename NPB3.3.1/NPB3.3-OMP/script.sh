@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ~/ESC_TP1/NPB3.3.1/NPB.3-OMP/bin
+cd ~/ESC_TP1/NPB3.3.1/NPB3.3-OMP/bin
 
 max_ppn=24
 sample_size=5

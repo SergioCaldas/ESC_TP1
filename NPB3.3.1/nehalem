@@ -7,7 +7,7 @@
 #          after the first executable statement are ignored.
 
 #PBS -N nehalem
-#PBS -l walltime=00:10:00
+#PBS -l walltime=00:30:00
 #PBS -q mei
 
 #          PBS can send informative email messages to you about the

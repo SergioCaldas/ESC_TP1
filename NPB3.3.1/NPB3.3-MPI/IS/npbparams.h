@@ -1,4 +1,5 @@
 #define CLASS 'A'
+#define NUM_PROCS 1
 /*
    This file is generated automatically by the setparams utility.
    It sets the number of processors and the class of the NPB
@@ -6,9 +7,9 @@
    
 #define COMPILETIME "23 Feb 2016"
 #define NPBVERSION "3.3.1"
-#define CC "gcc"
+#define MPICC "mpicc"
 #define CFLAGS "-O"
-#define CLINK "$(CC)"
+#define CLINK "$(MPICC)"
 #define CLINKFLAGS "-O"
-#define C_LIB "-lm"
-#define C_INC "(none)"
+#define CMPI_LIB "-L/usr/local/lib -lmpi"
+#define CMPI_INC "-I/usr/local/include"

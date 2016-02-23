@@ -4,15 +4,20 @@ module purge
 module load gnu/4.9.0
 
 cd ~/ESC_TP1/NPB3.3.1/NPB3.3-SER/
-
+make clean
 make suite
 
 cd ../NPB3.3-OMP/
+make clean
+make suite
 
+cd ../NPB3.3-MPI
+
+module load gnu/openmpi_eth/1.8.4
+make clean
 make suite
 
 cd ..
-
 qsub ivyBridge
 
 qsub nehalem
