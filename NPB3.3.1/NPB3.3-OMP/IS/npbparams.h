@@ -1,4 +1,4 @@
-#define CLASS 'A'
+#define CLASS 'C'
 /*
    This file is generated automatically by the setparams utility.
    It sets the number of processors and the class of the NPB
@@ -7,8 +7,8 @@
 #define COMPILETIME "23 Feb 2016"
 #define NPBVERSION "3.3.1"
 #define CC "gcc"
-#define CFLAGS "-O"
+#define CFLAGS "-O0 -fopenmp"
 #define CLINK "$(CC)"
-#define CLINKFLAGS "-O"
+#define CLINKFLAGS "-O0 -fopenmp"
 #define C_LIB "-lm"
 #define C_INC "(none)"

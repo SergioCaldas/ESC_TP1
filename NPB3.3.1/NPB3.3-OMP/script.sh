@@ -1,37 +1,29 @@
 #!/bin/sh
 
-cd ~/ESC_TP1/NPB3.3.1/NPB3.3-OMP/bin
+cd ~/ESC_TP1/NPB3.3.1/NPB3.3-OMP/
+
+read -r node_info<$PBS_NODEFILE 
+
+cd Results/
+
+mkdir $node_info
+
+cd ../bin
 
 max_ppn=24
 sample_size=5
 
-export OMP_DYNAMIC=FALSE
-export OMP_NUM_THREAD=2
 
-for (( i=2; i <= $max_ppn; i+=2 ))
+for file in *.x
 do
-	echo "Running $sample_size * ( $i threads parallel code)"
-	for (( sample_num=1; sample_num <= $sample_size; ++sample_num ))
+	for (( num_threads=2; num_threads <= $max_ppn; num_threads+=2 ))
 	do
- 		./cg.A.x
-	done
-done
-
-for (( i=2; i <= $max_ppn; i+=2 ))
-do
-	echo "Running $sample_size * ( $i threads parallel code)"
-	for (( sample_num=1; sample_num <= $sample_size; ++sample_num ))
-	do
- 		./ep.A.x
-	done
-done
-
-for (( i=2; i <= $max_ppn; i+=2 ))
-do
-	echo "Running $sample_size * ( $i threads parallel code)"
-	for (( sample_num=1; sample_num <= $sample_size; ++sample_num ))
-	do
- 		./is.A.x
+		echo "Running ( $num_threads threads parallel code)"
+		export OMP_NUM_THREADS $num_threads
+		./file >> ../Results/$node_info/"$file.txt"
+		dstat -c -d -m --output '../Results/$node_info/$file' >> /dev/null &
+		kill $!
+		sleep 1
 	done
 done
 echo "Done..."

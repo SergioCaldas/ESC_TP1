@@ -1,4 +1,4 @@
-c CLASS = A
+c CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -7,10 +7,10 @@ c  in this directory. Do not modify it by hand.
 c  
         integer            na, nonzer, niter
         double precision   shift, rcond
-        parameter(  na=14000,
-     >              nonzer=11,
-     >              niter=15,
-     >              shift=20.,
+        parameter(  na=150000,
+     >              nonzer=15,
+     >              niter=75,
+     >              shift=110.,
      >              rcond=1.0d-1 )
         logical  convertdouble
         parameter (convertdouble = .false.)
@@ -26,8 +26,8 @@ c
         parameter (cs3='(none)')
         character cs4*6
         parameter (cs4='(none)')
-        character cs5*2
-        parameter (cs5='-O')
+        character cs5*12
+        parameter (cs5='-O0 -fopenmp')
         character cs6*2
         parameter (cs6='-O')
         character cs7*6

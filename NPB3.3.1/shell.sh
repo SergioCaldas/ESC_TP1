@@ -11,12 +11,6 @@ cd ../NPB3.3-OMP/
 make clean
 make suite
 
-cd ../NPB3.3-MPI
-
-module load gnu/openmpi_eth/1.8.4
-make clean
-make suite
-
 cd ..
 qsub ivyBridge
 

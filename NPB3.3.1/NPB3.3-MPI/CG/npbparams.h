@@ -1,4 +1,4 @@
-c NPROCS = 1 CLASS = A
+c NPROCS = 2 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -7,17 +7,17 @@ c  in this directory. Do not modify it by hand.
 c  
         integer            na, nonzer, niter
         double precision   shift, rcond
-        parameter(  na=14000,
-     >              nonzer=11,
-     >              niter=15,
-     >              shift=20.,
+        parameter(  na=150000,
+     >              nonzer=15,
+     >              niter=75,
+     >              shift=110.,
      >              rcond=1.0d-1 )
 
 c number of nodes for which this version is compiled
         integer    nnodes_compiled
-        parameter( nnodes_compiled = 1)
+        parameter( nnodes_compiled = 2)
         integer    num_proc_cols, num_proc_rows
-        parameter( num_proc_cols=1, num_proc_rows=1 )
+        parameter( num_proc_cols=2, num_proc_rows=1 )
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
@@ -32,9 +32,9 @@ c number of nodes for which this version is compiled
         parameter (cs3='-L/usr/local/lib -lmpi')
         character*20 cs4
         parameter (cs4='-I/usr/local/include')
-        character*2 cs5
-        parameter (cs5='-O')
-        character*2 cs6
-        parameter (cs6='-O')
+        character*3 cs5
+        parameter (cs5='-O0')
+        character*3 cs6
+        parameter (cs6='-O0')
         character*6 cs7
         parameter (cs7='randi8')

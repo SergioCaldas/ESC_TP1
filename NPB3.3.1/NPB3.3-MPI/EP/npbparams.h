@@ -1,4 +1,4 @@
-c NPROCS = 1 CLASS = A
+c NPROCS = 2 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -6,9 +6,9 @@ c  It sets the number of processors and the class of the NPB
 c  in this directory. Do not modify it by hand.
 c  
         character class
-        parameter (class ='A')
+        parameter (class ='C')
         integer m, npm
-        parameter (m=28, npm=1)
+        parameter (m=32, npm=2)
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
@@ -23,9 +23,9 @@ c
         parameter (cs3='-L/usr/local/lib -lmpi')
         character*20 cs4
         parameter (cs4='-I/usr/local/include')
-        character*2 cs5
-        parameter (cs5='-O')
-        character*2 cs6
-        parameter (cs6='-O')
+        character*3 cs5
+        parameter (cs5='-O0')
+        character*3 cs6
+        parameter (cs6='-O0')
         character*6 cs7
         parameter (cs7='randi8')

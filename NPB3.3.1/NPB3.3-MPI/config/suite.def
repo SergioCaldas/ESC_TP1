@@ -1,4 +1,4 @@
-# config/suite.def
+#config/suite.def
 # This file is used to build several benchmarks with a single command. 
 # Typing "make suite" in the main directory will build all the benchmarks
 # specified in this file. 
@@ -18,7 +18,13 @@
 #sp	S	1
 #lu	S	1
 #bt	S	1
-is	A	1
-ep	A	1
-cg	A	1
+is	A	2
+ep	A	2
+cg	A	2
 #dt	S	1
+is	B	2
+ep	B	2
+cg	B	2
+is	C	2
+ep	C	2
+cg	C	2

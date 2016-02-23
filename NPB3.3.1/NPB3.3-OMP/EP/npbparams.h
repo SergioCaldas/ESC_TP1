@@ -1,4 +1,4 @@
-c CLASS = A
+c CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -6,9 +6,9 @@ c  It sets the number of processors and the class of the NPB
 c  in this directory. Do not modify it by hand.
 c  
         character class
-        parameter (class ='A')
+        parameter (class ='C')
         integer m
-        parameter (m=28)
+        parameter (m=32)
         logical  convertdouble
         parameter (convertdouble = .false.)
         character compiletime*11
@@ -23,8 +23,8 @@ c
         parameter (cs3='(none)')
         character cs4*6
         parameter (cs4='(none)')
-        character cs5*2
-        parameter (cs5='-O')
+        character cs5*12
+        parameter (cs5='-O0 -fopenmp')
         character cs6*2
         parameter (cs6='-O')
         character cs7*6
