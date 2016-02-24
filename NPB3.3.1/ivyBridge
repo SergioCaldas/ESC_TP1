@@ -7,7 +7,7 @@
 #          after the first executable statement are ignored.
 
 #PBS -N ivyBridge
-#PBS -l walltime=00:90:00
+#PBS -l walltime=02:30:00
 #PBS -q mei
 
 #          PBS can send informative email messages to you about the

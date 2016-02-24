@@ -17,7 +17,7 @@ do
 	for (( ppn=2; ppn <= $max_ppn; ppn+=2 ))
 	do
 		mpirun -np $ppn --report-bindings --mca btl tcp, sm, self ./file >> ../Results/$node_info/"$file.txt"
-		dstat -c -d -m --output '../Results/$node_info/$file' >> /dev/null &
+		~/dstat -c -d -m --output ../Results/$node_info/$file.csv >> /dev/null &
 		kill $!
 		sleep 1
 	done

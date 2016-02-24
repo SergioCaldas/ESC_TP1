@@ -21,7 +21,7 @@ do
 		echo "Running ( $num_threads threads parallel code)"
 		export OMP_NUM_THREADS $num_threads
 		./file >> ../Results/$node_info/"$file.txt"
-		dstat -c -d -m --output '../Results/$node_info/$file' >> /dev/null &
+		~/dstat -c -d -m --output ../Results/$node_info/$file.csv >> /dev/null &
 		kill $!
 		sleep 1
 	done
