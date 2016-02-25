@@ -10,14 +10,14 @@ mkdir $node_info
 
 cd ../bin
 
-max_ppn=64
+max_ppn=48
 
 for file in *.x
 do
 	for (( ppn=2; ppn <= $max_ppn; ppn+=2 ))
 	do
-		mpirun -np $ppn --report-bindings --mca btl tcp, sm, self ./file >> ../Results/$node_info/"$file.txt"
-		~/dstat -c -d -m --output ../Results/$node_info/$file.csv >> /dev/null &
+		mpirun -np $ppn --report-bindings --mca btl tcp, sm, self ./file >> ../Results/Eth/$node_info/"$file.txt"
+		/home/a57779/dstat -cdm --output ../Results/Eth/$node_info/$file.csv >> /dev/null &
 		kill $!
 		sleep 1
 	done

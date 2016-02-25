@@ -12,8 +12,9 @@ make clean
 make suite
 
 cd ..
-qsub ivyBridge
 
-qsub nehalem
+qsub jobs/ivyBridge_SER
+qsub jobs/ivyBridge_OMP
 
-
+qsub jobs/nehalem_SER
+qsub jobs/nehalem_OMP

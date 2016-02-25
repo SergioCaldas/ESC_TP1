@@ -24,8 +24,8 @@ c
         character cs4*6
         parameter (cs4='(none)')
         character cs5*12
-        parameter (cs5='-O0 -fopenmp')
-        character cs6*2
-        parameter (cs6='-O')
+        parameter (cs5='-O2 -fopenmp')
+        character cs6*12
+        parameter (cs6='-O2 -fopenmp')
         character cs7*6
         parameter (cs7='randi8')

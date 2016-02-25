@@ -6,8 +6,8 @@
 #          PBS directives must come first; any directives
 #          after the first executable statement are ignored.
 
-#PBS -N ivyBridge_mpi
-#PBS -l walltime=02:30:00
+#PBS -N nehalem_OMP
+#PBS -l walltime=01:30:00
 #PBS -q mei
 
 #          PBS can send informative email messages to you about the
@@ -25,20 +25,16 @@
 #          Specify the number of nodes requested and the
 #          number of processors per node. 
 
-#PBS -l nodes=2:r641:ppn=32
+#PBS -l nodes=1:r431:ppn=24
 
 
 read -r node_info<$PBS_NODEFILE
 
 echo "Allocated computing node: $node_info"
 
-cd ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI
+cd ~/ESC_TP1/NPB3.3.1/NPB3.3-OMP
 
 module purge
 module load gnu/4.9.0
-module load gnu/4.9.3
-module load gnu/openmpi_eth/1.8.4
-mpi_info --param mpi all
 
-sh script_ivy_bridge.sh
-
+sh script_nehalem.sh
