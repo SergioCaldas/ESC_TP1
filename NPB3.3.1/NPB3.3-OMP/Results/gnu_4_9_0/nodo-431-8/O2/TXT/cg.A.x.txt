@@ -1,0 +1,558 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:     1
+
+ Initialization time =           0.565 seconds
+
+   iteration           ||r||                 zeta
+        1       0.26065081214763E-12    19.9997581277040
+        2       0.25753187736717E-14    17.1140495745506
+        3       0.25934878907518E-14    17.1296668946143
+        4       0.25626292684826E-14    17.1302113581193
+        5       0.25110613524700E-14    17.1302338856353
+        6       0.25581937582088E-14    17.1302349879482
+        7       0.25456477041068E-14    17.1302350498916
+        8       0.24494068328538E-14    17.1302350537510
+        9       0.24885235903729E-14    17.1302350540101
+       10       0.24771507610856E-14    17.1302350540284
+       11       0.24928441017003E-14    17.1302350540298
+       12       0.24443706061229E-14    17.1302350540299
+       13       0.24709361922612E-14    17.1302350540299
+       14       0.24381630450112E-14    17.1302350540299
+       15       0.24296673223448E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5122640033228E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     1.78
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                   838.50
+ Mop/s/thread    =                   838.50
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O2 -fopenmp
+    FLINKFLAGS   = -O2 -fopenmp
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:     2
+
+ Initialization time =           0.274 seconds
+
+   iteration           ||r||                 zeta
+        1       0.25633607125478E-12    19.9997581277040
+        2       0.25471667691104E-14    17.1140495745506
+        3       0.25291399829489E-14    17.1296668946143
+        4       0.25508191223677E-14    17.1302113581193
+        5       0.25241896880810E-14    17.1302338856353
+        6       0.25499256489540E-14    17.1302349879482
+        7       0.25058363832777E-14    17.1302350498916
+        8       0.25157826930005E-14    17.1302350537510
+        9       0.25035579117744E-14    17.1302350540101
+       10       0.24868519987979E-14    17.1302350540284
+       11       0.25079102614908E-14    17.1302350540298
+       12       0.24994982908361E-14    17.1302350540299
+       13       0.24483886599574E-14    17.1302350540299
+       14       0.24404672198722E-14    17.1302350540299
+       15       0.23887831518859E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5226337199892E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.76
+ Total threads   =                        2
+ Avail threads   =                        2
+ Mop/s total     =                  1970.28
+ Mop/s/thread    =                   985.14
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O2 -fopenmp
+    FLINKFLAGS   = -O2 -fopenmp
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:     4
+
+ Initialization time =           0.148 seconds
+
+   iteration           ||r||                 zeta
+        1       0.25631601897397E-12    19.9997581277040
+        2       0.25579465751394E-14    17.1140495745506
+        3       0.25519724963152E-14    17.1296668946143
+        4       0.25619256223945E-14    17.1302113581192
+        5       0.25070623251982E-14    17.1302338856353
+        6       0.25422889320653E-14    17.1302349879482
+        7       0.25171718307617E-14    17.1302350498916
+        8       0.25183899231575E-14    17.1302350537510
+        9       0.24726769802410E-14    17.1302350540101
+       10       0.24970219466859E-14    17.1302350540284
+       11       0.24691832471643E-14    17.1302350540298
+       12       0.24827462682786E-14    17.1302350540299
+       13       0.24101600793857E-14    17.1302350540299
+       14       0.24160926003168E-14    17.1302350540299
+       15       0.23882891447580E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5226337199892E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.37
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                  4081.10
+ Mop/s/thread    =                  1020.27
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O2 -fopenmp
+    FLINKFLAGS   = -O2 -fopenmp
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:     8
+
+ Initialization time =           0.087 seconds
+
+   iteration           ||r||                 zeta
+        1       0.26120334389136E-12    19.9997581277040
+        2       0.25676612954065E-14    17.1140495745506
+        3       0.25330979014642E-14    17.1296668946143
+        4       0.25339235377583E-14    17.1302113581192
+        5       0.25019452269461E-14    17.1302338856353
+        6       0.25684678808734E-14    17.1302349879482
+        7       0.25142347031643E-14    17.1302350498916
+        8       0.24803292821519E-14    17.1302350537510
+        9       0.24927187995446E-14    17.1302350540101
+       10       0.25034959401534E-14    17.1302350540284
+       11       0.24671856937139E-14    17.1302350540298
+       12       0.24358444450556E-14    17.1302350540299
+       13       0.24051817204496E-14    17.1302350540299
+       14       0.24083905825663E-14    17.1302350540299
+       15       0.23803886190633E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5205597766559E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.21
+ Total threads   =                        8
+ Avail threads   =                        8
+ Mop/s total     =                  7230.23
+ Mop/s/thread    =                   903.78
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O2 -fopenmp
+    FLINKFLAGS   = -O2 -fopenmp
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:    10
+
+ Initialization time =           0.081 seconds
+
+   iteration           ||r||                 zeta
+        1       0.25700708642172E-12    19.9997581277040
+        2       0.25856209892686E-14    17.1140495745506
+        3       0.25710923456736E-14    17.1296668946143
+        4       0.25500547947904E-14    17.1302113581192
+        5       0.25278841933678E-14    17.1302338856353
+        6       0.25214151725279E-14    17.1302349879482
+        7       0.25285070386057E-14    17.1302350498916
+        8       0.25044785878943E-14    17.1302350537510
+        9       0.24760966020141E-14    17.1302350540101
+       10       0.24368236360687E-14    17.1302350540284
+       11       0.24571069179844E-14    17.1302350540298
+       12       0.24441956910402E-14    17.1302350540299
+       13       0.24284970161182E-14    17.1302350540299
+       14       0.24181182384151E-14    17.1302350540299
+       15       0.23844463058722E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5226337199892E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.25
+ Total threads   =                       10
+ Avail threads   =                       10
+ Mop/s total     =                  5916.55
+ Mop/s/thread    =                   591.66
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O2 -fopenmp
+    FLINKFLAGS   = -O2 -fopenmp
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:    12
+
+ Initialization time =           0.099 seconds
+
+   iteration           ||r||                 zeta
+        1       0.25831950649862E-12    19.9997581277040
+        2       0.25769867268044E-14    17.1140495745506
+        3       0.25541761111343E-14    17.1296668946143
+        4       0.25315948415419E-14    17.1302113581192
+        5       0.25151095094579E-14    17.1302338856353
+        6       0.25384045119051E-14    17.1302349879482
+        7       0.24996453815381E-14    17.1302350498916
+        8       0.24739821071223E-14    17.1302350537510
+        9       0.24614299682879E-14    17.1302350540101
+       10       0.24707105463894E-14    17.1302350540284
+       11       0.24526236669146E-14    17.1302350540298
+       12       0.24442951195097E-14    17.1302350540299
+       13       0.24159709034629E-14    17.1302350540299
+       14       0.24237634130772E-14    17.1302350540299
+       15       0.23753594582030E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5226337199892E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.26
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                  5852.54
+ Mop/s/thread    =                   487.71
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O2 -fopenmp
+    FLINKFLAGS   = -O2 -fopenmp
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:    16
+
+ Initialization time =           0.086 seconds
+
+   iteration           ||r||                 zeta
+        1       0.26187781993506E-12    19.9997581277040
+        2       0.26062403087271E-14    17.1140495745506
+        3       0.25323893820975E-14    17.1296668946143
+        4       0.25531249981605E-14    17.1302113581192
+        5       0.25057239186842E-14    17.1302338856353
+        6       0.25291456265369E-14    17.1302349879482
+        7       0.25131559546656E-14    17.1302350498916
+        8       0.24810844221718E-14    17.1302350537510
+        9       0.24548944172141E-14    17.1302350540101
+       10       0.24843524368587E-14    17.1302350540284
+       11       0.24395590656500E-14    17.1302350540298
+       12       0.24422565201592E-14    17.1302350540299
+       13       0.24123478097323E-14    17.1302350540299
+       14       0.24330561874965E-14    17.1302350540299
+       15       0.23744904242670E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5205597766559E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.21
+ Total threads   =                       16
+ Avail threads   =                       16
+ Mop/s total     =                  6988.56
+ Mop/s/thread    =                   436.79
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O2 -fopenmp
+    FLINKFLAGS   = -O2 -fopenmp
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:    24
+
+ Initialization time =           0.089 seconds
+
+   iteration           ||r||                 zeta
+        1       0.25868063056063E-12    19.9997581277040
+        2       0.25871855437313E-14    17.1140495745506
+        3       0.25147997406592E-14    17.1296668946143
+        4       0.25411046050860E-14    17.1302113581192
+        5       0.25380989136824E-14    17.1302338856353
+        6       0.25155778670998E-14    17.1302349879482
+        7       0.24884837140825E-14    17.1302350498916
+        8       0.24912618129696E-14    17.1302350537510
+        9       0.24665817264320E-14    17.1302350540101
+       10       0.24763929150386E-14    17.1302350540284
+       11       0.24540867250945E-14    17.1302350540298
+       12       0.24559412687357E-14    17.1302350540299
+       13       0.23997699695490E-14    17.1302350540299
+       14       0.24208337775389E-14    17.1302350540299
+       15       0.23748242379654E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5205597766559E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.19
+ Total threads   =                       24
+ Avail threads   =                       24
+ Mop/s total     =                  7920.73
+ Mop/s/thread    =                   330.03
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O2 -fopenmp
+    FLINKFLAGS   = -O2 -fopenmp
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:    32
+
+ Initialization time =           0.120 seconds
+
+   iteration           ||r||                 zeta
+        1       0.26138189362306E-12    19.9997581277040
+        2       0.25751954754849E-14    17.1140495745506
+        3       0.25427387937277E-14    17.1296668946143
+        4       0.25480477921336E-14    17.1302113581192
+        5       0.25176888833954E-14    17.1302338856353
+        6       0.25094544979740E-14    17.1302349879482
+        7       0.24983680503099E-14    17.1302350498916
+        8       0.24868037024649E-14    17.1302350537510
+        9       0.24633382857993E-14    17.1302350540101
+       10       0.24563717882396E-14    17.1302350540284
+       11       0.24613442986867E-14    17.1302350540298
+       12       0.24262022823845E-14    17.1302350540299
+       13       0.24119950859826E-14    17.1302350540299
+       14       0.24225773854510E-14    17.1302350540299
+       15       0.23724300257339E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5205597766559E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.55
+ Total threads   =                       32
+ Avail threads   =                       32
+ Mop/s total     =                  2720.85
+ Mop/s/thread    =                    85.03
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O2 -fopenmp
+    FLINKFLAGS   = -O2 -fopenmp
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

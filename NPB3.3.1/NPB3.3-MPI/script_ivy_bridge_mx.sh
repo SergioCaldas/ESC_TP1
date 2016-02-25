@@ -4,11 +4,11 @@ cd ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/
 
 read -r node_info<$PBS_NODEFILE 
 
-cd Results/
+cd Results/Mx
 
 mkdir $node_info
 
-cd ../bin
+cd ../../bin
 
 max_ppn=64
 
@@ -16,10 +16,12 @@ for file in *.x
 do
 	for (( ppn=2; ppn <= $max_ppn; ppn+=2 ))
 	do
-		mpirun -np $ppn --report-bindings --mca mtl mx pml cm ./file >> ../Results/Mx/$node_info/"$file.txt"
-		/home/a57779/dstat -cdm --output ../Results/Mx/$node_info/$file.csv >> /dev/null &
+		cd ../Results/Mx/$node_info
+		/home/a57779/dstat -cdm --output $file.csv >> /dev/null &
+		cd ../../../bin
+		mpirun -np $ppn --report-bindings --mca mtl mx pml cm ./$file >> ../Results/Mx/$node_info/"$file.txt"
 		kill $!
-		sleep 1
+		sleep 2
 	done
 done
 echo "Done..."
