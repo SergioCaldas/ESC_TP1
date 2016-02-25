@@ -18,8 +18,8 @@ c
         parameter (compiletime='25 Feb 2016')
         character npbversion*5
         parameter (npbversion='3.3.1')
-        character cs1*8
-        parameter (cs1='gfortran')
+        character cs1*5
+        parameter (cs1='ifort')
         character cs2*6
         parameter (cs2='$(F77)')
         character cs3*6

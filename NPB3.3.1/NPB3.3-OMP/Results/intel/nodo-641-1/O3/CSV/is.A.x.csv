@@ -1,0 +1,83 @@
+"Dstat 0.7.2 CSV output"
+"Author:","Dag Wieers <dag@wieers.com>",,,,"URL:","http://dag.wieers.com/home-made/dstat/"
+"Host:","compute-641-1.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 05:49:50 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+49.974,5.458,44.438,0.098,0.000,0.032,179887.481,548056.145,843747328.0,57786368.0,66080768.0,66690920448.0
+3.095,0.125,96.780,0.0,0.0,0.0,0.0,0.0,875266048.0,57786368.0,66138112.0,66659344384.0
+3.130,0.094,96.776,0.0,0.0,0.0,0.0,0.0,910356480.0,57786368.0,66142208.0,66624249856.0
+
+
+"Host:","compute-641-1.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 05:49:54 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+49.974,5.458,44.438,0.098,0.000,0.032,179887.452,548056.057,845414400.0,57786368.0,66146304.0,66689187840.0
+6.221,0.063,93.717,0.0,0.0,0.0,0.0,0.0,909471744.0,57786368.0,66146304.0,66625130496.0
+
+
+"Host:","compute-641-1.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 05:49:57 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+49.974,5.458,44.438,0.098,0.000,0.032,179887.429,548055.989,851341312.0,57794560.0,66138112.0,66683260928.0
+
+
+"Host:","compute-641-1.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 05:50:00 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+49.974,5.458,44.438,0.098,0.000,0.032,179887.411,548055.933,863895552.0,57794560.0,66146304.0,66670698496.0
+
+
+"Host:","compute-641-1.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 05:50:02 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+49.974,5.458,44.438,0.098,0.000,0.032,179887.394,548055.883,881868800.0,57802752.0,66142208.0,66652721152.0
+
+
+"Host:","compute-641-1.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 05:50:04 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+49.974,5.458,44.438,0.098,0.000,0.032,179887.377,548055.832,888569856.0,57802752.0,66154496.0,66646007808.0
+
+
+"Host:","compute-641-1.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 05:50:07 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+49.974,5.458,44.438,0.098,0.000,0.032,179887.360,548055.780,894697472.0,57802752.0,66154496.0,66639880192.0
+
+
+"Host:","compute-641-1.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 05:50:09 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+49.974,5.458,44.438,0.098,0.000,0.032,179887.344,548055.733,905056256.0,57810944.0,66154496.0,66629513216.0
+
+
+"Host:","compute-641-1.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 05:50:11 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+49.974,5.458,44.438,0.098,0.000,0.032,179887.329,548055.686,901144576.0,57810944.0,66158592.0,66633420800.0
+
+
+"Host:","compute-641-1.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 05:50:14 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+49.974,5.458,44.438,0.098,0.000,0.032,179887.312,548055.634,906870784.0,57810944.0,66162688.0,66627690496.0

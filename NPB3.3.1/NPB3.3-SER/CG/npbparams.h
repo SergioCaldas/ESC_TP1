@@ -27,8 +27,8 @@ c
         character cs4*6
         parameter (cs4='(none)')
         character cs5*3
-        parameter (cs5='-O0')
+        parameter (cs5='-O2')
         character cs6*3
-        parameter (cs6='-O0')
+        parameter (cs6='-O2')
         character cs7*6
         parameter (cs7='randi8')

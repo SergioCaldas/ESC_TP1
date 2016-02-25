@@ -6,7 +6,7 @@
    
 #define COMPILETIME "25 Feb 2016"
 #define NPBVERSION "3.3.1"
-#define CC "gcc"
+#define CC "icc"
 #define CFLAGS "-O3 -fopenmp"
 #define CLINK "$(CC)"
 #define CLINKFLAGS "-O3 -fopenmp"

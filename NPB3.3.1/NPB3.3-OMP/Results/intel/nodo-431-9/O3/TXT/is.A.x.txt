@@ -1,0 +1,459 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  1
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.81
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                   104.15
+ Mop/s/thread    =                   104.15
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    CC           = icc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -O3 -fopenmp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  2
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.47
+ Total threads   =                        2
+ Avail threads   =                        2
+ Mop/s total     =                   177.78
+ Mop/s/thread    =                    88.89
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    CC           = icc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -O3 -fopenmp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  4
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.24
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   346.30
+ Mop/s/thread    =                    86.57
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    CC           = icc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -O3 -fopenmp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  8
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.13
+ Total threads   =                        8
+ Avail threads   =                        8
+ Mop/s total     =                   626.93
+ Mop/s/thread    =                    78.37
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    CC           = icc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -O3 -fopenmp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  10
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.14
+ Total threads   =                       10
+ Avail threads   =                       10
+ Mop/s total     =                   608.72
+ Mop/s/thread    =                    60.87
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    CC           = icc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -O3 -fopenmp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  12
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.12
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                   694.18
+ Mop/s/thread    =                    57.85
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    CC           = icc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -O3 -fopenmp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  16
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.10
+ Total threads   =                       16
+ Avail threads   =                       16
+ Mop/s total     =                   864.49
+ Mop/s/thread    =                    54.03
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    CC           = icc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -O3 -fopenmp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  24
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.15
+ Total threads   =                       24
+ Avail threads   =                       24
+ Mop/s total     =                   557.10
+ Mop/s/thread    =                    23.21
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    CC           = icc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -O3 -fopenmp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  32
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.15
+ Total threads   =                       32
+ Avail threads   =                       32
+ Mop/s total     =                   552.87
+ Mop/s/thread    =                    17.28
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    CC           = icc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -O3 -fopenmp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
