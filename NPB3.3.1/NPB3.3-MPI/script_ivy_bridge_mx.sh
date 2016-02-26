@@ -10,7 +10,7 @@ mkdir $node_info
 
 cd ../../../bin
 
-for file in *.x
+for file in *.2
 do
 		cd ../Results/Mx/8/$node_info
 		/home/a57779/dstat -cdm --output $file.csv >> /dev/null &

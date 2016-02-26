@@ -21,7 +21,7 @@ c number of nodes for which this version is compiled
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='24 Feb 2016')
+        parameter (compiletime='26 Feb 2016')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*7 cs1
@@ -33,8 +33,8 @@ c number of nodes for which this version is compiled
         character*20 cs4
         parameter (cs4='-I/usr/local/include')
         character*3 cs5
-        parameter (cs5='-O0')
+        parameter (cs5='-O3')
         character*3 cs6
-        parameter (cs6='-O0')
+        parameter (cs6='-O3')
         character*6 cs7
         parameter (cs7='randi8')

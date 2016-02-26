@@ -10,9 +10,7 @@ mkdir $node_info
 
 cd ../../../bin
 
-max_ppn=64
-
-for file in *.x
+for file in *.2
 do
 		cd ../Results/Eth/8/$node_info
 		/home/a57779/dstat -cdm --output $file.csv >> /dev/null &
