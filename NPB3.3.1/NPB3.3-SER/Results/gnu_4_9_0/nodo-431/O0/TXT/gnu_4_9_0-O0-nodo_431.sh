@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Ficheiro,Tempo,Mop's" >> tempos_mops.csv
+echo "Ficheiro,Tempo,Mop's" >> gnu_4_9_0-O0-nodo_431.csv
 
 for ficheiro in *.txt
 do
@@ -10,5 +10,5 @@ do
   mops=`grep 'Mop/s' $ficheiro`
   mops_clean=`echo $mops | grep -o '[0-9]*\.[0-9]*'`
   bigger_mops=`echo $mops_clean | grep -o '[0-9]*\.[0-9]*' | sort -k1,1nr | head -1`
-  echo "$ficheiro,$best_time,$bigger_mops" >> tempos_mops.csv
+  echo "$ficheiro,$best_time,$bigger_mops" >> gnu_4_9_0-O0-nodo_431.csv
 done
