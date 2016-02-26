@@ -11,4 +11,4 @@ cd ..
 
 qsub jobs/ivyBridge_SER
 
-qsub jobs/nehalem_SER
+
