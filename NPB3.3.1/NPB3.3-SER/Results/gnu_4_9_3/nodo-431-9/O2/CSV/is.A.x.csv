@@ -1,0 +1,45 @@
+"Dstat 0.7.2 CSV output"
+"Author:","Dag Wieers <dag@wieers.com>",,,,"URL:","http://dag.wieers.com/home-made/dstat/"
+"Host:","compute-431-9.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 18:17:50 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+24.112,1.755,74.102,0.028,0.000,0.003,11477.108,494917.490,984625152.0,368656384.0,8416206848.0,40971505664.0
+4.127,0.042,95.832,0.0,0.0,0.0,0.0,0.0,1049763840.0,368656384.0,8416206848.0,40906366976.0
+
+
+"Host:","compute-431-9.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 18:17:54 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+24.112,1.755,74.102,0.028,0.000,0.003,11477.106,494917.412,985124864.0,368656384.0,8416215040.0,40970997760.0
+4.122,0.125,95.754,0.0,0.0,0.0,0.0,0.0,1050263552.0,368656384.0,8416215040.0,40905859072.0
+
+
+"Host:","compute-431-9.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 18:17:58 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+24.112,1.755,74.102,0.028,0.000,0.003,11477.104,494917.335,986013696.0,368656384.0,8416215040.0,40970108928.0
+4.125,0.042,95.833,0.0,0.0,0.0,0.0,0.0,1051152384.0,368656384.0,8416215040.0,40904970240.0
+
+
+"Host:","compute-431-9.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 18:18:02 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+24.112,1.755,74.102,0.028,0.000,0.003,11477.102,494917.258,984727552.0,368656384.0,8416215040.0,40971395072.0
+4.127,0.042,95.832,0.0,0.0,0.0,0.0,0.0,1049866240.0,368656384.0,8416215040.0,40906256384.0
+
+
+"Host:","compute-431-9.local",,,,"User:","a57779"
+"Cmdline:","dstat -cdm --output is.A.x.csv",,,,"Date:","25 Feb 2016 18:18:06 WET"
+
+"total cpu usage",,,,,,"dsk/total",,"memory usage",,,
+"usr","sys","idl","wai","hiq","siq","read","writ","used","buff","cach","free"
+24.112,1.755,74.102,0.028,0.000,0.003,11477.101,494917.181,985116672.0,368656384.0,8416215040.0,40971005952.0
+4.125,0.083,95.792,0.0,0.0,0.0,0.0,0.0,1050255360.0,368656384.0,8416215040.0,40905867264.0

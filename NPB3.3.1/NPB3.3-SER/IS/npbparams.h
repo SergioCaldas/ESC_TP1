@@ -6,9 +6,9 @@
    
 #define COMPILETIME "25 Feb 2016"
 #define NPBVERSION "3.3.1"
-#define CC "gcc"
-#define CFLAGS "-O2"
+#define CC "icc"
+#define CFLAGS "-O0"
 #define CLINK "$(CC)"
-#define CLINKFLAGS "-O2"
+#define CLINKFLAGS "-O0"
 #define C_LIB "(none)"
 #define C_INC "(none)"
