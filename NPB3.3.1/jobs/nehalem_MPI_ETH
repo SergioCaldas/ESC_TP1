@@ -40,5 +40,4 @@ module load gnu/4.9.3
 module load gnu/openmpi_eth/1.8.4
 ompi_info --param mpi all
 
-sh script_nehalem_eth.sh
-
+sh scripts/script_nehalem_eth.sh

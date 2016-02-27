@@ -1,4 +1,4 @@
-c NPROCS = 2 CLASS = C
+c NPROCS = 32 CLASS = C
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -15,26 +15,26 @@ c
 
 c number of nodes for which this version is compiled
         integer    nnodes_compiled
-        parameter( nnodes_compiled = 2)
+        parameter( nnodes_compiled = 32)
         integer    num_proc_cols, num_proc_rows
-        parameter( num_proc_cols=2, num_proc_rows=1 )
+        parameter( num_proc_cols=8, num_proc_rows=4 )
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='26 Feb 2016')
+        parameter (compiletime='27 Feb 2016')
         character*5 npbversion
         parameter (npbversion='3.3.1')
-        character*7 cs1
-        parameter (cs1='mpifort')
+        character*6 cs1
+        parameter (cs1='mpif77')
         character*9 cs2
         parameter (cs2='$(MPIF77)')
-        character*22 cs3
-        parameter (cs3='-L/usr/local/lib -lmpi')
-        character*20 cs4
-        parameter (cs4='-I/usr/local/include')
-        character*3 cs5
-        parameter (cs5='-O3')
-        character*3 cs6
-        parameter (cs6='-O3')
+        character*16 cs3
+        parameter (cs3='-lmpi -lgfortran')
+        character*6 cs4
+        parameter (cs4='(none)')
+        character*14 cs5
+        parameter (cs5='-O3 -lgfortran')
+        character*14 cs6
+        parameter (cs6='-O3 -lgfortran')
         character*6 cs7
         parameter (cs7='randi8')
