@@ -38,6 +38,6 @@ module purge
 module load gnu/4.9.0
 module load gnu/4.9.3
 module load gnu/openmpi_eth/1.8.4
-opi_info --param mpi all
+ompi_info --param mpi all
 
 sh scripts/script_ivy_bridge_eth.sh
