@@ -15,3 +15,4 @@ cd ..
 
 qsub jobs/ivyBridge_MPI_ETH
 
+qsub jobs/nehalem_MPI_ETH
