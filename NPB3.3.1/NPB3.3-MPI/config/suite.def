@@ -1,30 +1,39 @@
-#config/suite.def
+# config/suite.def
 # This file is used to build several benchmarks with a single command. 
 # Typing "make suite" in the main directory will build all the benchmarks
 # specified in this file. 
-# Each line of this file contains a benchmark name, class, and number
-# of nodes. The name is one of "cg", "is", "ep", mg", "ft", "sp", "bt", 
-# "lu", and "dt". 
-# The class is one of "S", "W", "A", "B", "C", "D", and "E"
-# (except that no classes C, D and E for DT, and no class E for IS).
-# The number of nodes must be a legal number for a particular
-# benchmark. The utility which parses this file is primitive, so
-# formatting is inflexible. Separate name/class/number by tabs. 
-# Comments start with "#" as the first character on a line. 
+# Each line of this file contains a benchmark name, class.
+# The name is one of "cg", "is", "dc", "ep", mg", "ft", "sp",
+#  "bt", "lu", and "ua". 
+# The class is one of "S", "W", "A", "B", and "C"
+# (classes D and E are defined for a number of benchmarks, but they
+#  are likely not practical to run in serial. See README.install).
 # No blank lines. 
-# The following example builds 1 processor sample sizes of all benchmarks. 
-#ft	S	1
-#mg	S	1
-#sp	S	1
-#lu	S	1
-#bt	S	1
-is	A	2
-ep	A	2
-cg	A	2
-#dt	S	1
-is	B	2
-ep	B	2
-cg	B	2
-is	C	2
-ep	C	2
-cg	C	2
+# The following example builds serial sample sizes of all benchmarks. 
+is	A	8
+ep	A	8
+cg	A	8
+is	B	8
+ep	B	8
+cg	B	8
+is	C	8
+ep	C	8
+cg	C	8
+is	A	16
+ep	A	16
+cg	A	16
+is	B	16
+ep	B	16
+cg	B	16
+is	C	16
+ep	C	16
+cg	C	16
+is	A	32
+ep	A	32
+cg	A	32
+is	B	32
+ep	B	32
+cg	B	32
+is	C	32
+ep	C	32
+cg	C	32
