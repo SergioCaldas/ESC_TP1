@@ -49,7 +49,7 @@ do
 		cd ../Results/Eth/32/$node_info
 		/home/a57779/dstat -cdm --output $file.csv >> /dev/null &
 		cd ../../../../bin
-		mpirun -np 32 --report-bindings --mca btl tcp,sm,self ./$file >> ../Results/Eth/16/$node_info/"$file.txt"
+		mpirun -np 32 --report-bindings --mca btl tcp,sm,self ./$file >> ../Results/Eth/32/$node_info/"$file.txt"
 		kill $!
 		sleep 2
 done
