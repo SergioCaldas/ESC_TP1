@@ -1,0 +1,58 @@
+NAS Parallel Benchmarks (NPB3.3-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:    16
+
+ Initialization time =           0.047 seconds
+
+   iteration           ||r||                 zeta
+        1       0.25817376483873E-12    19.9997581277040
+        2       0.25681966545097E-14    17.1140495745506
+        3       0.25163671523183E-14    17.1296668946143
+        4       0.25555428767586E-14    17.1302113581192
+        5       0.25155135653862E-14    17.1302338856353
+        6       0.25076601797812E-14    17.1302349879482
+        7       0.24958477077088E-14    17.1302350498916
+        8       0.24894028751432E-14    17.1302350537510
+        9       0.24646749216249E-14    17.1302350540101
+       10       0.24892601612024E-14    17.1302350540284
+       11       0.24740953013237E-14    17.1302350540298
+       12       0.24306076210934E-14    17.1302350540299
+       13       0.24134071109615E-14    17.1302350540299
+       14       0.24329920335834E-14    17.1302350540299
+       15       0.23794090584819E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5205597766559E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.11
+ Total threads   =                       16
+ Avail threads   =                       16
+ Mop/s total     =                 13101.62
+ Mop/s/thread    =                   818.85
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              25 Feb 2016
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O2 -fopenmp
+    FLINKFLAGS   = -O2 -fopenmp
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
