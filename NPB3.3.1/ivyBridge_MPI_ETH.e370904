@@ -1,0 +1,531 @@
+[compute-641-1.local:19558] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19558] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19558] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19558] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19558] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19558] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:19558] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19558] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 13: 19557 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/8/compute-641-1)
+[compute-641-1.local:19578] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19578] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:19578] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19578] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19578] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19578] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19578] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19578] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 13: 19577 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/8/compute-641-1)
+[compute-641-1.local:19599] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19599] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19599] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19599] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19599] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:19599] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19599] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19599] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 13: 19598 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/8/compute-641-1)
+[compute-641-1.local:19619] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19619] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19619] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19619] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19619] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19619] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19619] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:19619] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 13: 19618 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/8/compute-641-1)
+[compute-641-1.local:19639] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19639] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19639] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19639] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19639] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19639] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19639] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:19639] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 13: 19638 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/8/compute-641-1)
+[compute-641-1.local:19660] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19660] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19660] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19660] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19660] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19660] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:19660] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19660] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 13: 19659 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/8/compute-641-1)
+[compute-641-1.local:19683] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19683] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19683] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19683] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19683] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19683] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19683] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:19683] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 13: 19682 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/8/compute-641-1)
+[compute-641-1.local:19703] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19703] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19703] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19703] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19703] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19703] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19703] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:19703] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 13: 19702 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/8/compute-641-1)
+[compute-641-1.local:19723] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19723] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19723] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19723] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19723] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19723] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19723] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:19723] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 13: 19722 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/8/compute-641-1)
+[compute-641-1.local:19744] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19744] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19744] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19744] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19744] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19744] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19744] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19744] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-1.local:19744] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-1.local:19744] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-1.local:19744] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-1.local:19744] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-1.local:19744] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-1.local:19744] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-1.local:19744] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-1.local:19744] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 30: 19743 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/16/compute-641-1)
+[compute-641-1.local:19781] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19781] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19781] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19781] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19781] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19781] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19781] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19781] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-1.local:19781] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-1.local:19781] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-1.local:19781] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-1.local:19781] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-1.local:19781] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-1.local:19781] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-1.local:19781] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-1.local:19781] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 30: 19780 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/16/compute-641-1)
+[compute-641-1.local:19818] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19818] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19818] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19818] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19818] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19818] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19818] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19818] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-1.local:19818] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-1.local:19818] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-1.local:19818] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-1.local:19818] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-1.local:19818] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-1.local:19818] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-1.local:19818] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-1.local:19818] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 30: 19817 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/16/compute-641-1)
+[compute-641-1.local:19856] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19856] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-1.local:19856] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-1.local:19856] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-1.local:19856] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-1.local:19856] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-1.local:19856] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-1.local:19856] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-1.local:19856] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-1.local:19856] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:19856] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19856] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19856] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19856] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19856] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19856] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 30: 19855 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/16/compute-641-1)
+[compute-641-1.local:19892] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19892] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19892] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19892] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19892] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19892] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19892] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19892] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-1.local:19892] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-1.local:19892] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-1.local:19892] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-1.local:19892] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-1.local:19892] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-1.local:19892] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-1.local:19892] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-1.local:19892] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 30: 19891 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/16/compute-641-1)
+[compute-641-1.local:19929] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19929] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19929] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19929] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19929] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19929] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19929] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19929] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-1.local:19929] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-1.local:19929] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-1.local:19929] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-1.local:19929] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-1.local:19929] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-1.local:19929] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-1.local:19929] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-1.local:19929] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 30: 19928 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/16/compute-641-1)
+[compute-641-1.local:19966] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:19966] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:19966] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:19966] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:19966] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:19966] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:19966] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:19966] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-1.local:19966] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-1.local:19966] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-1.local:19966] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-1.local:19966] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-1.local:19966] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-1.local:19966] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-1.local:19966] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-1.local:19966] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 30: 19965 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/16/compute-641-1)
+[compute-641-1.local:20004] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:20004] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:20004] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:20004] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:20004] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:20004] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+[compute-641-1.local:20004] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:20004] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-1.local:20004] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-1.local:20004] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-1.local:20004] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-1.local:20004] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-1.local:20004] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-1.local:20004] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-1.local:20004] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-1.local:20004] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 30: 20003 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/16/compute-641-1)
+[compute-641-1.local:20041] MCW rank 7 bound to socket 1[core 11[hwt 0-1]]: [../../../../../../../..][../../../BB/../../../..]
+[compute-641-1.local:20041] MCW rank 8 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../..][../../../../../../../..]
+[compute-641-1.local:20041] MCW rank 9 bound to socket 1[core 12[hwt 0-1]]: [../../../../../../../..][../../../../BB/../../..]
+[compute-641-1.local:20041] MCW rank 10 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../..][../../../../../../../..]
+[compute-641-1.local:20041] MCW rank 11 bound to socket 1[core 13[hwt 0-1]]: [../../../../../../../..][../../../../../BB/../..]
+[compute-641-1.local:20041] MCW rank 12 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/..][../../../../../../../..]
+[compute-641-1.local:20041] MCW rank 13 bound to socket 1[core 14[hwt 0-1]]: [../../../../../../../..][../../../../../../BB/..]
+[compute-641-1.local:20041] MCW rank 14 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB][../../../../../../../..]
+[compute-641-1.local:20041] MCW rank 15 bound to socket 1[core 15[hwt 0-1]]: [../../../../../../../..][../../../../../../../BB]
+[compute-641-1.local:20041] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../..][../../../../../../../..]
+[compute-641-1.local:20041] MCW rank 1 bound to socket 1[core 8[hwt 0-1]]: [../../../../../../../..][BB/../../../../../../..]
+[compute-641-1.local:20041] MCW rank 2 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../..][../../../../../../../..]
+[compute-641-1.local:20041] MCW rank 3 bound to socket 1[core 9[hwt 0-1]]: [../../../../../../../..][../BB/../../../../../..]
+[compute-641-1.local:20041] MCW rank 4 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../..][../../../../../../../..]
+[compute-641-1.local:20041] MCW rank 5 bound to socket 1[core 10[hwt 0-1]]: [../../../../../../../..][../../BB/../../../../..]
+[compute-641-1.local:20041] MCW rank 6 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../..][../../../../../../../..]
+scripts/script_ivy_bridge_eth.sh: line 30: 20040 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/16/compute-641-1)
+[compute-641-1.local:20078] MCW rank 13 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 14 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 15 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 16 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 17 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 18 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 19 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 20 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 21 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 22 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 23 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 24 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 25 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 26 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 27 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 28 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 29 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 30 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 31 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 0 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 1 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 2 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 3 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 4 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 5 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 6 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 7 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 8 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 9 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 10 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 11 is not bound (or bound to all available processors)
+[compute-641-1.local:20078] MCW rank 12 is not bound (or bound to all available processors)
+scripts/script_ivy_bridge_eth.sh: line 47: 20077 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/32/compute-641-1)
+[compute-641-1.local:20147] MCW rank 13 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 14 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 15 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 16 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 17 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 18 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 19 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 20 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 21 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 22 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 23 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 24 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 25 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 26 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 27 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 28 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 29 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 30 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 31 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 0 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 1 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 2 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 3 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 4 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 5 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 6 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 7 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 8 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 9 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 10 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 11 is not bound (or bound to all available processors)
+[compute-641-1.local:20147] MCW rank 12 is not bound (or bound to all available processors)
+scripts/script_ivy_bridge_eth.sh: line 47: 20146 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/32/compute-641-1)
+[compute-641-1.local:20218] MCW rank 13 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 14 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 15 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 16 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 17 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 18 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 19 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 20 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 21 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 22 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 23 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 24 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 25 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 26 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 27 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 28 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 29 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 30 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 31 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 0 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 1 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 2 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 3 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 4 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 5 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 6 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 7 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 8 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 9 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 10 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 11 is not bound (or bound to all available processors)
+[compute-641-1.local:20218] MCW rank 12 is not bound (or bound to all available processors)
+scripts/script_ivy_bridge_eth.sh: line 47: 20217 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/32/compute-641-1)
+[compute-641-1.local:20289] MCW rank 13 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 14 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 15 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 16 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 17 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 18 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 19 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 20 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 21 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 22 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 23 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 24 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 25 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 26 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 27 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 28 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 29 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 30 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 31 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 0 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 1 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 2 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 3 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 4 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 5 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 6 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 7 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 8 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 9 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 10 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 11 is not bound (or bound to all available processors)
+[compute-641-1.local:20289] MCW rank 12 is not bound (or bound to all available processors)
+scripts/script_ivy_bridge_eth.sh: line 47: 20288 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/32/compute-641-1)
+[compute-641-1.local:20357] MCW rank 13 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 14 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 15 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 16 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 17 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 18 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 19 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 20 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 21 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 22 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 23 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 24 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 25 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 26 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 27 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 28 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 29 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 30 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 31 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 0 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 1 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 2 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 3 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 4 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 5 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 6 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 7 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 8 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 9 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 10 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 11 is not bound (or bound to all available processors)
+[compute-641-1.local:20357] MCW rank 12 is not bound (or bound to all available processors)
+scripts/script_ivy_bridge_eth.sh: line 47: 20356 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/32/compute-641-1)
+[compute-641-1.local:20425] MCW rank 13 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 14 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 15 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 16 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 17 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 18 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 19 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 20 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 21 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 22 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 23 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 24 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 25 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 26 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 27 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 28 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 29 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 30 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 31 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 0 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 1 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 2 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 3 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 4 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 5 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 6 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 7 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 8 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 9 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 10 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 11 is not bound (or bound to all available processors)
+[compute-641-1.local:20425] MCW rank 12 is not bound (or bound to all available processors)
+scripts/script_ivy_bridge_eth.sh: line 47: 20424 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/32/compute-641-1)
+[compute-641-1.local:20493] MCW rank 13 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 14 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 15 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 16 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 17 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 18 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 19 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 20 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 21 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 22 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 23 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 24 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 25 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 26 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 27 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 28 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 29 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 30 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 31 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 0 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 1 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 2 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 3 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 4 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 5 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 6 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 7 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 8 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 9 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 10 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 11 is not bound (or bound to all available processors)
+[compute-641-1.local:20493] MCW rank 12 is not bound (or bound to all available processors)
+scripts/script_ivy_bridge_eth.sh: line 47: 20492 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/32/compute-641-1)
+[compute-641-1.local:20561] MCW rank 13 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 14 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 15 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 16 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 17 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 18 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 19 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 20 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 21 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 22 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 23 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 24 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 25 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 26 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 27 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 28 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 29 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 30 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 31 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 0 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 1 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 2 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 3 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 4 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 5 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 6 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 7 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 8 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 9 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 10 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 11 is not bound (or bound to all available processors)
+[compute-641-1.local:20561] MCW rank 12 is not bound (or bound to all available processors)
+scripts/script_ivy_bridge_eth.sh: line 47: 20560 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/32/compute-641-1)
+[compute-641-1.local:20629] MCW rank 13 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 14 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 15 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 16 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 17 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 18 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 19 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 20 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 21 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 22 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 23 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 24 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 25 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 26 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 27 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 28 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 29 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 30 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 31 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 0 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 1 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 2 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 3 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 4 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 5 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 6 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 7 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 8 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 9 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 10 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 11 is not bound (or bound to all available processors)
+[compute-641-1.local:20629] MCW rank 12 is not bound (or bound to all available processors)
+scripts/script_ivy_bridge_eth.sh: line 47: 20628 Terminated              /home/a57779/dstat -cdm --output $file.csv >> /dev/null  (wd: ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/Results/Eth/32/compute-641-1)
