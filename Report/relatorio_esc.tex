@@ -418,38 +418,9 @@ Os testes consistiram na repetição destes nas diferentes classes de arquitectu
 A análise/comparação dos resultados obtidos deverá ser feita tendo em consideração medições precisas de tempos de execução/ócio/bloqueio, da ocupação da memória, da comutação do tempo de E/S, bem como outras métricas das ferramentas de monitorização.
 
 
-Para a realização destes testes foi desenvolvido um \textit{Script} que me permitiu fazer a execução dos testes em lotes com base no sistema PBS. \textbf{FALTA FALAR DA MANEIRA COMO OS DADOS VÃO SER PROCESSADO-GNUPLOT EXCEL SCRIPT}
+Para a realização destes testes foi desenvolvido um \textit{Script} que me permitiu fazer a execução dos testes em lotes com base no sistema PBS.
 
-\section{Caracterização do \textit{Benchmark}}
-O \textit{NAS Parallel Benchmark}\cite{nas_bench} consiste num conjunto de 5 \textit{Kernels} e 3 simulações desenvolvidos em C e Fortran, bem como um conjunto de 8 classes (cada uma com diferentes tamanhos de dados de \textit{input}). Este \textit{Benchmark} foi desenvolvido com o objetivo de fornecer uma medida das capacidade do hardware e software, para resolver intensivos problemas computacionais de dinâmica de fluídos importantes para a NASA.\\
-Os \textit{Kernels} e as simulações que constituem o \textit{Benchmark} são os seguintes:
-\begin{itemize}
-\item \textit{\textbf{Kernels}}:
-\begin{itemize}
-\item IS\cite{nas_site} - Ordenação de inteiros, acesso aleatório à memória.
-\item EP\cite{nas_bench_1} - Este \textit{Kernel} é embaraçosamente paralelo. Ele gera pares de desvio gausianas aleatórios de acordo com um esquema especifico. Sendo o objetivo estabelecer o ponto de referência para o máximo desempenho de uma determinada plataforma.
-\item CG\cite{nas_bench_1} - Este \textit{Kernel} utiliza um método de Gradiente Conjugado para calcular uma aproximação para o menos valor próprio de uma matriz grande, esparsa e não estruturada. Este testa cálculos de grelha não estruturados e comunicações usando uma matriz com entradas geradas aleatoriamente.
-\item MG\cite{nas_bench_1} - Este \textit{Kernel} calcula uma solução para a equação de \textit{Poisson} 3-D através de um método Multigrid ciclo-V.
-\item FT\cite{nas_bench_1} - Este \textit{Kernel} faz a computação de uma Transformação de \textit{Fourier} 3-D rápida com base no método espectral.
-\end{itemize}
-\item \textbf{Simulações}:
-\begin{itemize}
-\item BT\cite{nas_bench_1} - É uma aplicação de simulação CFD \footnote{Computação de fluídos dinâmicos} que utiliza um algoritmo implícito para resolver equações de \textit{Navier-Stokes} de 3-Dimenções.
-\item SP\cite{nas_bench_1} - É uma aplicação de simulação CFD similar a BT, a diferença finita de soluções é baseada na factorização aproximada \textit{Beam-Warming} que dissocia as dimensões x, y e z. 
-\item LU\cite{nas_bench_1} - É uma aplicação de simulação CFD que usa o método SSOR \footnote{Symmetric Successive Over-Relaxation} para resolver um sistema \textit{seven-block-diagonal} resultante da discretização de diferenças finitas das equações de \textit{Navier-Stokes} em 3-D.
-\end{itemize}
-\end{itemize}
-
-As classes de dados\cite{nas_site} presentes no \textit{Benchmark} são:
-\begin{itemize}
-\item S - pequena, utilizada para testes rápidos;
-\item W - tamanho de estação de trabalho;
-\item A, B, C - Utilizada em testes de problemas \textit{standard}. Aumenta aproximadamente 4X o tamanho de uma classe para a próxima.
-\item D, E, F - Utilizada em testes de problemas de larga escala. Aumenta aproximadamente 16X o tamanho de uma classe para a próxima.
-\end{itemize}
-É possível consultar informação mais detalhada de cada uma das classes, consultando o site do \textit{NAS Parallel Benchmark}\cite{classes}.
-
-\subsection{Escolha de \textit{Kernels} e Classes de Dados}
+Depois do obtenção dos resultados dos testes, os dados foram tratados com \textit{Shell Scripts} utilizando ferramentas de processamento de linguagens, como o \textit{grep} e \textit{sort}. Posteriormente, depois de filtrados os dados, estes foram processados com \textit{spreedsheets} no \textit{Google Docs} para geração dos gráficos.
 
 \section{Caracterização do Ambiente de Testes}
 O ambiente de testes utilizado no decorrer deste trabalho foi o cluster \textit{SeARCH}, este cluster faz parte do Departamento de Informática da Universidade do Minho, sendo este utilizado por uma vasta comunidade de ciêntistas/investigadores". O \textit{SeARCH} é constituído por um conjunto de nodos com diferentes arquiteturas. Os nodos constituintes do \textit{SeARCH} são:
@@ -482,7 +453,82 @@ O ambiente de testes utilizado no decorrer deste trabalho foi o cluster \textit{
 De notar que todos os detalhes de cada nodo, bem como o significado do \textit{rank} (valores do tipo 641, 652, etc. apresentados em cima) podem ser consultados no site do cluster \textit{SeARCH}\cite{search}
 
 \subsection{Nodos de Teste}
-\subsubsection{Nodo ...}
+As máquinas de teste que escolhi para a execução dos \textit{Kernels} no \textit{Cluster Search}, foram as máquinas 431 e 641 com arquiteturas \texti{Nehalem} e \texti{Ivy Bridge} respectivamente. Na tabela \ref{t:431} encontra-se as especificação das características da máquina 431 e na tabela \ref{t:641} as da máquina 641.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+& \textbf{Características}\\
+\hline
+Coisas & 2131322 \\
+\hline
+Cenas & sadds \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Máquinas 431}
+\label{t:431}
+\end{table}
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+& \textbf{Características}\\
+\hline
+Coisas & 2131322 \\
+\hline
+Cenas & sadds \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Máquinas 641}
+\label{t:641}
+\end{table}
+
+\section{Caracterização do \textit{Benchmark}}
+O \textit{NAS Parallel Benchmark}\cite{nas_bench} consiste num conjunto de 5 \textit{Kernels} e 3 simulações desenvolvidos em C e Fortran, bem como um conjunto de 8 classes (cada uma com diferentes tamanhos de dados de \textit{input}). Este \textit{Benchmark} foi desenvolvido com o objetivo de fornecer uma medida das capacidade do hardware e software, para resolver intensivos problemas computacionais de dinâmica de fluídos importantes para a NASA.\\
+Os \textit{Kernels} e as simulações que constituem o \textit{Benchmark} são os seguintes:
+\begin{itemize}
+\item \textit{\textbf{Kernels}}:
+\begin{itemize}
+\item IS\cite{nas_site} - Ordenação de inteiros, acesso aleatório à memória.
+\item EP\cite{nas_bench_1} - Este \textit{Kernel} é embaraçosamente paralelo. Ele gera pares de desvio gausianas aleatórios de acordo com um esquema especifico. Sendo o objetivo estabelecer o ponto de referência para o máximo desempenho de uma determinada plataforma.
+\item CG\cite{nas_bench_1} - Este \textit{Kernel} utiliza um método de Gradiente Conjugado para calcular uma aproximação para o menos valor próprio de uma matriz grande, esparsa e não estruturada. Este testa cálculos de grelha não estruturados e comunicações usando uma matriz com entradas geradas aleatoriamente.
+\item MG\cite{nas_bench_1} - Este \textit{Kernel} calcula uma solução para a equação de \textit{Poisson} 3-D através de um método Multigrid ciclo-V.
+\item FT\cite{nas_bench_1} - Este \textit{Kernel} faz a computação de uma Transformação de \textit{Fourier} 3-D rápida com base no método espectral.
+\end{itemize}
+\item \textbf{Simulações}:
+\begin{itemize}
+\item BT\cite{nas_bench_1} - É uma aplicação de simulação CFD \footnote{Computação de fluídos dinâmicos} que utiliza um algoritmo implícito para resolver equações de \textit{Navier-Stokes} de 3-Dimenções.
+\item SP\cite{nas_bench_1} - É uma aplicação de simulação CFD similar a BT, a diferença finita de soluções é baseada na factorização aproximada \textit{Beam-Warming} que dissocia as dimensões x, y e z. 
+\item LU\cite{nas_bench_1} - É uma aplicação de simulação CFD que usa o método SSOR \footnote{Symmetric Successive Over-Relaxation} para resolver um sistema \textit{seven-block-diagonal} resultante da discretização de diferenças finitas das equações de \textit{Navier-Stokes} em 3-D.
+\end{itemize}
+\end{itemize}
+
+As classes de dados\cite{nas_site} presentes no \textit{Benchmark} são:
+\begin{itemize}
+\item S - pequena, utilizada para testes rápidos;
+\item W - tamanho de estação de trabalho;
+\item A, B, C - Utilizada em testes de problemas \textit{standard}. Aumenta aproximadamente 4X o tamanho de uma classe para a próxima.
+\item D, E, F - Utilizada em testes de problemas de larga escala. Aumenta aproximadamente 16X o tamanho de uma classe para a próxima.
+\end{itemize}
+É possível consultar informação mais detalhada de cada uma das classes, consultando o site do \textit{NAS Parallel Benchmark}\cite{classes}.
+
+\subsection{Escolha de \textit{Kernels} e Classes de Dados}
+Depois de uma análise do \textit{benchmark}, os kernels por mim escolhidos foram os seguintes:
+\begin{itemize}
+\item CG \cite{nas_site} - Gradiente conjugado, Irregular acesso à memória e comunicação irregular;
+\item EP \cite{nas_site} - Kernel embaraçosamente paralelo; 
+\item IS  \cite{nas_site} - Ordenação de inteiros, acesso aleatório à memória.
+\end{itemize}
+No que toca a classes de dados para testes, as minhas escolhas foram:
+\begin{itemize}
+\item Classe A \cite{classes} - Tem um tamanho de 50 MB ;
+\item Classe B \cite{classes} - Tem um tamanho de 200 MB;
+\item Classe C \cite{classes} - Tem um tamanho de 0.8 GB.
+\end{itemize}
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
 % For figures, \caption should occur after the \includegraphics.

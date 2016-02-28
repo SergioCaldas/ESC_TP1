@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 FEB 2016 01:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 FEB 2016 07:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -572,47 +572,59 @@ l.418 ...es precisas de tempos de execução/ó
 
 ? 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 423.
+(babel)             in language  on input line 425.
 
-Underfull \hbox (badness 2828) in paragraph at lines 429--430
-[]\OT1/ptm/m/n/10.03749 IS [[]1[]] - Ordena[][]ao de in-tei-ros, acesso
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 437.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 437.
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 452.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 454.
-
-Underfull \hbox (badness 1436) in paragraph at lines 455--457
+Underfull \hbox (badness 1436) in paragraph at lines 426--428
 \OT1/ptm/m/n/10.03749 De-par-ta-mento de In-form[]atica da Uni-ver-si-dade do M
 i-
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 455.
+./relatorio_esc.tex:456: Undefined control sequence.
+l.456 ...�quinas 431 e 641 com arquiteturas \texti
+                                                  {Nehalem} e \texti{Ivy Bri...
+
+? 
+./relatorio_esc.tex:456: Undefined control sequence.
+l.456 ...com arquiteturas \texti{Nehalem} e \texti
+                                                  {Ivy Bridge} respectivamen...
+
+? 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 583.
+(babel)             in language  on input line 457.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 583.
+(babel)             in language  on input line 457.
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 460.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8.03> on input line 460.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.62097> on input line 460.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <4.015> on input line 460.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 490.
+
+Underfull \hbox (badness 2828) in paragraph at lines 496--497
+[]\OT1/ptm/m/n/10.03749 IS [[]1[]] - Ordena[][]ao de in-tei-ros, acesso
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 519.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 629.
 (./relatorio_esc.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.03> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.62097> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.015> on input line 5.
-)
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 20.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 20.
+ [2])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -624,38 +636,40 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 615.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 661.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 615.
+(babel)             in language  on input line 661.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 615.
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
+(babel)             in language  on input line 661.
+[3
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 661.
  (./relatorio_esc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 615.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 615.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 661.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 661.
 Package rerunfilecheck Info: File `relatorio_esc.out' has not changed.
-(rerunfilecheck)             Checksum: 5CB1299A10D363A98B73184C73BE3A06;509.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 615.
+(rerunfilecheck)             Checksum: 989D78EBFB821395B851CF4591EFF89A;442.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 661.
  ) 
 Here is how much of TeX's memory you used:
- 5889 strings out of 493089
- 90970 string characters out of 6134842
- 189642 words of memory out of 5000000
- 9323 multiletter control sequences out of 15000+600000
- 45175 words of font info for 79 fonts, out of 8000000 for 9000
+ 5897 strings out of 493089
+ 91011 string characters out of 6134842
+ 191710 words of memory out of 5000000
+ 9326 multiletter control sequences out of 15000+600000
+ 48006 words of font info for 82 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 29i,7n,32p,746b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,32p,746b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on relatorio_esc.pdf (2 pages, 76687 bytes).
+Output written on relatorio_esc.pdf (3 pages, 78747 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
