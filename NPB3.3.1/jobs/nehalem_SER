@@ -32,7 +32,7 @@ read -r node_info<$PBS_NODEFILE
 
 echo "Allocated computing node: $node_info"
 
-cd ~/ESC_TP1/NPB3.3.1/NPB3.3-SER
+cd ~/CPD/ESC/ESC_TP1/NPB3.3.1/NPB3.3-SER
 
 module purge
 module load intel/2013.1.117

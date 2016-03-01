@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/
+cd ~/CPD/ESC/ESC_TP1/NPB3.3.1/NPB3.3-MPI/
 
 read -r node_info<$PBS_NODEFILE 
 

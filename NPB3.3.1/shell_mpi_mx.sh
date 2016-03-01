@@ -6,7 +6,7 @@ module load gnu/4.9.3
 module load gnu/openmpi_mx/1.8.4
 ompi_info --param mpi all
 
-cd ~/ESC_TP1/NPB3.3.1/NPB3.3-MPI/
+cd ~/CPD/ESC/ESC_TP1/NPB3.3.1/NPB3.3-MPI/
 
 make clean
 make suite
