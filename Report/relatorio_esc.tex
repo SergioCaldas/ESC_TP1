@@ -91,6 +91,8 @@
 
 \usepackage{url}
 \usepackage{hyperref} 
+\usepackage{graphicx}
+\usepackage{fancyref}
 
 % *** CITATION PACKAGES ***
 %
@@ -420,72 +422,124 @@ A análise/comparação dos resultados obtidos deverá ser feita tendo em consid
 
 Para a realização destes testes foi desenvolvido um \textit{Script} que me permitiu fazer a execução dos testes em lotes com base no sistema PBS.
 
-Depois do obtenção dos resultados dos testes, os dados foram tratados com \textit{Shell Scripts} utilizando ferramentas de processamento de linguagens, como o \textit{grep} e \textit{sort}. Posteriormente, depois de filtrados os dados, estes foram processados com \textit{spreedsheets} no \textit{Google Docs} para geração dos gráficos.
+Depois do obtenção dos resultados dos testes, os dados foram tratados com \textit{Shell Scripts} utilizando ferramentas de processamento de linguagens, como o \textit{grep} e \textit{sort}. Posteriormente, depois de filtrados os dados, estes foram processados com \textit{Excel} para geração dos gráficos.
 
 \section{Caracterização do Ambiente de Testes}
-O ambiente de testes utilizado no decorrer deste trabalho foi o cluster \textit{SeARCH}, este cluster faz parte do Departamento de Informática da Universidade do Minho, sendo este utilizado por uma vasta comunidade de ciêntistas/investigadores". O \textit{SeARCH} é constituído por um conjunto de nodos com diferentes arquiteturas. Os nodos constituintes do \textit{SeARCH} são:
+O ambiente de testes utilizado no decorrer deste trabalho foi o cluster \textit{SeARCH}, este cluster faz parte do Departamento de Informática da Universidade do Minho, sendo este utilizado por uma vasta comunidade de ciêntistas/investigadores". O \textit{SeARCH} é constituído por um conjunto de nós com diferentes arquiteturas. Os nós constituintes do \textit{SeARCH} são:
 \begin{itemize}
 \item Arquitectura \textit{Ivy Bridge}
 \begin{itemize}
-\item 6 Nodos 662
-\item 2 Nodos 652
-\item 20 Nodos 641
+\item 6 Nós 662
+\item 2 Nós 652
+\item 20 Nós 641
 \end{itemize}
 \item Arquitectura \textit{Sandy Bridge}
 \begin{itemize}
-\item 6 Nodos 541
+\item 6 Nós 541
 \end{itemize}
 \item Arquitetura \textit{Nehalem}
 \begin{itemize}
-\item 2 Nodos 432
-\item 4 Nodos 421
-\item 10 Nodos 431
+\item 2 Nós 432
+\item 4 Nós 421
+\item 10 Nós 431
 \end{itemize}
 \item Arquitetura \textit{Penryn}
 \begin{itemize}
-\item 6 Nodos 321
+\item 6 Nós 321
 \end{itemize}
 \item Arquitetura \textit{AMD Magny-Cours}
 \begin{itemize}
-\item 2 Nodos 262
+\item 2 Nós 262
 \end{itemize}
 \end{itemize}
-De notar que todos os detalhes de cada nodo, bem como o significado do \textit{rank} (valores do tipo 641, 652, etc. apresentados em cima) podem ser consultados no site do cluster \textit{SeARCH}\cite{search}
+De notar que todos os detalhes de cada nó, bem como o significado do \textit{rank} (valores do tipo 641, 652, etc. apresentados em cima) podem ser consultados no site do cluster \textit{SeARCH}\cite{search}
 
 \subsection{Nodos de Teste}
-As máquinas de teste que escolhi para a execução dos \textit{Kernels} no \textit{Cluster Search}, foram as máquinas 431 e 641 com arquiteturas \texti{Nehalem} e \texti{Ivy Bridge} respectivamente. Na tabela \ref{t:431} encontra-se as especificação das características da máquina 431 e na tabela \ref{t:641} as da máquina 641.
+As máquinas de teste que escolhi para a execução dos \textit{Kernels} no \textit{Cluster Search}, foram as máquinas 431 e 641 com arquiteturas \textit{Nehalem} e \textit{Ivy Bridge} respectivamente. Na tabela \ref{t:431} encontra-se as especificação das características da máquina 431 e na tabela \ref{t:641} as da máquina 641.
 
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{|l|c|}
+\begin{table}[]
+\centering
+\begin{tabular}{ | l | c | }
 \hline
-& \textbf{Características}\\
+System & Máquina 431\\ 
+\hline 
 \hline
-Coisas & 2131322 \\
+\# CPUs & 2\\ 
 \hline
-Cenas & sadds \\
+CPU & Intel\textsuperscript{\textregistered} Xeon\textsuperscript{\textregistered} X5650\\
+\hline 
+Architecture & Nehalem\\ 
+\hline 
+\# Cores per CPU & 6\\ 
+\hline 
+\# Threads per CPU & 12\\ 
+\hline 
+Clock Freq. & 2.66 GHz\\ 
+\hline 
+\hline 
+L1 Cache & 192 KB \newline 32 KB por core\\ 
+\hline 
+L2 Cache & 1536 KB \newline 256 KB por core\\ 
+\hline 
+L3 Cache & 12 MB\\ 
+\hline 
+\hline 
+Inst. Set Ext. & SSE4.2 e AVX\\
+ \hline 
+\#Memory Channels & 3\\ 
+\hline 
+Memory BW & 32 GB/s\\
 \hline
 \end{tabular}
-\end{center}
-\caption{Máquinas 431}
+\caption{Caracterização da Máquina 431}
 \label{t:431}
 \end{table}
 
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{|l|c|}
+\begin{table}[]
+\centering
+\begin{tabular}{ | l | c | }
 \hline
-& \textbf{Características}\\
+System & Máquina 641\\ 
+\hline 
 \hline
-Coisas & 2131322 \\
+\# CPUs & 2\\ 
 \hline
-Cenas & sadds \\
+CPU & Intel\textsuperscript{\textregistered} Xeon\textsuperscript{\textregistered} E5-2650v2\\
+\hline 
+Architecture & Ivy Bridge\\ 
+\hline 
+\# Cores per CPU & 8\\ 
+\hline 
+\# Threads per CPU & 16\\ 
+\hline 
+Clock Freq. & 2.6 GHz\\ 
+\hline 
+\hline 
+L1 Cache & 256 KB \newline 32 KB por core\\ 
+\hline 
+L2 Cache & 2048 KB \newline 256 KB por core\\ 
+\hline 
+L3 Cache & 20 MB\\ 
+\hline 
+\hline 
+Inst. Set Ext. & AVX\\
+ \hline 
+\#Memory Channels & 4\\ 
+\hline
+Memory BW & 59.7 GB/s\\
 \hline
 \end{tabular}
-\end{center}
-\caption{Máquinas 641}
+\caption{Caracterização da Máquina 641}
 \label{t:641}
 \end{table}
+
+\subsection{Compiladores Utilizados}
+No \textit{Cluster Search} podemos encontrar uma gama de versões de compiladores da \textit{GNU}, bem como outros compiladores como é o caso do compilador da \textit{Intel}, neste trabalho os compiladores utilizados por mim foram:
+\begin{itemize}
+\item gnu/4.9.0 - utilizei este compilador, porque este é o compilador que está predefinido no \textit{Cluster Search}, como tal decidi optar por esta versão;
+\item gnu/4.9.3 - este compilador foi usado nos meus testes, por ser o compilador mais recente instalado no \textit{Cluster Search};
+\item intel/2013.1.117 - este compilador foi usado porque é o único compilador da \textit{Intel} instalado no \textit{Cluster Search} e para além disso utilizei-o para poder comparar os dois compiladores, isto é, comparar entre os compiladores da \textit{Intel} e da \textit{GNU}.
+\end{itemize}
 
 \section{Caracterização do \textit{Benchmark}}
 O \textit{NAS Parallel Benchmark}\cite{nas_bench} consiste num conjunto de 5 \textit{Kernels} e 3 simulações desenvolvidos em C e Fortran, bem como um conjunto de 8 classes (cada uma com diferentes tamanhos de dados de \textit{input}). Este \textit{Benchmark} foi desenvolvido com o objetivo de fornecer uma medida das capacidade do hardware e software, para resolver intensivos problemas computacionais de dinâmica de fluídos importantes para a NASA.\\
@@ -529,6 +583,284 @@ No que toca a classes de dados para testes, as minhas escolhas foram:
 \item Classe B \cite{classes} - Tem um tamanho de 200 MB;
 \item Classe C \cite{classes} - Tem um tamanho de 0.8 GB.
 \end{itemize}
+
+\section{Testes Efectuados}
+Como foi dito anteriormente, o objetivo deste trabalho era efectuar uma gama de testes para diferentes \textit{Kernel's} para diferentes Classes de dados, em baixo podem ser consultados quais os testes efetuados por mim, nas diferentes máquinas, para os diferentes \textit{Kernel's}, para as diferentes classes e com diferentes compiladores. Sendo que o X diz que o teste foi realizado e - que não foi realizado.
+
+\subsection{Versão Sequencial}
+Na tabela \ref{t:testes_seq_431} podemos consultar todos os testes efectuados para a versão sequencial na máquina 431 e na tabela \ref{t:testes_seq_641} todos os testes efetuados para a versão sequencial na maquina 641.
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Máquina 431 & -O0 & -O2 & -O3 \\
+\hline
+gnu/4.9.0 & X & X & X \\
+\hline
+gnu/4.9.3 & X & X & X \\
+\hline
+intel/2013.1.117 & X & X & X \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Testes efectuados para versão sequencial na Máquina 431}
+\label{t:testes_seq_431}
+\end{table}%
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Máquina 641 & -O0 & -O2 & -O3 \\
+\hline
+gnu/4.9.0 & X & X & X \\
+\hline
+gnu/4.9.3 & X & X & X \\
+\hline
+intel/2013.1.117 & X & X & X \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Testes efectuados para versão sequencial na Máquina 641}
+\label{t:testes_seq_641}
+\end{table}
+
+\subsection{Versão OMP}
+Na tabela \ref{t:testes_omp_431} podemos consultar todos os testes efectuados para a versão OMP na máquina 431 e na tabela \ref{t:testes_omp_641} todos os testes efetuados para a versão OMP na maquina 641.
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Máquina 431 & -O0 & -O2 & -O3 \\
+\hline
+gnu/4.9.0 & - & X & X \\
+\hline
+gnu/4.9.3 & - & X & X \\
+\hline
+intel/2013.1.117 & - & X & X \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Testes efectuados para versão OMP na Máquina 431}
+\label{t:testes_omp_431}
+\end{table}%
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Máquina 641 & -O0 & -O2 & -O3 \\
+\hline
+gnu/4.9.0 & - & X & X \\
+\hline
+gnu/4.9.3 & - & X & X \\
+\hline
+intel/2013.1.117 & - & X & X \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Testes efectuados para versão OMP na Máquina 641}
+\label{t:testes_omp_641}
+\end{table}
+
+\subsection{Versão MPI}
+Na tabela \ref{t:testes_mpi_431} podemos consultar todos os testes efectuados para a versão MPI na máquina 431 e na tabela \ref{t:testes_mpi_641} todos os testes efetuados para a versão MPI na maquina 641. De referir que nestes testes fixei as flags em -O3, sendo que 8, 16 e 32 refere-se ao número de processos para os quais fiz os testes.
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Máquina 431 & 8 & 16 & 32 \\
+\hline
+gnu/openmpi.eth/1.8.4 & X & X & X \\
+\hline
+gnu/openmpi.mx/1.8.4 & - & - & - \\
+\hline
+intel/openmpi.eth/1.8.2 & - & - & - \\
+\hline
+intel/openmpi.mx/1.8.2 & - & - & - \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Testes efectuados para versão MPI na Máquina 431}
+\label{t:testes_mpi_431}
+\end{table}%
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Máquina 641 & 8 & 16 & 32 \\
+\hline
+gnu/openmpi.eth/1.8.4 & X & X & X \\
+\hline
+gnu/openmpi.mx/1.8.4 & - & - & - \\
+\hline
+intel/openmpi.eth/1.8.2 & X & X & X \\
+\hline
+intel/openmpi.mx/1.8.2 & - & - & - \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Testes efectuados para versão MPI na Máquina 641}
+\label{t:testes_mpi_641}
+\end{table}%
+
+\section{Análise de Resultados}
+\subsection{Versão Sequencial}
+Nos testes para a versão sequencial, fiz uma análise dos tempos e dos MOPS\footnote{Milhões de Operações Por Segundo} para diferentes compiladores, fixando as flags, isto é, cada gráfico apresenta os tempos para diferentes compiladores com a mesma flag de compilação.
+
+Na figura \ref{fig:tempos_dif_comp_O0_431}, \ref{fig:tempos_dif_comp_O2_431} e \ref{fig:tempos_dif_comp_O3_431} encontram-se os gráficos com os tempos para diferentes compiladores, com a mesma flag de compilação para as Máquinas 431.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/tempos_dif_comp_O0_nodo_431.png}
+\caption{Tempos para Diferentes Compiladores com Flags -O0}
+\label{fig:tempos_dif_comp_O0_431}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/tempos_dif_comp_O2_nodo_431.png}
+\caption{Tempos para Diferentes Compiladores com Flags -O2}
+\label{fig:tempos_dif_comp_O2_431}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/tempos_dif_comp_O3_nodo_431.png}
+\caption{Tempos para Diferentes Compiladores com Flags -O3}
+\label{fig:tempos_dif_comp_O3_431}
+\end{figure}
+
+Através da comparação dos 3 gráficos, á medida que se vai aumentando o nível de optimização, isto é, passado de -O0 para -O2 e por fim para -O3 podemos constatar que o comportamento dos compiladores é semelhante, mesmo com o aumento da Classe de dados. No caso do gráfico da figura \ref{fig:tempos_dif_comp_O3_431} para o \textit{Kernel} CG com a classe de dados B o compilador da \textit{Intel} mostra-se melhor do que os outros, neste caso o \textit{Kernel} apresenta um tempo inferior aos outros, mas se verificarmos no caso do \textit{Kernel} CG para a classe de dados C, ai o compilador da \textit{Intel} é pior que os outros dois, isto é o \textit{Kernel} compilado com o compilador da \textit{Intel} apresenta tempos de execução superiores aos outros dois. No caso do \textit{Kernel} EP (Embaraçosamente paralelo) podemos afirmar que o compilador da \textit{Intel} é melhor que os outros dois da \textit{GNU}, pois para qualquer classe de dados o \textit{Kernel} apresenta sempre tempos melhores que do que quando compilado com os compiladores da \textit{GNU}.
+
+Nos gráficos das figuras \ref{fig:mops_dif_comp_O0_431}, \ref{fig:mops_dif_comp_O2_431} e \ref{fig:mops_dif_comp_O3_431} podemos consultar os gráficos que relacionam os MOPS para os diferentes \textit{Kernel's} para as diferentes classes de dados, para os diferentes compiladores, com a mesma flag de compilação.
+
+Neste caso, mais uma vez, à medida que se aumenta o nível de compilação, o comportamento dos compiladores é semelhante, sendo que o \textit{Kernel} CG é o que apresenta maior numero de MOPS, no caso do gráfico da figura \ref{fig:mops_dif_comp_O3_431} este \textit{Kernel}, para a classe de dados A o compilador da \textit{Intel} é ligeiramente menos eficiente do que os outros dois da \textit{GNU}. Para a classe de dados B o compilador mais eficiente é o compilador da \textit{GNU} da versão 4.9.0, tendo este aproximadamente o mesmo valor que o \textit{Kernel} quando compilado com o compilador da \textit{intel}. Na classe de dados C para os dois compiladores da \textit{GNU} o \textit{Kernel} apresenta valores semelhantes sendo estes melhores que o \textit{Kernel} quando compilado com o compilador da \textit{Intel}. À semelhança do que acontece nos tempos, para o \textit{Kernel} EP o compilador da \textit{Intel}, mais uma vez é o mais eficiente, apresentando valores sempre superiores aos outros dois compiladores da \textit{GNU}, quer para a classe de dados A, B e C.
+
+Os resultados para as máquinas 641 são praticamente semelhantes aos resultados das máquinas 431, isto é o comportamento á medida que se aumenta o nível de optimização é praticamente igual. Os seus gráficos podem ser consultados no anexo \ref{appendix:641_seq}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/mops_dif_comp_O0_nodo_431.png}
+\caption{MOPS para Diferentes Compiladores com Flags -O0}
+\label{fig:mops_dif_comp_O0_431}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/mops_dif_comp_O2_nodo_431.png}
+\caption{MOPS para Diferentes Compiladores com Flags -O2}
+\label{fig:mops_dif_comp_O2_431}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/mops_dif_comp_O3_nodo_431.png}
+\caption{MOPS para Diferentes Compiladores com Flags -O3}
+\label{fig:mops_dif_comp_O3_431}
+\end{figure}
+
+\subsection{Versão OMP}
+Um dos objetivos do trabalho era executar código em paralelo, neste caso com um paradigma de memória partilhada recorrendo a \textit{OpenMP}, sendo que os testes foram efetuados para 1, 2, 4, 8, 10, 12, 16, 24 e 32 \textit{Threads}. Na análise dos resultados destes testes, procurei comparar os tempos de execução, os MOPS e MOPS/Thread para os diferentes compiladores, fixando as flags de compilação para um \textit{Kernel}. De referir que devido a um grande número de gráficos que foram gerados para a versão OMP, apenas apresento uma parte dos resultados, para isso procurei apresentar os gráficos que achei que representam os melhores resultados que obtive. Como mostra a tabela \ref{t:testes_omp_431} e a tabela \ref{t:testes_omp_641} para esta versão apenas efetuei testes com as flags de compilação -O2 e -O3. De notar que os gráficos apresentados dizem respeito aos testes efetuados nas máquinas 431.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{OMP/tempos_dif_comp-O2_IS_nodo-431.png}
+\caption{Tempos para Diferentes Compiladores com Flags -O2 para o \textit{Kernel} IS}
+\label{fig:tempos_dif_comp_omp_O2_IS_431}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{OMP/tempos_dif_comp-O3_IS_nodo-431.png}
+\caption{Tempos para Diferentes Compiladores com Flags -O3 para o \textit{Kernel} IS}
+\label{fig:tempos_dif_comp_omp_O3_IS_431}
+\end{figure}
+
+Escolhi os gráficos do \textit{Kernel} IS, pois foi o \textit{Kernel} para o qual obtive um tempo de execução inferior. Como podemos verificar pela a análise do gráfico da figura \ref{fig:tempos_dif_comp_omp_O2_IS_431} e do gráfico da figura \ref{fig:tempos_dif_comp_omp_O3_IS_431} há pouca variação dos tempos quer na versão compilada com a flag -O2, quer com a flag -O3, tanto um gráfico como o outro são praticamente iguais. 
+
+No gráfico da figura \ref{fig:tempos_dif_comp_omp_O2_IS_431} com flag -O2 o \textit{Kernel} IS atinge o seu menor tempo para o compilador gnu/4.9.0 com 24 \textit{Threads} tanto para a classe de dados A, B e C com tempos de 0.08 segundos, 0.33 segundos e 1.41 segundos respetivamente. Para o compilador gnu/4.9.3 com flag -O2 o \textit{Kernel} atinge o menor tempo para a classe A com 24 \textit{Threads} bem como para a classe C com tempos de 0.08 segundos e 1.44 segundos respetivamente, para a classe B o \textit{Kernel} atinge o menor tempo tanto com 16 \textit{Threads} como com 24 \textit{Threads} com valor de 0.44 segundos. Quanto ao compilador da \textit{Intel}, com flag -O2 o \textit{Kernel} atinge o seu menor tempo com 16 \textit{Threads}, quer para a classe A, B e C com tempos de 0.1 segundos, 0.43 segundos e 1.93 segundos respetivamente. Podemos assim concluir que para este \textit{Kernel} com flag -O2, independentemente da classe de dados o compilador da \textit{Intel} é o mais eficiente.
+
+No gráfico da figura \ref{fig:tempos_dif_comp_omp_O3_IS_431}, com flag -O3, para o compilador gnu/4.9.0 o \textit{Kernel} IS atinge o seu menor tempo para a classe A com 16 \textit{Threads}, tendo um valor de 0.1 segundos e para as classes de dados B e C atinge o menor tempo com 24 \textit{Threads}, com tempos de 0.34 segundos e 1.4 segundos respetivamente. Para o compilador da gnu/4.9.3, com flag -O3 o \textit{Kernel} atinge o seu menor tempo com 24 \textit{Threads}, quer para a classe A, B e C, com tempos de 0.08 segundos, 0.35 segundos e 1.41 segundos respetivamente. No que toca ao compilador da \textit{Intel} com flag -O3 o \textit{Kernel} atinge o seu menor tempo com 16 \textit{Threads}, com tempos de 0.1 segundos, 0.43 segundos e 1.92 segundos respetivamente. À semelhança do que acontece com o caso anterior, isto é, quando o \textit{Kernel} é compilado com -O2, aqui o compilador da \textit{Intel} também mostra ser o mais eficiente, com flag -O3.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.225]{OMP/mops_dif_comp-O2_IS_nodo-431.png}
+\caption{MOPS para Diferentes Compiladores com Flags -O2 para o \textit{Kernel} IS}
+\label{fig:mops_dif_comp_omp_O2_IS_431}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.225]{OMP/mops_dif_comp-O3_IS_nodo-431.png}
+\caption{MOPS para Diferentes Compiladores com Flags -O3 para o \textit{Kernel} IS}
+\label{fig:mops_dif_comp_omp_O3_IS_431}
+\end{figure}
+
+Quanto aos MOPS como podemos verificar nos gráficos da figura \ref{fig:mops_dif_comp_omp_O2_IS_431} e no gráfico da figura \ref{fig:mops_dif_comp_omp_O3_IS_431}, estes tendem a aumentar até às 24 \textit{Threads}, tanto com flag -O2 como com flag -O3. Em oposição os MOPS/\textit{Thread} tendem a diminuir com o aumento do número de \textit{Threads} tanto com flag -O2 como com flag -O3, como mostra o gráfico da figura \ref{fig:mops-thread_dif_comp_omp_O2_IS_431} e o gráfico da figura \ref{fig:mops-thread_dif_comp_omp_O3_IS_431}, o que já era de esperar.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.225]{OMP/mops-thread_dif_comp-O2_IS_nodo-431.png}
+\caption{MOPS/\textit{Thread} para Diferentes Compiladores com Flags -O2 para o \textit{Kernel} IS}
+\label{fig:mops-thread_dif_comp_omp_O2_IS_431}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.225]{OMP/mops-thread_dif_comp-O3_IS_nodo-431.png}
+\caption{MOPS/\textit{Thread} para Diferentes Compiladores com Flags -O3 para o \textit{Kernel} IS}
+\label{fig:mops-thread_dif_comp_omp_O3_IS_431}
+\end{figure}
+
+Os gráficos para o \textit{Kernel} IS nas máquinas 641 podem ser consultados no anexo \ref{appendix:641_omp}.
+
+\subsection{Versão MPI}
+Para alem da versão paralela OMP, era também objetivo deste trabalho efetuar testes com um paradigma de memória distribuída, neste caso MPI. Nesta versão efetuei testes para ethernet quer com compiladores da intel, quer com compiladores da gnu, testei com 8, 16 e 32 processos para cada classe de dados.
+
+\section{Ganhos}
+No que toca aos ganhos, decidi filtrar um bocado os dados uma vez que, caso não o fizesse o relatório iria ficar muito extenso. Com isto, decidi escolher o \textit{Kernel} IS com as classes de dados A, B e C, compilado com o compilador da \textit{Intel} com flag -O3.
+
+\subsection{Sequencial vs OMP}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{ganhos_seq_vs_omp.png}
+\caption{Ganhos Sequencial vs OMP}
+\label{fig:ganhos_seq_vs_omp}
+\end{figure}
+
+Como podemos verificar no gráfico da figura \ref{fig:ganhos_seq_vs_omp}, os tempos da versão OMP começam mesmo por ter um ganho negativo, isto é, tem um tempo pior que a versão sequencial. Contudo, à medida que vai aumentado o numero de \textit{Threads} os ganhos também vão aumentando, atingindo o seu máximo para 24 \textit{Threads}. Para a classe de dados A, B e C com 24 \textit{Threads} os ganhos são de 875\%, 894\% e 945\% respetivamente, em relação à versão sequencial.
+\subsection{Sequencial vs MPI}
+
+\section{Utilitários de Monitorização}
+No desenvolvimento deste trabalho, aquando de cada teste utilizei uma ferramenta de monitorização, no meu caso \textit{dstat}, para examinar o estado do sistema de operação, neste caso o \textit{Cluster Search}. Estas ferramentas permite-nos visualizar a forma como o sistema é afetado em termos de utilização do \textit{cpu}, da memória e dos discos aquando do aumento gradual da carga de computação.
+
+Como referi, utilizei o comando \textit{dstat} com as seguintes flags:
+\begin{itemize}
+\item c - ativa as estatísticas do \textit{cpu} (\textit{system}, \textit{user}, \textit{idle}, \textit{wait}, \textit{hardware interrupt} e \textit{software interrupt});
+\item d - ativa as estatísticas do disco (\textit{read} e \textit{write});
+\item m - ativa as estatísticas de memória (\textit{used}, \textit{buffers}, \textit{cache}, \textit{free}).
+\end{itemize}
+
+Nesta secção irei analizar estas estatísticas para um dado \textit{Kernel}, no meu caso para o \textit{Kernel} IS, para o compilador da \textit{Intel} com flag -O3 com a classe de dados C para cada uma das versões, isto é, para a versão sequencial, versão OMP e versão MPI.
+
+\subsection{Versão Sequencial}
+\subsubsection{CPU}
+\subsubsection{Memória}
+\subsubsection{Disco}
+\subsection{Versão OMP}
+\subsubsection{CPU}
+\subsubsection{Memória}
+\subsubsection{Disco}
+\subsection{Versão MPI}
+\subsubsection{CPU}
+\subsubsection{Memória}
+\subsubsection{Disco}
+
+\section{Conclusão}
+
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
 % For figures, \caption should occur after the \includegraphics.
@@ -626,10 +958,6 @@ No que toca a classes de dados para testes, as minhas escolhas foram:
 
 
 
-\section{Conclusão}
-The conclusion goes here.
-
-
 % trigger a \newpage just before the given reference
 % number - used to balance the columns on the last page
 % adjust value as needed - may need to be readjusted if
@@ -656,6 +984,85 @@ The conclusion goes here.
 \bibliographystyle{abbrv}
 \bibliography{references}
 
+\appendix
+
+\section{Gráficos de Tempos e MOPS para as Máquinas 641 para a versão sequencial}
+\label{appendix:641_seq}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/tempos_dif_comp_O0_nodo_641.png}
+\caption{Tempos para Diferentes Compiladores com Flags -O0}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/tempos_dif_comp_O2_nodo_641.png}
+\caption{Tempos para Diferentes Compiladores com Flags -O2}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/tempos_dif_comp_O3_nodo_641.png}
+\caption{Tempos para Diferentes Compiladores com Flags -O3}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/mops_dif_comp_O0_nodo_641.png}
+\caption{MOPS para Diferentes Compiladores com Flags -O0}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/mops_dif_comp_O2_nodo_641.png}
+\caption{MOPS para Diferentes Compiladores com Flags -O2}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{SER/mops_dif_comp_O3_nodo_641.png}
+\caption{MOPS para Diferentes Compiladores com Flags -O3}
+\end{figure}
+
+\section{Gráficos de Tempos, MOPS e MOPS/\textit{Thread} para as Máquinas 641 para a versão OMP}
+\label{appendix:641_omp}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{OMP/tempos_dif_comp-O2_IS_nodo-641.png}
+\caption{Tempos para Diferentes Compiladores com Flags -O2 para o \textit{Kernel} IS}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{OMP/tempos_dif_comp-O3_IS_nodo-641.png}
+\caption{Tempos para Diferentes Compiladores com Flags -O3 para o \textit{Kernel} IS}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.225]{OMP/mops_dif_comp-O2_IS_nodo-641.png}
+\caption{MOPS para Diferentes Compiladores com Flags -O2 para o \textit{Kernel} IS}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.225]{OMP/mops_dif_comp-O3_IS_nodo-641.png}
+\caption{MOPS para Diferentes Compiladores com Flags -O3 para o \textit{Kernel} IS}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.225]{OMP/mops-thread_dif_comp-O2_IS_nodo-641.png}
+\caption{MOPS/\textit{Thread} para Diferentes Compiladores com Flags -O2 para o \textit{Kernel} IS}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.225]{OMP/mops-thread_dif_comp-O3_IS_nodo-641.png}
+\caption{MOPS/\textit{Thread} para Diferentes Compiladores com Flags -O3 para o \textit{Kernel} IS}
+\end{figure}
 
 % that's all folks
 \end{document}
