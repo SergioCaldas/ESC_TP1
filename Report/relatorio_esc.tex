@@ -817,7 +817,29 @@ Quanto aos MOPS como podemos verificar nos gráficos da figura \ref{fig:mops_dif
 Os gráficos para o \textit{Kernel} IS nas máquinas 641 podem ser consultados no anexo \ref{appendix:641_omp}.
 
 \subsection{Versão MPI}
-Para alem da versão paralela OMP, era também objetivo deste trabalho efetuar testes com um paradigma de memória distribuída, neste caso MPI. Nesta versão efetuei testes para ethernet quer com compiladores da intel, quer com compiladores da gnu, testei com 8, 16 e 32 processos para cada classe de dados.
+Para alem da versão paralela OMP, era também objetivo deste trabalho efetuar testes com um paradigma de memória distribuída, neste caso MPI. Nesta versão efetuei testes para ethernet quer com compiladores da intel, quer com compiladores da gnu, testei com 8, 16 e 32 processos para cada classe de dados. De notar que os dados apresentados, dizem respeito a testes efetuados nas máquinas 641.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{MPI/tempos_dif_compiladores_dif_num_proc.png}
+\caption{Tempos para os Diferentes Compiladores para os Diferentes Números de processos}
+\label{fig:tempo_mpi_eth}
+\end{figure}
+
+No gráfico da figura \ref{fig:tempo_mpi_eth} podemos consultar os tempos de cada \textit{Kernel} para as diferentes classes da dados numa execução com 8 processos, 16 processos e 32 processos. Como podemos analisar o \textit{Kernel} CG atinge o seu menor tempo, independentemente da classe de dados, com 8 processos, quer para o compilador da \textit{GNU}, quer com o compilador da \textit{Intel}. 
+
+No que diz respeito ao \textit{Kernel} EP (Embaraçosamente Paralelo), este atinge o seu menor tempo com 32 processos para as classes de dados B e C com o compilador da \textit{Intel} e para a classe A atinge o seu menor tempo com 16 processos mas também com o compilador da \textit{Intel}. Por isto para este Kernel podemos concluir que o compilador da \textit{Intel} é o mais eficiente.
+
+Por fim o \textit{Kernel} IS atinge o seu melhor tempo com 16 processos, qualquer que seja a sua classe de dados, sendo que os tempos de execução entre dois os compiladores, são muito próximos um do outro.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{MPI/mops_dif_compiladores_dif_num_proc.png}
+\caption{MOPS para os Diferentes Compiladores para os Diferentes Números de processos}
+\label{fig:mops_mpi_eth}
+\end{figure}
+
+Quanto aos MOPS, podemos analisar o gráfico da figura \ref{fig:mops_mpi_eth}, como podemos ver os MOPS para o \textit{Kernel} CG tendem a diminuir com 8 processos e com 16 processos, com o aumento da classe de dados sendo que com 32 processos, estes tendem a aumentar, ao aumentar a classe de dados, o que mostra que no caso deste Kernel é mais eficiente correr os testes com 32 processos.
 
 \section{Ganhos}
 No que toca aos ganhos, decidi filtrar um bocado os dados uma vez que, caso não o fizesse o relatório iria ficar muito extenso. Com isto, decidi escolher o \textit{Kernel} IS com as classes de dados A, B e C, compilado com o compilador da \textit{Intel} com flag -O3.
@@ -861,6 +883,9 @@ Na versão sequencial apenas apresento os gráficos do \textit{dstat} respetivos
 \subsubsection{Disco}
 
 \section{Conclusão}
+Na realização deste trabalho, efetuei inúmeros testes no \textit{Cluster Search}, para a realização desses testes tive de criar uma forma de automatizar o trabalho, para isso recorri a \textit{Shell Scripts} e ferramentas de escalonamento de tarefas, como o PBS. Depois de efetuados os testes, tive de processar os dados de forma a criar gráficos que exprimissem os meus resultados, para isso usei ferramentas de processamento de linguagens como é o caso do \textit{gawk} e do \textit{grep}, por fim, depois de ter todos os dados organizados, recorri ao excel para a geração dos gráficos. 
+
+Este trabalho permitiu-me ambientar de uma forma mais objetiva num ambiente de \textit{clustering}, sendo que passei por algumas dificuldades principalmente na execução dos testes para a versão MPI, dificuldades essas que não foram totalmente ultrapassadas, principalmente na execução em \textit{Myrinet}. Para alem dessas dificuldades, apesar de ter automatizado grande parte do trabalho com as \textit{scripts}, penso que perdi demasiado tempo na criação dos gráficos, uma vez que os fiz todos à mão e não era esse o objetivo. Contudo, faço um balanço positivo da maior parte do trabalho, sendo que, como trabalho futuro pretendo aperfeiçoar principalmente o meu processo de automatização, de forma a não perder demasiado tempo em algumas partes. 
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.

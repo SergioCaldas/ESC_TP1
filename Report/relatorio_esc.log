@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 MAR 2016 01:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 MAR 2016 21:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -872,179 +872,207 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 819.
+
+<MPI/tempos_dif_compiladores_dif_num_proc.png, id=260, 740.0448pt x 466.8642pt>
+File: MPI/tempos_dif_compiladores_dif_num_proc.png Graphic file (type png)
+<use MPI/tempos_dif_compiladores_dif_num_proc.png>
+Package pdftex.def Info: MPI/tempos_dif_compiladores_dif_num_proc.png used on i
+nput line 824.
+(pdftex.def)             Requested size: 240.5117pt x 151.72906pt.
+
+<MPI/mops_dif_compiladores_dif_num_proc.png, id=262, 740.0448pt x 466.3824pt>
+File: MPI/mops_dif_compiladores_dif_num_proc.png Graphic file (type png)
+
+<use MPI/mops_dif_compiladores_dif_num_proc.png>
+Package pdftex.def Info: MPI/mops_dif_compiladores_dif_num_proc.png used on inp
+ut line 837.
+(pdftex.def)             Requested size: 240.5117pt x 151.57248pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 822.
+(babel)             in language append on input line 843.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 825.
-<ganhos_seq_vs_omp.png, id=260, 739.563pt x 466.8642pt>
+(babel)             in language append on input line 843.
+[6 <./OMP/mops_dif_comp-O2_IS_nodo-431.png> <./OMP/mops_dif_comp-O3_IS_nodo-431
+.png> <./OMP/mops-thread_dif_comp-O2_IS_nodo-431.png> <./OMP/mops-thread_dif_co
+mp-O3_IS_nodo-431.png> <./MPI/tempos_dif_compiladores_dif_num_proc.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 844.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 847.
+
+<ganhos_seq_vs_omp.png, id=278, 739.563pt x 466.8642pt>
 File: ganhos_seq_vs_omp.png Graphic file (type png)
 
 <use ganhos_seq_vs_omp.png>
-Package pdftex.def Info: ganhos_seq_vs_omp.png used on input line 829.
+Package pdftex.def Info: ganhos_seq_vs_omp.png used on input line 851.
 (pdftex.def)             Requested size: 240.35513pt x 151.72906pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 835.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 837.
-
-Underfull \vbox (badness 1577) has occurred while \output is active []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 839.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 839.
- [6 <./OMP/mops_dif_comp-O2_IS_nodo-431.png> <./OMP/mops_dif_comp-O3_IS_nodo-43
-1.png> <./OMP/mops-thread_dif_comp-O2_IS_nodo-431.png> <./OMP/mops-thread_dif_c
-omp-O3_IS_nodo-431.png> <./ganhos_seq_vs_omp.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 849.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 852.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 853.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 854.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 854.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 856.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 857.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 858.
+(babel)             in language append on input line 859.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 858.
+(babel)             in language append on input line 871.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 860.
+(babel)             in language append on input line 874.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 861.
+(babel)             in language append on input line 875.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 863.
+(babel)             in language append on input line 876.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 863.
- (./relatorio_esc.bbl
+(babel)             in language append on input line 876.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 878.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 879.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 880.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 880.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 882.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 883.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 885.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 885.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 887.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 887.
+ [7 <./MPI/mops_dif_compiladores_dif_num_proc.png> <./ganhos_seq_vs_omp.png>] (
+./relatorio_esc.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
 )
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 989.
+(babel)             in language append on input line 1014.
 
-** WARNING: Ignoring useless \section in Appendix (line 990).
-<SER/tempos_dif_comp_O0_nodo_641.png, id=278, 740.0448pt x 466.8642pt>
+** WARNING: Ignoring useless \section in Appendix (line 1015).
+<SER/tempos_dif_comp_O0_nodo_641.png, id=291, 740.0448pt x 466.8642pt>
 File: SER/tempos_dif_comp_O0_nodo_641.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O0_nodo_641.png>
 Package pdftex.def Info: SER/tempos_dif_comp_O0_nodo_641.png used on input line
- 995.
+ 1020.
 (pdftex.def)             Requested size: 240.5117pt x 151.72906pt.
 
-<SER/tempos_dif_comp_O2_nodo_641.png, id=279, 739.563pt x 466.3824pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<SER/tempos_dif_comp_O2_nodo_641.png, id=292, 739.563pt x 466.3824pt>
 File: SER/tempos_dif_comp_O2_nodo_641.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O2_nodo_641.png>
 Package pdftex.def Info: SER/tempos_dif_comp_O2_nodo_641.png used on input line
- 1001.
+ 1026.
 (pdftex.def)             Requested size: 240.35513pt x 151.57248pt.
 
-<SER/tempos_dif_comp_O3_nodo_641.png, id=280, 739.563pt x 466.8642pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<SER/tempos_dif_comp_O3_nodo_641.png, id=293, 739.563pt x 466.8642pt>
 File: SER/tempos_dif_comp_O3_nodo_641.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O3_nodo_641.png>
 Package pdftex.def Info: SER/tempos_dif_comp_O3_nodo_641.png used on input line
- 1007.
+ 1032.
 (pdftex.def)             Requested size: 240.35513pt x 151.72906pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/mops_dif_comp_O0_nodo_641.png, id=281, 739.563pt x 466.8642pt>
+<SER/mops_dif_comp_O0_nodo_641.png, id=294, 739.563pt x 466.8642pt>
 File: SER/mops_dif_comp_O0_nodo_641.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O0_nodo_641.png>
 Package pdftex.def Info: SER/mops_dif_comp_O0_nodo_641.png used on input line 1
-013.
+038.
 (pdftex.def)             Requested size: 240.35513pt x 151.72906pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/mops_dif_comp_O2_nodo_641.png, id=282, 739.563pt x 466.3824pt>
+<SER/mops_dif_comp_O2_nodo_641.png, id=295, 739.563pt x 466.3824pt>
 File: SER/mops_dif_comp_O2_nodo_641.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O2_nodo_641.png>
 Package pdftex.def Info: SER/mops_dif_comp_O2_nodo_641.png used on input line 1
-019.
+044.
 (pdftex.def)             Requested size: 240.35513pt x 151.57248pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/mops_dif_comp_O3_nodo_641.png, id=283, 739.0812pt x 466.3824pt>
+<SER/mops_dif_comp_O3_nodo_641.png, id=296, 739.0812pt x 466.3824pt>
 File: SER/mops_dif_comp_O3_nodo_641.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O3_nodo_641.png>
 Package pdftex.def Info: SER/mops_dif_comp_O3_nodo_641.png used on input line 1
-025.
+050.
 (pdftex.def)             Requested size: 240.19855pt x 151.57248pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-** WARNING: Ignoring useless \section in Appendix (line 1029).
-<OMP/tempos_dif_comp-O2_IS_nodo-641.png, id=284, 1048.8786pt x 523.2348pt>
+** WARNING: Ignoring useless \section in Appendix (line 1054).
+<OMP/tempos_dif_comp-O2_IS_nodo-641.png, id=297, 1048.8786pt x 523.2348pt>
 File: OMP/tempos_dif_comp-O2_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/tempos_dif_comp-O2_IS_nodo-641.png>
 Package pdftex.def Info: OMP/tempos_dif_comp-O2_IS_nodo-641.png used on input l
-ine 1034.
+ine 1059.
 (pdftex.def)             Requested size: 262.21901pt x 130.80838pt.
 
-Overfull \hbox (18.30775pt too wide) in paragraph at lines 1034--1035
+Overfull \hbox (18.30775pt too wide) in paragraph at lines 1059--1060
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OMP/tempos_dif_comp-O3_IS_nodo-641.png, id=285, 1048.8786pt x 523.2348pt>
+<OMP/tempos_dif_comp-O3_IS_nodo-641.png, id=298, 1048.8786pt x 523.2348pt>
 File: OMP/tempos_dif_comp-O3_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/tempos_dif_comp-O3_IS_nodo-641.png>
 Package pdftex.def Info: OMP/tempos_dif_comp-O3_IS_nodo-641.png used on input l
-ine 1040.
+ine 1065.
 (pdftex.def)             Requested size: 262.21901pt x 130.80838pt.
 
-Overfull \hbox (18.30775pt too wide) in paragraph at lines 1040--1041
+Overfull \hbox (18.30775pt too wide) in paragraph at lines 1065--1066
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OMP/mops_dif_comp-O2_IS_nodo-641.png, id=286, 1105.2492pt x 522.753pt>
+<OMP/mops_dif_comp-O2_IS_nodo-641.png, id=299, 1105.2492pt x 522.753pt>
 File: OMP/mops_dif_comp-O2_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/mops_dif_comp-O2_IS_nodo-641.png>
 Package pdftex.def Info: OMP/mops_dif_comp-O2_IS_nodo-641.png used on input lin
-e 1046.
+e 1071.
 (pdftex.def)             Requested size: 248.6872pt x 117.62231pt.
 
-Overfull \hbox (4.77594pt too wide) in paragraph at lines 1046--1047
+Overfull \hbox (4.77594pt too wide) in paragraph at lines 1071--1072
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OMP/mops_dif_comp-O3_IS_nodo-641.png, id=287, 1105.2492pt x 523.2348pt>
+<OMP/mops_dif_comp-O3_IS_nodo-641.png, id=300, 1105.2492pt x 523.2348pt>
 File: OMP/mops_dif_comp-O3_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/mops_dif_comp-O3_IS_nodo-641.png>
 Package pdftex.def Info: OMP/mops_dif_comp-O3_IS_nodo-641.png used on input lin
-e 1052.
+e 1077.
 (pdftex.def)             Requested size: 248.6872pt x 117.73073pt.
 
-Overfull \hbox (4.77594pt too wide) in paragraph at lines 1052--1053
+Overfull \hbox (4.77594pt too wide) in paragraph at lines 1077--1078
  [][] 
  []
 
@@ -1052,23 +1080,23 @@ Overfull \hbox (4.77594pt too wide) in paragraph at lines 1052--1053
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<OMP/mops-thread_dif_comp-O2_IS_nodo-641.png, id=288, 1077.7866pt x 522.753pt>
+<OMP/mops-thread_dif_comp-O2_IS_nodo-641.png, id=301, 1077.7866pt x 522.753pt>
 File: OMP/mops-thread_dif_comp-O2_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/mops-thread_dif_comp-O2_IS_nodo-641.png>
 Package pdftex.def Info: OMP/mops-thread_dif_comp-O2_IS_nodo-641.png used on in
-put line 1058.
+put line 1083.
 (pdftex.def)             Requested size: 242.50797pt x 117.62231pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<OMP/mops-thread_dif_comp-O3_IS_nodo-641.png, id=289, 1077.7866pt x 523.2348pt>
+<OMP/mops-thread_dif_comp-O3_IS_nodo-641.png, id=302, 1077.7866pt x 523.2348pt>
 File: OMP/mops-thread_dif_comp-O3_IS_nodo-641.png Graphic file (type png)
 <use OMP/mops-thread_dif_comp-O3_IS_nodo-641.png>
 Package pdftex.def Info: OMP/mops-thread_dif_comp-O3_IS_nodo-641.png used on in
-put line 1064.
+put line 1089.
 (pdftex.def)             Requested size: 242.50797pt x 117.73073pt.
 
 
@@ -1085,34 +1113,33 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1069.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1094.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1069.
+(babel)             in language append on input line 1094.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1069.
-[7 <./SER/tempos_dif_comp_O0_nodo_641.png> <./SER/tempos_dif_comp_O2_nodo_641.p
-ng>]
+(babel)             in language append on input line 1094.
+[8 <./SER/tempos_dif_comp_O0_nodo_641.png> <./SER/tempos_dif_comp_O2_nodo_641.p
+ng> <./SER/tempos_dif_comp_O3_nodo_641.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1069.
+(babel)             in language append on input line 1094.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1069.
- [8 <./SER/tempos_dif_comp_O3_nodo_641.png> <./SER/mops_dif_comp_O0_nodo_641.pn
-g> <./SER/mops_dif_comp_O2_nodo_641.png> <./SER/mops_dif_comp_O3_nodo_641.png> 
-<./OMP/tempos_dif_comp-O2_IS_nodo-641.png> <./OMP/tempos_dif_comp-O3_IS_nodo-64
-1.png>]
+(babel)             in language append on input line 1094.
+ [9 <./SER/mops_dif_comp_O0_nodo_641.png> <./SER/mops_dif_comp_O2_nodo_641.png>
+ <./SER/mops_dif_comp_O3_nodo_641.png> <./OMP/tempos_dif_comp-O2_IS_nodo-641.pn
+g> <./OMP/tempos_dif_comp-O3_IS_nodo-641.png> <./OMP/mops_dif_comp-O2_IS_nodo-6
+41.png> <./OMP/mops_dif_comp-O3_IS_nodo-641.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1069.
+(babel)             in language append on input line 1094.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1069.
- [9
+(babel)             in language append on input line 1094.
+ [10
 
- <./OMP/mops_dif_comp-O2_IS_nodo-641.png> <./OMP/mops_dif_comp-O3_IS_nodo-641.p
-ng> <./OMP/mops-thread_dif_comp-O2_IS_nodo-641.png> <./OMP/mops-thread_dif_comp
--O3_IS_nodo-641.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1069.
+ <./OMP/mops-thread_dif_comp-O2_IS_nodo-641.png> <./OMP/mops-thread_dif_comp-O3
+_IS_nodo-641.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1094.
  (./relatorio_esc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1069.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1069.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1094.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1094.
 
 Package rerunfilecheck Info: File `relatorio_esc.out' has not changed.
 (rerunfilecheck)             Checksum: AEB93111D3963D39025D20BFD61CA7AF;2105.
@@ -1121,16 +1148,16 @@ Package rerunfilecheck Info: File `relatorio_esc.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.18951pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1069.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1094.
  ) 
 Here is how much of TeX's memory you used:
- 7223 strings out of 493089
- 113192 string characters out of 6134842
- 215134 words of memory out of 5000000
- 10518 multiletter control sequences out of 15000+600000
+ 7239 strings out of 493089
+ 113718 string characters out of 6134842
+ 215338 words of memory out of 5000000
+ 10528 multiletter control sequences out of 15000+600000
  48991 words of font info for 84 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 30i,16n,32p,1137b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,16n,32p,1137b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
@@ -1138,10 +1165,10 @@ ve/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on relatorio_esc.pdf (9 pages, 4842010 bytes).
+Output written on relatorio_esc.pdf (10 pages, 5065373 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
- 390 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
