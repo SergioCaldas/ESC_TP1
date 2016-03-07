@@ -7,7 +7,7 @@ mkdir __disk_usage
 mkdir __cpu_usage
 
 
-for file in is.C.*.csv
+for file in is.*.x.csv
 do
   echo $file
   gawk -f memory_usage.gawk $file > "MEMORY_"$file

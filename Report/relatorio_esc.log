@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 MAR 2016 01:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 MAR 2016 01:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -993,130 +993,133 @@ Package babel Info: Redefining portuges shorthand "|
  (./relatorio_esc.bbl
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1.
+
+Underfull \vbox (badness 3009) has occurred while \output is active []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 19.
+(babel)             in language append on input line 7.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 19.
+(babel)             in language append on input line 7.
  [9 <./dstat/SER/dstat_seq_disco.png>])
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1072.
+(babel)             in language append on input line 1074.
 
-** WARNING: Ignoring useless \section in Appendix (line 1073).
-<SER/tempos_dif_comp_O0_nodo_641.png, id=309, 740.0448pt x 466.8642pt>
+** WARNING: Ignoring useless \section in Appendix (line 1075).
+<SER/tempos_dif_comp_O0_nodo_641.png, id=307, 740.0448pt x 466.8642pt>
 File: SER/tempos_dif_comp_O0_nodo_641.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O0_nodo_641.png>
 Package pdftex.def Info: SER/tempos_dif_comp_O0_nodo_641.png used on input line
- 1078.
+ 1080.
 (pdftex.def)             Requested size: 240.5117pt x 151.72906pt.
 
-<SER/tempos_dif_comp_O2_nodo_641.png, id=310, 739.563pt x 466.3824pt>
+<SER/tempos_dif_comp_O2_nodo_641.png, id=308, 739.563pt x 466.3824pt>
 File: SER/tempos_dif_comp_O2_nodo_641.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O2_nodo_641.png>
 Package pdftex.def Info: SER/tempos_dif_comp_O2_nodo_641.png used on input line
- 1084.
+ 1086.
 (pdftex.def)             Requested size: 240.35513pt x 151.57248pt.
 
-<SER/tempos_dif_comp_O3_nodo_641.png, id=311, 739.563pt x 466.8642pt>
+<SER/tempos_dif_comp_O3_nodo_641.png, id=309, 739.563pt x 466.8642pt>
 File: SER/tempos_dif_comp_O3_nodo_641.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O3_nodo_641.png>
 Package pdftex.def Info: SER/tempos_dif_comp_O3_nodo_641.png used on input line
- 1090.
+ 1092.
 (pdftex.def)             Requested size: 240.35513pt x 151.72906pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/mops_dif_comp_O0_nodo_641.png, id=312, 739.563pt x 466.8642pt>
+<SER/mops_dif_comp_O0_nodo_641.png, id=310, 739.563pt x 466.8642pt>
 File: SER/mops_dif_comp_O0_nodo_641.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O0_nodo_641.png>
 Package pdftex.def Info: SER/mops_dif_comp_O0_nodo_641.png used on input line 1
-096.
+098.
 (pdftex.def)             Requested size: 240.35513pt x 151.72906pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/mops_dif_comp_O2_nodo_641.png, id=313, 739.563pt x 466.3824pt>
+<SER/mops_dif_comp_O2_nodo_641.png, id=311, 739.563pt x 466.3824pt>
 File: SER/mops_dif_comp_O2_nodo_641.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O2_nodo_641.png>
 Package pdftex.def Info: SER/mops_dif_comp_O2_nodo_641.png used on input line 1
-102.
+104.
 (pdftex.def)             Requested size: 240.35513pt x 151.57248pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/mops_dif_comp_O3_nodo_641.png, id=314, 739.0812pt x 466.3824pt>
+<SER/mops_dif_comp_O3_nodo_641.png, id=312, 739.0812pt x 466.3824pt>
 File: SER/mops_dif_comp_O3_nodo_641.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O3_nodo_641.png>
 Package pdftex.def Info: SER/mops_dif_comp_O3_nodo_641.png used on input line 1
-108.
+110.
 (pdftex.def)             Requested size: 240.19855pt x 151.57248pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-** WARNING: Ignoring useless \section in Appendix (line 1112).
-<OMP/tempos_dif_comp-O2_IS_nodo-641.png, id=315, 1048.8786pt x 523.2348pt>
+** WARNING: Ignoring useless \section in Appendix (line 1114).
+<OMP/tempos_dif_comp-O2_IS_nodo-641.png, id=313, 1048.8786pt x 523.2348pt>
 File: OMP/tempos_dif_comp-O2_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/tempos_dif_comp-O2_IS_nodo-641.png>
 Package pdftex.def Info: OMP/tempos_dif_comp-O2_IS_nodo-641.png used on input l
-ine 1117.
+ine 1119.
 (pdftex.def)             Requested size: 262.21901pt x 130.80838pt.
 
-Overfull \hbox (18.30775pt too wide) in paragraph at lines 1117--1118
+Overfull \hbox (18.30775pt too wide) in paragraph at lines 1119--1120
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OMP/tempos_dif_comp-O3_IS_nodo-641.png, id=316, 1048.8786pt x 523.2348pt>
+<OMP/tempos_dif_comp-O3_IS_nodo-641.png, id=314, 1048.8786pt x 523.2348pt>
 File: OMP/tempos_dif_comp-O3_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/tempos_dif_comp-O3_IS_nodo-641.png>
 Package pdftex.def Info: OMP/tempos_dif_comp-O3_IS_nodo-641.png used on input l
-ine 1123.
+ine 1125.
 (pdftex.def)             Requested size: 262.21901pt x 130.80838pt.
 
-Overfull \hbox (18.30775pt too wide) in paragraph at lines 1123--1124
+Overfull \hbox (18.30775pt too wide) in paragraph at lines 1125--1126
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OMP/mops_dif_comp-O2_IS_nodo-641.png, id=317, 1105.2492pt x 522.753pt>
+<OMP/mops_dif_comp-O2_IS_nodo-641.png, id=315, 1105.2492pt x 522.753pt>
 File: OMP/mops_dif_comp-O2_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/mops_dif_comp-O2_IS_nodo-641.png>
 Package pdftex.def Info: OMP/mops_dif_comp-O2_IS_nodo-641.png used on input lin
-e 1129.
+e 1131.
 (pdftex.def)             Requested size: 248.6872pt x 117.62231pt.
 
-Overfull \hbox (4.77594pt too wide) in paragraph at lines 1129--1130
+Overfull \hbox (4.77594pt too wide) in paragraph at lines 1131--1132
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OMP/mops_dif_comp-O3_IS_nodo-641.png, id=318, 1105.2492pt x 523.2348pt>
+<OMP/mops_dif_comp-O3_IS_nodo-641.png, id=316, 1105.2492pt x 523.2348pt>
 File: OMP/mops_dif_comp-O3_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/mops_dif_comp-O3_IS_nodo-641.png>
 Package pdftex.def Info: OMP/mops_dif_comp-O3_IS_nodo-641.png used on input lin
-e 1135.
+e 1137.
 (pdftex.def)             Requested size: 248.6872pt x 117.73073pt.
 
-Overfull \hbox (4.77594pt too wide) in paragraph at lines 1135--1136
+Overfull \hbox (4.77594pt too wide) in paragraph at lines 1137--1138
  [][] 
  []
 
@@ -1124,23 +1127,23 @@ Overfull \hbox (4.77594pt too wide) in paragraph at lines 1135--1136
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<OMP/mops-thread_dif_comp-O2_IS_nodo-641.png, id=319, 1077.7866pt x 522.753pt>
+<OMP/mops-thread_dif_comp-O2_IS_nodo-641.png, id=317, 1077.7866pt x 522.753pt>
 File: OMP/mops-thread_dif_comp-O2_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/mops-thread_dif_comp-O2_IS_nodo-641.png>
 Package pdftex.def Info: OMP/mops-thread_dif_comp-O2_IS_nodo-641.png used on in
-put line 1141.
+put line 1143.
 (pdftex.def)             Requested size: 242.50797pt x 117.62231pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<OMP/mops-thread_dif_comp-O3_IS_nodo-641.png, id=320, 1077.7866pt x 523.2348pt>
+<OMP/mops-thread_dif_comp-O3_IS_nodo-641.png, id=318, 1077.7866pt x 523.2348pt>
 File: OMP/mops-thread_dif_comp-O3_IS_nodo-641.png Graphic file (type png)
 <use OMP/mops-thread_dif_comp-O3_IS_nodo-641.png>
 Package pdftex.def Info: OMP/mops-thread_dif_comp-O3_IS_nodo-641.png used on in
-put line 1147.
+put line 1149.
 (pdftex.def)             Requested size: 242.50797pt x 117.73073pt.
 
 
@@ -1157,26 +1160,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1152.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1154.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1152.
+(babel)             in language append on input line 1154.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1152.
+(babel)             in language append on input line 1154.
 [10 <./SER/tempos_dif_comp_O0_nodo_641.png> <./SER/tempos_dif_comp_O2_nodo_641.
 png> <./SER/tempos_dif_comp_O3_nodo_641.png> <./SER/mops_dif_comp_O0_nodo_641.p
 ng> <./SER/mops_dif_comp_O2_nodo_641.png>]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1152.
+(babel)             in language append on input line 1154.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1152.
+(babel)             in language append on input line 1154.
  [11 <./SER/mops_dif_comp_O3_nodo_641.png> <./OMP/tempos_dif_comp-O2_IS_nodo-64
 1.png> <./OMP/tempos_dif_comp-O3_IS_nodo-641.png> <./OMP/mops_dif_comp-O2_IS_no
 do-641.png> <./OMP/mops_dif_comp-O3_IS_nodo-641.png> <./OMP/mops-thread_dif_com
 p-O2_IS_nodo-641.png> <./OMP/mops-thread_dif_comp-O3_IS_nodo-641.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1152.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1154.
  (./relatorio_esc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1152.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1152.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1154.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1154.
 
 Package rerunfilecheck Info: File `relatorio_esc.out' has not changed.
 (rerunfilecheck)             Checksum: C234653C8A0F29F9A2DC1C99A0DFDE90;1907.
@@ -1185,19 +1188,16 @@ Package rerunfilecheck Info: File `relatorio_esc.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.18951pt have occurred.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1152.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1154.
  ) 
 Here is how much of TeX's memory you used:
  7270 strings out of 493089
  114623 string characters out of 6134842
- 215655 words of memory out of 5000000
+ 215657 words of memory out of 5000000
  10550 multiletter control sequences out of 15000+600000
  48991 words of font info for 84 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 30i,16n,32p,1312b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,16n,32p,1312b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
@@ -1205,7 +1205,7 @@ ve/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on relatorio_esc.pdf (11 pages, 5513902 bytes).
+Output written on relatorio_esc.pdf (11 pages, 5514026 bytes).
 PDF statistics:
  399 PDF objects out of 1000 (max. 8388607)
  312 compressed objects within 4 object streams
