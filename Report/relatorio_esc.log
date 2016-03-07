@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 MAR 2016 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 MAR 2016 19:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -626,17 +626,8 @@ Underfull \hbox (badness 1436) in paragraph at lines 428--430
 i-
  []
 
-
-LaTeX Warning: Citation `search' on page 1 undefined on input line 455.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 457.
-
-LaTeX Warning: Reference `t:431' on page 1 undefined on input line 458.
-
-
-LaTeX Warning: Reference `t:641' on page 1 undefined on input line 458.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 459.
 Package babel Info: Redefining portuges shorthand "|
@@ -691,43 +682,9 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 544.
 
-LaTeX Warning: Citation `nas_bench' on page 2 undefined on input line 545.
-
-
-LaTeX Warning: Citation `nas_site' on page 2 undefined on input line 550.
-
-
 Underfull \hbox (badness 2828) in paragraph at lines 550--551
-[]\OT1/ptm/m/n/10.03749 IS [\OT1/ptm/b/n/10.03749 ?\OT1/ptm/m/n/10.03749 ] - Or
-dena[][]ao de in-tei-ros, acesso
+[]\OT1/ptm/m/n/10.03749 IS [[]1[]] - Ordena[][]ao de in-tei-ros, acesso
  []
-
-
-LaTeX Warning: Citation `nas_bench_1' on page 2 undefined on input line 551.
-
-
-LaTeX Warning: Citation `nas_bench_1' on page 2 undefined on input line 552.
-
-
-LaTeX Warning: Citation `nas_bench_1' on page 2 undefined on input line 553.
-
-
-LaTeX Warning: Citation `nas_bench_1' on page 2 undefined on input line 554.
-
-
-LaTeX Warning: Citation `nas_bench_1' on page 2 undefined on input line 558.
-
-
-LaTeX Warning: Citation `nas_bench_1' on page 2 undefined on input line 559.
-
-
-LaTeX Warning: Citation `nas_bench_1' on page 2 undefined on input line 560.
-
-
-LaTeX Warning: Citation `nas_site' on page 2 undefined on input line 564.
-
-
-LaTeX Warning: Citation `classes' on page 2 undefined on input line 571.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 572.
@@ -736,74 +693,19 @@ Package babel Info: Redefining portuges shorthand "|
 [2]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 573.
-
-
-LaTeX Warning: Citation `nas_site' on page 3 undefined on input line 576.
-
-
-LaTeX Warning: Citation `nas_site' on page 3 undefined on input line 577.
-
-
-LaTeX Warning: Citation `nas_site' on page 3 undefined on input line 578.
-
-
-LaTeX Warning: Citation `classes' on page 3 undefined on input line 582.
-
-
-LaTeX Warning: Citation `classes' on page 3 undefined on input line 583.
-
-
-LaTeX Warning: Citation `classes' on page 3 undefined on input line 584.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 587.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 590.
-
-LaTeX Warning: Reference `t:testes_seq_431' on page 3 undefined on input line 5
-91.
-
-
-LaTeX Warning: Reference `t:testes_seq_641' on page 3 undefined on input line 5
-91.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 628.
-
-LaTeX Warning: Reference `t:testes_omp_431' on page 3 undefined on input line 6
-29.
-
-
-LaTeX Warning: Reference `t:testes_omp_641' on page 3 undefined on input line 6
-29.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 666.
-
-LaTeX Warning: Reference `t:testes_mpi_431' on page 3 undefined on input line 6
-67.
-
-
-LaTeX Warning: Reference `t:testes_mpi_641' on page 3 undefined on input line 6
-67.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 708.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 709.
-
-LaTeX Warning: Reference `fig:tempos_dif_comp_O0_431' on page 3 undefined on in
-put line 712.
-
-
-LaTeX Warning: Reference `fig:tempos_dif_comp_O2_431' on page 3 undefined on in
-put line 712.
-
-
-LaTeX Warning: Reference `fig:tempos_dif_comp_O3_431' on page 3 undefined on in
-put line 712.
-
-<SER/tempos_dif_comp_O0_nodo_431.png, id=31, 740.5266pt x 466.8642pt>
+ <SER/tempos_dif_comp_O0_nodo_431.png, id=159, 740.5266pt x 466.8642pt>
 File: SER/tempos_dif_comp_O0_nodo_431.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O0_nodo_431.png>
@@ -814,7 +716,7 @@ Package pdftex.def Info: SER/tempos_dif_comp_O0_nodo_431.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/tempos_dif_comp_O2_nodo_431.png, id=33, 739.563pt x 466.3824pt>
+<SER/tempos_dif_comp_O2_nodo_431.png, id=161, 739.563pt x 466.3824pt>
 File: SER/tempos_dif_comp_O2_nodo_431.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O2_nodo_431.png>
@@ -825,7 +727,7 @@ Package pdftex.def Info: SER/tempos_dif_comp_O2_nodo_431.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/tempos_dif_comp_O3_nodo_431.png, id=34, 739.563pt x 466.3824pt>
+<SER/tempos_dif_comp_O3_nodo_431.png, id=162, 739.563pt x 466.3824pt>
 File: SER/tempos_dif_comp_O3_nodo_431.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O3_nodo_431.png>
@@ -836,36 +738,11 @@ Package pdftex.def Info: SER/tempos_dif_comp_O3_nodo_431.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:tempos_dif_comp_O3_431' on page 3 undefined on in
-put line 735.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 736.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 736.
-[3]
-
-LaTeX Warning: Reference `fig:mops_dif_comp_O0_431' on page 4 undefined on inpu
-t line 737.
-
-
-LaTeX Warning: Reference `fig:mops_dif_comp_O2_431' on page 4 undefined on inpu
-t line 737.
-
-
-LaTeX Warning: Reference `fig:mops_dif_comp_O3_431' on page 4 undefined on inpu
-t line 737.
-
-
-LaTeX Warning: Reference `fig:mops_dif_comp_O3_431' on page 4 undefined on inpu
-t line 739.
-
-
-LaTeX Warning: Reference `appendix:641_seq' on page 4 undefined on input line 7
-41.
-
-<SER/mops_dif_comp_O0_nodo_431.png, id=53, 739.0812pt x 466.8642pt>
+[3] <SER/mops_dif_comp_O0_nodo_431.png, id=185, 739.0812pt x 466.8642pt>
 File: SER/mops_dif_comp_O0_nodo_431.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O0_nodo_431.png>
@@ -873,7 +750,7 @@ Package pdftex.def Info: SER/mops_dif_comp_O0_nodo_431.png used on input line 7
 45.
 (pdftex.def)             Requested size: 240.19855pt x 151.72906pt.
 
-<SER/mops_dif_comp_O2_nodo_431.png, id=54, 739.563pt x 466.8642pt>
+<SER/mops_dif_comp_O2_nodo_431.png, id=186, 739.563pt x 466.8642pt>
 File: SER/mops_dif_comp_O2_nodo_431.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O2_nodo_431.png>
@@ -884,7 +761,7 @@ Package pdftex.def Info: SER/mops_dif_comp_O2_nodo_431.png used on input line 7
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/mops_dif_comp_O3_nodo_431.png, id=55, 739.563pt x 466.3824pt>
+<SER/mops_dif_comp_O3_nodo_431.png, id=187, 739.563pt x 466.3824pt>
 File: SER/mops_dif_comp_O3_nodo_431.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O3_nodo_431.png>
@@ -897,25 +774,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 764.
-
-LaTeX Warning: Reference `t:testes_omp_431' on page 4 undefined on input line 7
-65.
-
-
-LaTeX Warning: Reference `t:testes_omp_641' on page 4 undefined on input line 7
-65.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 766.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 766.
- [4 <./SER/tempos_dif_comp_O0_nodo_431.png> <./SER/tempos_dif_comp_O2_nodo_431.
-png> <./SER/tempos_dif_comp_O3_nodo_431.png> <./SER/mops_dif_comp_O0_nodo_431.p
-ng>]
-<OMP/tempos_dif_comp-O2_IS_nodo-431.png, id=68, 1048.8786pt x 523.2348pt>
+[4 <./SER/tempos_dif_comp_O0_nodo_431.png> <./SER/tempos_dif_comp_O2_nodo_431.p
+ng> <./SER/tempos_dif_comp_O3_nodo_431.png> <./SER/mops_dif_comp_O0_nodo_431.pn
+g>] <OMP/tempos_dif_comp-O2_IS_nodo-431.png, id=201, 1048.8786pt x 523.2348pt>
 File: OMP/tempos_dif_comp-O2_IS_nodo-431.png Graphic file (type png)
 
 <use OMP/tempos_dif_comp-O2_IS_nodo-431.png>
@@ -930,7 +795,7 @@ Overfull \hbox (18.30775pt too wide) in paragraph at lines 769--770
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OMP/tempos_dif_comp-O3_IS_nodo-431.png, id=69, 1048.8786pt x 523.2348pt>
+<OMP/tempos_dif_comp-O3_IS_nodo-431.png, id=202, 1048.8786pt x 523.2348pt>
 File: OMP/tempos_dif_comp-O3_IS_nodo-431.png Graphic file (type png)
 
 <use OMP/tempos_dif_comp-O3_IS_nodo-431.png>
@@ -945,29 +810,7 @@ Overfull \hbox (18.30775pt too wide) in paragraph at lines 776--777
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:tempos_dif_comp_omp_O2_IS_431' on page 5 undefine
-d on input line 781.
-
-
-LaTeX Warning: Reference `fig:tempos_dif_comp_omp_O3_IS_431' on page 5 undefine
-d on input line 781.
-
-
-LaTeX Warning: Reference `fig:tempos_dif_comp_omp_O2_IS_431' on page 5 undefine
-d on input line 783.
-
-
-LaTeX Warning: Reference `fig:tempos_dif_comp_omp_O3_IS_431' on page 5 undefine
-d on input line 785.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 786.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 786.
-[5 <./SER/mops_dif_comp_O2_nodo_431.png> <./SER/mops_dif_comp_O3_nodo_431.png> 
-<./OMP/tempos_dif_comp-O2_IS_nodo-431.png> <./OMP/tempos_dif_comp-O3_IS_nodo-43
-1.png>] <OMP/mops_dif_comp-O2_IS_nodo-431.png, id=83, 1048.3968pt x 522.753pt>
+<OMP/mops_dif_comp-O2_IS_nodo-431.png, id=207, 1048.3968pt x 522.753pt>
 File: OMP/mops_dif_comp-O2_IS_nodo-431.png Graphic file (type png)
 
 <use OMP/mops_dif_comp-O2_IS_nodo-431.png>
@@ -975,7 +818,10 @@ Package pdftex.def Info: OMP/mops_dif_comp-O2_IS_nodo-431.png used on input lin
 e 789.
 (pdftex.def)             Requested size: 235.8951pt x 117.62231pt.
 
-<OMP/mops_dif_comp-O3_IS_nodo-431.png, id=84, 1048.3968pt x 522.753pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<OMP/mops_dif_comp-O3_IS_nodo-431.png, id=208, 1048.3968pt x 522.753pt>
 File: OMP/mops_dif_comp-O3_IS_nodo-431.png Graphic file (type png)
 
 <use OMP/mops_dif_comp-O3_IS_nodo-431.png>
@@ -984,22 +830,16 @@ e 796.
 (pdftex.def)             Requested size: 235.8951pt x 117.62231pt.
 
 
-LaTeX Warning: Reference `fig:mops_dif_comp_omp_O2_IS_431' on page 6 undefined 
-on input line 801.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:mops_dif_comp_omp_O3_IS_431' on page 6 undefined 
-on input line 801.
-
-
-LaTeX Warning: Reference `fig:mops-thread_dif_comp_omp_O2_IS_431' on page 6 und
-efined on input line 801.
-
-
-LaTeX Warning: Reference `fig:mops-thread_dif_comp_omp_O3_IS_431' on page 6 und
-efined on input line 801.
-
-<OMP/mops-thread_dif_comp-O2_IS_nodo-431.png, id=85, 1047.915pt x 522.753pt>
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 802.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 802.
+[5 <./SER/mops_dif_comp_O2_nodo_431.png> <./SER/mops_dif_comp_O3_nodo_431.png> 
+<./OMP/tempos_dif_comp-O2_IS_nodo-431.png> <./OMP/tempos_dif_comp-O3_IS_nodo-43
+1.png>]
+<OMP/mops-thread_dif_comp-O2_IS_nodo-431.png, id=225, 1047.915pt x 522.753pt>
 File: OMP/mops-thread_dif_comp-O2_IS_nodo-431.png Graphic file (type png)
 
 <use OMP/mops-thread_dif_comp-O2_IS_nodo-431.png>
@@ -1007,7 +847,7 @@ Package pdftex.def Info: OMP/mops-thread_dif_comp-O2_IS_nodo-431.png used on in
 put line 805.
 (pdftex.def)             Requested size: 235.78668pt x 117.62231pt.
 
-<OMP/mops-thread_dif_comp-O3_IS_nodo-431.png, id=86, 1047.915pt x 522.753pt>
+<OMP/mops-thread_dif_comp-O3_IS_nodo-431.png, id=226, 1047.915pt x 522.753pt>
 File: OMP/mops-thread_dif_comp-O3_IS_nodo-431.png Graphic file (type png)
 
 <use OMP/mops-thread_dif_comp-O3_IS_nodo-431.png>
@@ -1018,36 +858,17 @@ put line 812.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `appendix:641_omp' on page 6 undefined on input line 8
-17.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 819.
 
-Underfull \vbox (badness 1147) has occurred while \output is active []
-
-
-<MPI/tempos_dif_compiladores_dif_num_proc.png, id=87, 740.0448pt x 466.8642pt>
+<MPI/tempos_dif_compiladores_dif_num_proc.png, id=228, 740.0448pt x 466.8642pt>
 File: MPI/tempos_dif_compiladores_dif_num_proc.png Graphic file (type png)
-
 <use MPI/tempos_dif_compiladores_dif_num_proc.png>
 Package pdftex.def Info: MPI/tempos_dif_compiladores_dif_num_proc.png used on i
 nput line 824.
 (pdftex.def)             Requested size: 240.5117pt x 151.72906pt.
 
-
-LaTeX Warning: Reference `fig:tempo_mpi_eth' on page 6 undefined on input line 
-829.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 834.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 834.
-[6 <./OMP/mops_dif_comp-O2_IS_nodo-431.png> <./OMP/mops_dif_comp-O3_IS_nodo-431
-.png> <./OMP/mops-thread_dif_comp-O2_IS_nodo-431.png> <./OMP/mops-thread_dif_co
-mp-O3_IS_nodo-431.png> <./MPI/tempos_dif_compiladores_dif_num_proc.png>]
-<MPI/mops_dif_compiladores_dif_num_proc.png, id=103, 740.0448pt x 466.3824pt>
+<MPI/mops_dif_compiladores_dif_num_proc.png, id=230, 740.0448pt x 466.3824pt>
 File: MPI/mops_dif_compiladores_dif_num_proc.png Graphic file (type png)
 
 <use MPI/mops_dif_compiladores_dif_num_proc.png>
@@ -1056,15 +877,16 @@ ut line 837.
 (pdftex.def)             Requested size: 240.5117pt x 151.57248pt.
 
 
-LaTeX Warning: Reference `fig:mops_mpi_eth' on page 7 undefined on input line 8
-42.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:mops_mpi_eth' on page 7 undefined on input line 8
-44.
-
-
-<MPI/mops-process_dif_compiladores_dif_num_proc.png, id=104, 740.0448pt x 466.3
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 843.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 843.
+[6 <./OMP/mops_dif_comp-O2_IS_nodo-431.png> <./OMP/mops_dif_comp-O3_IS_nodo-431
+.png> <./OMP/mops-thread_dif_comp-O2_IS_nodo-431.png> <./OMP/mops-thread_dif_co
+mp-O3_IS_nodo-431.png> <./MPI/tempos_dif_compiladores_dif_num_proc.png>]
+<MPI/mops-process_dif_compiladores_dif_num_proc.png, id=247, 740.0448pt x 466.3
 824pt>
 File: MPI/mops-process_dif_compiladores_dif_num_proc.png Graphic file (type png
 )
@@ -1072,64 +894,49 @@ File: MPI/mops-process_dif_compiladores_dif_num_proc.png Graphic file (type png
 Package pdftex.def Info: MPI/mops-process_dif_compiladores_dif_num_proc.png use
 d on input line 850.
 (pdftex.def)             Requested size: 240.5117pt x 151.57248pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:mops-process_mpi_eth' on page 7 undefined on inpu
-t line 855.
-
-
-LaTeX Warning: Reference `fig:mops_mpi_eth' on page 7 undefined on input line 8
-57.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 859.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 863.
-<ganhos_seq_vs_omp.png, id=105, 739.563pt x 466.8642pt>
+
+<ganhos_seq_vs_omp.png, id=250, 739.563pt x 466.8642pt>
 File: ganhos_seq_vs_omp.png Graphic file (type png)
 
 <use ganhos_seq_vs_omp.png>
 Package pdftex.def Info: ganhos_seq_vs_omp.png used on input line 867.
 (pdftex.def)             Requested size: 240.35513pt x 151.72906pt.
-
-
-LaTeX Warning: Reference `fig:ganhos_seq_vs_omp' on page 7 undefined on input l
-ine 872.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 873.
 
-LaTeX Warning: Reference `fig:ganhos_seq_vs_mpi' on page 7 undefined on input l
-ine 874.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 875.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 875.
-[7 <./MPI/mops_dif_compiladores_dif_num_proc.png> <./MPI/mops-process_dif_compi
-ladores_dif_num_proc.png> <./ganhos_seq_vs_omp.png>]
-<ganhos_seq_vs_mpi.png, id=119, 739.0812pt x 466.3824pt>
+<ganhos_seq_vs_mpi.png, id=253, 739.0812pt x 466.3824pt>
 File: ganhos_seq_vs_mpi.png Graphic file (type png)
 
 <use ganhos_seq_vs_mpi.png>
 Package pdftex.def Info: ganhos_seq_vs_mpi.png used on input line 878.
 (pdftex.def)             Requested size: 240.19855pt x 151.57248pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 884.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 884.
+[7 <./MPI/mops_dif_compiladores_dif_num_proc.png> <./MPI/mops-process_dif_compi
+ladores_dif_num_proc.png> <./ganhos_seq_vs_omp.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 889.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 901.
 
-<dstat/SER/dstat_seq_cpu.png, id=120, 739.563pt x 465.9006pt>
+<dstat/SER/dstat_seq_cpu.png, id=265, 739.563pt x 465.9006pt>
 File: dstat/SER/dstat_seq_cpu.png Graphic file (type png)
 
 <use dstat/SER/dstat_seq_cpu.png>
 Package pdftex.def Info: dstat/SER/dstat_seq_cpu.png used on input line 906.
 (pdftex.def)             Requested size: 240.35513pt x 151.4159pt.
 
-<dstat/SER/dstat_seq_memoria.png, id=121, 739.0812pt x 466.8642pt>
+<dstat/SER/dstat_seq_memoria.png, id=266, 739.0812pt x 466.8642pt>
 File: dstat/SER/dstat_seq_memoria.png Graphic file (type png)
 
 <use dstat/SER/dstat_seq_memoria.png>
@@ -1137,7 +944,7 @@ Package pdftex.def Info: dstat/SER/dstat_seq_memoria.png used on input line 913
 .
 (pdftex.def)             Requested size: 240.19855pt x 151.72906pt.
 
-<dstat/SER/dstat_seq_disco.png, id=122, 739.563pt x 465.9006pt>
+<dstat/SER/dstat_seq_disco.png, id=267, 739.563pt x 465.9006pt>
 File: dstat/SER/dstat_seq_disco.png Graphic file (type png)
 
 <use dstat/SER/dstat_seq_disco.png>
@@ -1147,34 +954,23 @@ Package pdftex.def Info: dstat/SER/dstat_seq_disco.png used on input line 920.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:dstat_seq_cpu' on page 8 undefined on input line 
-925.
-
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 926.
+(babel)             in language append on input line 928.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 926.
+(babel)             in language append on input line 928.
 [8 <./ganhos_seq_vs_mpi.png> <./dstat/SER/dstat_seq_cpu.png> <./dstat/SER/dstat
 _seq_memoria.png>]
-
-LaTeX Warning: Reference `fig:dstat_seq_memoria' on page 9 undefined on input l
-ine 927.
-
-
-LaTeX Warning: Reference `fig:dstat_seq_disco' on page 9 undefined on input lin
-e 929.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 931.
-<dstat/OMP/dstat_omp_cpu.png, id=136, 739.0812pt x 466.8642pt>
+
+<dstat/OMP/dstat_omp_cpu.png, id=280, 739.0812pt x 466.8642pt>
 File: dstat/OMP/dstat_omp_cpu.png Graphic file (type png)
 
 <use dstat/OMP/dstat_omp_cpu.png>
 Package pdftex.def Info: dstat/OMP/dstat_omp_cpu.png used on input line 936.
 (pdftex.def)             Requested size: 240.19855pt x 151.72906pt.
 
-<dstat/OMP/dstat_omp_memoria.png, id=137, 739.563pt x 466.8642pt>
+<dstat/OMP/dstat_omp_memoria.png, id=281, 739.563pt x 466.8642pt>
 File: dstat/OMP/dstat_omp_memoria.png Graphic file (type png)
 
 <use dstat/OMP/dstat_omp_memoria.png>
@@ -1185,7 +981,7 @@ Package pdftex.def Info: dstat/OMP/dstat_omp_memoria.png used on input line 943
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<dstat/OMP/dstat_omp_disco.png, id=138, 739.0812pt x 466.8642pt>
+<dstat/OMP/dstat_omp_disco.png, id=282, 739.0812pt x 466.8642pt>
 File: dstat/OMP/dstat_omp_disco.png Graphic file (type png)
 
 <use dstat/OMP/dstat_omp_disco.png>
@@ -1195,34 +991,19 @@ Package pdftex.def Info: dstat/OMP/dstat_omp_disco.png used on input line 950.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `fig:dstat_omp_cpu' on page 9 undefined on input line 
-955.
-
-
-LaTeX Warning: Reference `fig:dstat_omp_memoria' on page 9 undefined on input l
-ine 957.
-
-
-LaTeX Warning: Reference `fig:dstat_omp_disco' on page 9 undefined on input lin
-e 959.
-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 961.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 963.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 963.
-[9 <./dstat/SER/dstat_seq_disco.png> <./dstat/OMP/dstat_omp_cpu.png> <./dstat/O
-MP/dstat_omp_memoria.png> <./dstat/OMP/dstat_omp_disco.png>]
-<dstat/MPI/dstat_mpi_cpu.png, id=152, 739.563pt x 466.3824pt>
+<dstat/MPI/dstat_mpi_cpu.png, id=286, 739.563pt x 466.3824pt>
 File: dstat/MPI/dstat_mpi_cpu.png Graphic file (type png)
 
 <use dstat/MPI/dstat_mpi_cpu.png>
 Package pdftex.def Info: dstat/MPI/dstat_mpi_cpu.png used on input line 966.
 (pdftex.def)             Requested size: 240.35513pt x 151.57248pt.
 
-<dstat/MPI/dstat_mpi_memoria.png, id=153, 739.0812pt x 466.3824pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<dstat/MPI/dstat_mpi_memoria.png, id=287, 739.0812pt x 466.3824pt>
 File: dstat/MPI/dstat_mpi_memoria.png Graphic file (type png)
 
 <use dstat/MPI/dstat_mpi_memoria.png>
@@ -1230,7 +1011,10 @@ Package pdftex.def Info: dstat/MPI/dstat_mpi_memoria.png used on input line 973
 .
 (pdftex.def)             Requested size: 240.19855pt x 151.57248pt.
 
-<dstat/MPI/dstat_mpi_disco.png, id=154, 739.0812pt x 466.8642pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<dstat/MPI/dstat_mpi_disco.png, id=288, 739.0812pt x 466.8642pt>
 File: dstat/MPI/dstat_mpi_disco.png Graphic file (type png)
 
 <use dstat/MPI/dstat_mpi_disco.png>
@@ -1238,18 +1022,16 @@ Package pdftex.def Info: dstat/MPI/dstat_mpi_disco.png used on input line 980.
 (pdftex.def)             Requested size: 240.19855pt x 151.72906pt.
 
 
-LaTeX Warning: Reference `fig:dstat_mpi_cpu' on page 10 undefined on input line
- 985.
-
-
-LaTeX Warning: Reference `fig:dstat_mpi_disco' on page 10 undefined on input li
-ne 989.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 986.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 986.
+[9 <./dstat/SER/dstat_seq_disco.png> <./dstat/OMP/dstat_omp_cpu.png> <./dstat/O
+MP/dstat_omp_memoria.png> <./dstat/OMP/dstat_omp_disco.png>]
+Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 991.
-
-LaTeX Warning: Reference `sec:ganhos' on page 10 undefined on input line 992.
-
 
 Underfull \hbox (badness 3417) in paragraph at lines 992--995
 []\OT1/ptm/m/n/10.03749 Quanto []a ana-lise dos gr[]aficos da fer-ra-menta de
@@ -1258,9 +1040,9 @@ Underfull \hbox (badness 3417) in paragraph at lines 992--995
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 996.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 998.
+(babel)             in language append on input line 1000.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 998.
+(babel)             in language append on input line 1000.
 [10 <./dstat/MPI/dstat_mpi_cpu.png> <./dstat/MPI/dstat_mpi_memoria.png> <./dsta
 t/MPI/dstat_mpi_disco.png>] (./relatorio_esc.bbl
 Package babel Info: Redefining portuges shorthand "|
@@ -1270,7 +1052,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1133.
 
 ** WARNING: Ignoring useless \section in Appendix (line 1134).
-<SER/tempos_dif_comp_O0_nodo_641.png, id=171, 740.0448pt x 466.8642pt>
+<SER/tempos_dif_comp_O0_nodo_641.png, id=318, 740.0448pt x 466.8642pt>
 File: SER/tempos_dif_comp_O0_nodo_641.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O0_nodo_641.png>
@@ -1278,7 +1060,7 @@ Package pdftex.def Info: SER/tempos_dif_comp_O0_nodo_641.png used on input line
  1139.
 (pdftex.def)             Requested size: 240.5117pt x 151.72906pt.
 
-<SER/tempos_dif_comp_O2_nodo_641.png, id=172, 739.563pt x 466.3824pt>
+<SER/tempos_dif_comp_O2_nodo_641.png, id=319, 739.563pt x 466.3824pt>
 File: SER/tempos_dif_comp_O2_nodo_641.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O2_nodo_641.png>
@@ -1286,10 +1068,7 @@ Package pdftex.def Info: SER/tempos_dif_comp_O2_nodo_641.png used on input line
  1145.
 (pdftex.def)             Requested size: 240.35513pt x 151.57248pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<SER/tempos_dif_comp_O3_nodo_641.png, id=173, 739.563pt x 466.8642pt>
+<SER/tempos_dif_comp_O3_nodo_641.png, id=320, 739.563pt x 466.8642pt>
 File: SER/tempos_dif_comp_O3_nodo_641.png Graphic file (type png)
 
 <use SER/tempos_dif_comp_O3_nodo_641.png>
@@ -1300,7 +1079,7 @@ Package pdftex.def Info: SER/tempos_dif_comp_O3_nodo_641.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/mops_dif_comp_O0_nodo_641.png, id=174, 739.563pt x 466.8642pt>
+<SER/mops_dif_comp_O0_nodo_641.png, id=321, 739.563pt x 466.8642pt>
 File: SER/mops_dif_comp_O0_nodo_641.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O0_nodo_641.png>
@@ -1311,7 +1090,7 @@ Package pdftex.def Info: SER/mops_dif_comp_O0_nodo_641.png used on input line 1
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/mops_dif_comp_O2_nodo_641.png, id=175, 739.563pt x 466.3824pt>
+<SER/mops_dif_comp_O2_nodo_641.png, id=322, 739.563pt x 466.3824pt>
 File: SER/mops_dif_comp_O2_nodo_641.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O2_nodo_641.png>
@@ -1322,7 +1101,7 @@ Package pdftex.def Info: SER/mops_dif_comp_O2_nodo_641.png used on input line 1
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<SER/mops_dif_comp_O3_nodo_641.png, id=176, 739.0812pt x 466.3824pt>
+<SER/mops_dif_comp_O3_nodo_641.png, id=323, 739.0812pt x 466.3824pt>
 File: SER/mops_dif_comp_O3_nodo_641.png Graphic file (type png)
 
 <use SER/mops_dif_comp_O3_nodo_641.png>
@@ -1334,7 +1113,7 @@ Package pdftex.def Info: SER/mops_dif_comp_O3_nodo_641.png used on input line 1
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ** WARNING: Ignoring useless \section in Appendix (line 1173).
-<OMP/tempos_dif_comp-O2_IS_nodo-641.png, id=177, 1048.8786pt x 523.2348pt>
+<OMP/tempos_dif_comp-O2_IS_nodo-641.png, id=324, 1048.8786pt x 523.2348pt>
 File: OMP/tempos_dif_comp-O2_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/tempos_dif_comp-O2_IS_nodo-641.png>
@@ -1349,7 +1128,7 @@ Overfull \hbox (18.30775pt too wide) in paragraph at lines 1178--1179
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OMP/tempos_dif_comp-O3_IS_nodo-641.png, id=178, 1048.8786pt x 523.2348pt>
+<OMP/tempos_dif_comp-O3_IS_nodo-641.png, id=325, 1048.8786pt x 523.2348pt>
 File: OMP/tempos_dif_comp-O3_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/tempos_dif_comp-O3_IS_nodo-641.png>
@@ -1364,7 +1143,7 @@ Overfull \hbox (18.30775pt too wide) in paragraph at lines 1184--1185
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OMP/mops_dif_comp-O2_IS_nodo-641.png, id=179, 1105.2492pt x 522.753pt>
+<OMP/mops_dif_comp-O2_IS_nodo-641.png, id=326, 1105.2492pt x 522.753pt>
 File: OMP/mops_dif_comp-O2_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/mops_dif_comp-O2_IS_nodo-641.png>
@@ -1379,7 +1158,7 @@ Overfull \hbox (4.77594pt too wide) in paragraph at lines 1190--1191
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OMP/mops_dif_comp-O3_IS_nodo-641.png, id=180, 1105.2492pt x 523.2348pt>
+<OMP/mops_dif_comp-O3_IS_nodo-641.png, id=327, 1105.2492pt x 523.2348pt>
 File: OMP/mops_dif_comp-O3_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/mops_dif_comp-O3_IS_nodo-641.png>
@@ -1395,7 +1174,7 @@ Overfull \hbox (4.77594pt too wide) in paragraph at lines 1196--1197
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<OMP/mops-thread_dif_comp-O2_IS_nodo-641.png, id=181, 1077.7866pt x 522.753pt>
+<OMP/mops-thread_dif_comp-O2_IS_nodo-641.png, id=328, 1077.7866pt x 522.753pt>
 File: OMP/mops-thread_dif_comp-O2_IS_nodo-641.png Graphic file (type png)
 
 <use OMP/mops-thread_dif_comp-O2_IS_nodo-641.png>
@@ -1407,7 +1186,7 @@ put line 1202.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<OMP/mops-thread_dif_comp-O3_IS_nodo-641.png, id=182, 1077.7866pt x 523.2348pt>
+<OMP/mops-thread_dif_comp-O3_IS_nodo-641.png, id=329, 1077.7866pt x 523.2348pt>
 File: OMP/mops-thread_dif_comp-O3_IS_nodo-641.png Graphic file (type png)
 <use OMP/mops-thread_dif_comp-O3_IS_nodo-641.png>
 Package pdftex.def Info: OMP/mops-thread_dif_comp-O3_IS_nodo-641.png used on in
@@ -1433,56 +1212,47 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1213.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1213.
-[11 <./SER/tempos_dif_comp_O0_nodo_641.png>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1213.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 1213.
- [12 <./SER/tempos_dif_comp_O2_nodo_641.png> <./SER/tempos_dif_comp_O3_nodo_641
-.png> <./SER/mops_dif_comp_O0_nodo_641.png> <./SER/mops_dif_comp_O2_nodo_641.pn
-g> <./SER/mops_dif_comp_O3_nodo_641.png> <./OMP/tempos_dif_comp-O2_IS_nodo-641.
+[11 <./SER/tempos_dif_comp_O0_nodo_641.png> <./SER/tempos_dif_comp_O2_nodo_641.
 png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1213.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 1213.
- [13 <./OMP/tempos_dif_comp-O3_IS_nodo-641.png> <./OMP/mops_dif_comp-O2_IS_nodo
--641.png> <./OMP/mops_dif_comp-O3_IS_nodo-641.png> <./OMP/mops-thread_dif_comp-
-O2_IS_nodo-641.png> <./OMP/mops-thread_dif_comp-O3_IS_nodo-641.png>]
+ [12 <./SER/tempos_dif_comp_O3_nodo_641.png> <./SER/mops_dif_comp_O0_nodo_641.p
+ng> <./SER/mops_dif_comp_O2_nodo_641.png> <./SER/mops_dif_comp_O3_nodo_641.png>
+ <./OMP/tempos_dif_comp-O2_IS_nodo-641.png> <./OMP/tempos_dif_comp-O3_IS_nodo-6
+41.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 1213.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 1213.
+ [13
+
+ <./OMP/mops_dif_comp-O2_IS_nodo-641.png> <./OMP/mops_dif_comp-O3_IS_nodo-641.p
+ng> <./OMP/mops-thread_dif_comp-O2_IS_nodo-641.png> <./OMP/mops-thread_dif_comp
+-O3_IS_nodo-641.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1213.
  (./relatorio_esc.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1213.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1213.
 
+Package rerunfilecheck Info: File `relatorio_esc.out' has not changed.
+(rerunfilecheck)             Checksum: 23E3B4A0E011815AB128CE56E7613B92;1577.
 
-
-Package rerunfilecheck Warning: File `relatorio_esc.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `relatorio_esc.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  23E3B4A0E011815AB128CE56E7613B92;1577.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.18951pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1213.
  ) 
 Here is how much of TeX's memory you used:
- 7280 strings out of 493089
- 115204 string characters out of 6134842
- 213627 words of memory out of 5000000
- 10549 multiletter control sequences out of 15000+600000
+ 7306 strings out of 493089
+ 115558 string characters out of 6134842
+ 215991 words of memory out of 5000000
+ 10575 multiletter control sequences out of 15000+600000
  48991 words of font info for 84 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 30i,16n,32p,1312b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,16n,32p,1312b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
@@ -1490,10 +1260,10 @@ ve/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on relatorio_esc.pdf (13 pages, 5993650 bytes).
+Output written on relatorio_esc.pdf (13 pages, 5996265 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
+ 415 PDF objects out of 1000 (max. 8388607)
+ 314 compressed objects within 4 object streams
  94 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
 
