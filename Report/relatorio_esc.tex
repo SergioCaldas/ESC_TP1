@@ -817,7 +817,7 @@ Quanto aos MOPS como podemos verificar nos gráficos da figura \ref{fig:mops_dif
 Os gráficos para o \textit{Kernel} IS nas máquinas 641 podem ser consultados no anexo \ref{appendix:641_omp}.
 
 \subsection{Versão MPI}
-Para alem da versão paralela OMP, era também objetivo deste trabalho efetuar testes com um paradigma de memória distribuída, neste caso MPI. Nesta versão efetuei testes para ethernet quer com compiladores da intel, quer com compiladores da gnu, testei com 8, 16 e 32 processos para cada classe de dados. De notar que os dados apresentados, dizem respeito a testes efetuados nas máquinas 641.
+Para alem da versão paralela OMP, era também objetivo deste trabalho efetuar testes com um paradigma de memória distribuída, neste caso MPI. Nesta versão efetuei testes para ethernet quer com compiladores da intel, quer com compiladores da gnu, testei com 8, 16 e 32 processos para cada classe de dados. De notar que os dados apresentados, dizem respeito a testes efetuados nas máquinas 641, apenas com \textit{Ethernet} uma vez que não consegui obter dados para a execução com \textit{Myrinet}.
 
 \begin{figure}[h!]
 \centering
@@ -839,7 +839,22 @@ Por fim o \textit{Kernel} IS atinge o seu melhor tempo com 16 processos, qualque
 \label{fig:mops_mpi_eth}
 \end{figure}
 
-Quanto aos MOPS, podemos analisar o gráfico da figura \ref{fig:mops_mpi_eth}, como podemos ver os MOPS para o \textit{Kernel} CG tendem a diminuir com 8 processos e com 16 processos, com o aumento da classe de dados sendo que com 32 processos, estes tendem a aumentar, ao aumentar a classe de dados, o que mostra que no caso deste Kernel é mais eficiente correr os testes com 32 processos.
+Quanto aos MOPS, podemos analisar o gráfico da figura \ref{fig:mops_mpi_eth}, como podemos ver os MOPS para o \textit{Kernel} CG tendem a diminuir com 8 processos e com 16 processos, com o aumento da classe de dados sendo que com 32 processos, estes tendem a aumentar, ao aumentar a classe de dados. Pela a análise do gráfico podemos concluir que para o \textit{Kernel} CG é mais eficiente executá-lo com 16 processos, uma vez que para as diferentes classes de dados, é com 16 processos que os MOPS são maiores.
+
+No \textit{Kernel} EP os MOPS apresentam aproximadamente os mesmos valores, quer para 8 e 16 processos, como pode ser comprovado pelo gráfico da figura \ref{fig:mops_mpi_eth}, contudo, para 32 processos os MOPS aumentão ligeiramente com o aumento das classes de dados. Neste \textit{Kernel} para as classes de dados B e C, o mais eficiente é executar o \textit{Kernel} com 32 processos com o compilador da \textit{Intel}, sendo que para a classe de dados A, o mais eficiente é excutar o \textit{Kernel} com 16 processos, com o compilador da \textit{GNU}.
+
+Por fim no \textit{Kernel} IS os MOPS, mais uma vez tendem a ter aproximadamente os mesmos valores, havendo pouca variação, à medida que se aumenta a classe de dados, contudo é com 16 processos, que a execução deste \textit{Kernel} mostra ser mais eficiente, tanto com o compilador da \textit{GNU} como com o compilador da \textit{Intel}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{MPI/mops-process_dif_compiladores_dif_num_proc.png}
+\caption{MOPS para os Diferentes Compiladores para os Diferentes Números de processos}
+\label{fig:mops-process_mpi_eth}
+\end{figure}
+
+O gráfico da figura \ref{fig:mops-process_mpi_eth} mostra a relação entre os diferentes \textit{Kernel's} para as diferentes classes de dados, para 8, 16 e 32 processos. Pela a análise do gráfico, podemos verificar que para o \textit{Kernel CG} á medida que se aumenta a classe de dados, de A até C os MOPS por processo diminuem, para 8 e 16 processos, sendo que para 32 processos, estes aumentam para os dois compiladores, o que já era de esperar uma vez que o comportamento dos MOPS é o mesmo.
+
+No \textit{Kernel} EP o comportamento dos MOPS por processo é semelhante ao comportamento dos MOPS, isto é, tendem a ter os mesmo valores (aproximadamente), à medida que se aumenta a classe de dados. Para o \textit{Kernel} IS, os MOPS por processo tendem a ter os mesmos valores, à semelhança do que acontece com no gráfico da figura \ref{fig:mops_mpi_eth}.
 
 \section{Ganhos}
 No que toca aos ganhos, decidi filtrar um bocado os dados uma vez que, caso não o fizesse o relatório iria ficar muito extenso. Com isto, decidi escolher o \textit{Kernel} IS com as classes de dados A, B e C, compilado com o compilador da \textit{Intel} com flag -O3.
@@ -849,12 +864,26 @@ No que toca aos ganhos, decidi filtrar um bocado os dados uma vez que, caso não
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.325]{ganhos_seq_vs_omp.png}
-\caption{Ganhos Sequencial vs OMP}
+\caption{Percentagem de Ganhos Versão Sequencial vs Versão OMP}
 \label{fig:ganhos_seq_vs_omp}
 \end{figure}
 
 Como podemos verificar no gráfico da figura \ref{fig:ganhos_seq_vs_omp}, os tempos da versão OMP começam mesmo por ter um ganho negativo, isto é, tem um tempo pior que a versão sequencial. Contudo, à medida que vai aumentado o numero de \textit{Threads} os ganhos também vão aumentando, atingindo o seu máximo para 24 \textit{Threads}. Para a classe de dados A, B e C com 24 \textit{Threads} os ganhos são de 875\%, 894\% e 945\% respetivamente, em relação à versão sequencial.
 \subsection{Sequencial vs MPI}
+Na relação de ganhos entre a versão sequencial e a versão MPI, eu fixei o compilador e as flags, sendo que apresento os ganhos para todas as classes de dados, e para o diferente numero de processos, para o qual efetuei os testes, como pode ser comprovado pela gráfico da figura \ref{fig:ganhos_seq_vs_mpi}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{ganhos_seq_vs_mpi.png}
+\caption{Percentagem de Ganhos Versão Sequencial vs Versão MPI}
+\label{fig:ganhos_seq_vs_mpi}
+\end{figure}
+
+Como pode ser analisado pelo gráfico no \textit{Kernel} CG, é com 16 processos que se atinge maior percentagem de ganhos da versão MPI em relação à versão sequencial, tanto para a classe de dados A, como B e como C, apresentando valores de 1189\%, 1695\% e 1272\%. Já no \textit{Kernel} EP a percentagem de ganho da versão MPI em relação à versão sequencial atinge o seu máximo com 32 processos para a classe B e C, com valores de 1392\% e 1670\% e para a classe de dados A atinge o seu máximo com 16 processos com um valor de 1233\%.
+
+Por fim, no \textit{Kernel} IS a percentagem de ganho da versão MPI em relação à versão sequencial, atinge o seu máximo com 16 processos, independentemente da classe de dados, apresentando um valor de 1013\% para a classe de dados A, 1003\% para a classe de dados B e 1038\% para a classe de dados C.
+
+De referir que no caso do \textit{Kernel} CG e do \textit{Kernel} IS, com 32 processos para a classe de dados A, a percentagem de ganho chega a ser negativa, isto é, o tempo de execução da versão MPI é pior que o tempo de execução da versão sequencial.
 
 \section{Utilitários de Monitorização}
 No desenvolvimento deste trabalho, aquando de cada teste utilizei uma ferramenta de monitorização, no meu caso \textit{dstat}, para examinar o estado do sistema de operação, neste caso o \textit{Cluster Search}. Estas ferramentas permite-nos visualizar a forma como o sistema é afetado em termos de utilização do \textit{cpu}, da memória e dos discos aquando do aumento gradual da carga de computação.
@@ -866,26 +895,55 @@ Como referi, utilizei o comando \textit{dstat} com as seguintes flags:
 \item m - ativa as estatísticas de memória (\textit{used}, \textit{buffers}, \textit{cache}, \textit{free}).
 \end{itemize}
 
-Nesta secção irei analizar estas estatísticas para um dado \textit{Kernel}, no meu caso para o \textit{Kernel} IS, para o compilador da \textit{Intel} com flag -O3 com a classe de dados C para cada uma das versões, isto é, para a versão sequencial, versão OMP e versão MPI, nas máquinas 431.
+Nesta secção irei analizar estas estatísticas para um dado \textit{Kernel}, no meu caso para o \textit{Kernel} IS, para o compilador da \textit{Intel} com flag -O3 com a classe de dados C para cada uma das versões, isto é, para a versão sequencial, versão OMP, nas máquinas 431 e para a e versão MPI nas máquinas 641.
 
 \subsection{Versão Sequencial}
 Na versão sequencial apenas apresento os gráficos do \textit{dstat} respetivos ao melhor tempo de execusão.
-\subsubsection{CPU}
-\subsubsection{Memória}
-\subsubsection{Disco}
+
+No que toca ao uso do \textit{CPU}, para o \textit{Kernel} IS com a classe de dados C na máquina 431
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{dstat/SER/dstat_seq_cpu.png}
+\caption{Uso do CPU}
+\label{fig:dstat_seq_cpu}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{dstat/SER/dstat_seq_memoria.png}
+\caption{Uso da Memória}
+\label{fig:dstat_seq_memoria}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{dstat/SER/dstat_seq_disco.png}
+\caption{Uso do Disco}
+\label{fig:dstat_seq_disco}
+\end{figure}
+
 \subsection{Versão OMP}
+Na versão OMP apenas apresento os gráficos do \textit{dstat} respetivos ao melhor tempo de execução para o melhor número de \textit{Threads}, isto é, para o número de \textit{Threads} em que o tempo é menor.
 \subsubsection{CPU}
 \subsubsection{Memória}
 \subsubsection{Disco}
 \subsection{Versão MPI}
+Na versão OMP apenas apresento os gráficos do \textit{dstat} respetivos ao melhor tempo de execução para o melhor número de Processos, isto é, para o número de Processos em que o tempo é menor.
 \subsubsection{CPU}
 \subsubsection{Memória}
 \subsubsection{Disco}
 
 \section{Conclusão}
-Na realização deste trabalho, efetuei inúmeros testes no \textit{Cluster Search}, para a realização desses testes tive de criar uma forma de automatizar o trabalho, para isso recorri a \textit{Shell Scripts} e ferramentas de escalonamento de tarefas, como o PBS. Depois de efetuados os testes, tive de processar os dados de forma a criar gráficos que exprimissem os meus resultados, para isso usei ferramentas de processamento de linguagens como é o caso do \textit{gawk} e do \textit{grep}, por fim, depois de ter todos os dados organizados, recorri ao excel para a geração dos gráficos. 
+Depois de realizado todos os testes, do tratamento dos resultados e por fim a análise destes, posso concluir de uma maneira geral, que na versão sequencial na máquina 431, os tempos de execução são melhores, quando os \textit{Kernel's} são compilados com o compilador da \textit{Intel}, de notat que á medida que se aumenta os níveis de optimização, o intervalo de tempo de cada gráfico, também vai diminuindo, o que já era de esperar, uma vez que estamos a aumentar as optimizações. Quanto ao número de MOPS, também de uma maneira geral o compilador da \textit{Intel} se mostra o mais eficiente, apresentando valores superiores em relação aos outros compiladores. De notar também que à medida que vamos aumentando os níveis de optimização, o intervalo de valores de cada gráfico vai aumentando, sendo que do nível -O2 para -O3 esse aumento não é muito significativo.
 
-Este trabalho permitiu-me ambientar de uma forma mais objetiva num ambiente de \textit{clustering}, sendo que passei por algumas dificuldades principalmente na execução dos testes para a versão MPI, dificuldades essas que não foram totalmente ultrapassadas, principalmente na execução em \textit{Myrinet}. Para alem dessas dificuldades, apesar de ter automatizado grande parte do trabalho com as \textit{scripts}, penso que perdi demasiado tempo na criação dos gráficos, uma vez que os fiz todos à mão e não era esse o objetivo. Contudo, faço um balanço positivo da maior parte do trabalho, sendo que, como trabalho futuro pretendo aperfeiçoar principalmente o meu processo de automatização, de forma a não perder demasiado tempo em algumas partes. 
+Quanto à versão OMP, podemos concluir que para o \textit{Kernel} IS com um nível de optimização -O2 e -O3 e com a classe de dados C (classe de dados maior), que a versão 4.9.0 e a versão 4.9.3 do compilador da \textit{GNU} são os compiladores mais eficientes, uma vez que é com a execução do \textit{Kernel} compilado com estes compiladores que se encontra o menor tempo, sendo esse valor encontrado na execução do \textit{Kernel} com 24 \textit{Threads}. Quanto ao número de MOPS é com a versão do compilador 4.9.4 do compilador da \textit{GNU} que se encontra o valor mais elevado de MOPS tanto para o nível de optimização -O2 e -O3, sendo esse valor encontrado com 24 \textit{Threads} o que nos permite concluir que é este o melhor compilador, para a obtenção de melhores resultados desta métrica. No que toca aos MOPS/\textit{thread} é com o compilador da \textit{Intel} que se encontra o maior numero de MOPS/\textit{Thread}, sendo este valor encontrado com apenas 1 \textit{Thread}, o que podemos concluir que para a obtenção dos melhores valores desta métrica, é o compilador da \textit{Intel} a melhor escolha. Contudo por uma análise do gráfico dos tempos, podemos concluir que com 1 \textit{Thread} é onde se obtém o pior tempo.
+
+No que toca à versão MPI, podemos concluir que o compilador da \textit{Intel} é o compilador mais eficiente no que toca à obtenção dos melhores tempos, uma vez que de uma maneira geral, é com este compilador, numa execução com 16 processos (\textit{mapped-by-core}), que se obtém os melhores tempos. Quanto ao número de MOPS, também de uma maneira geral é o compilador da \textit{Intel} que é o melhor compilador para a obtenção dos melhores valores desta métrica, uma vez que é com este compilador que, de uma maneira geral, se encontra o maior número de MOPS, sendo estes valores encontrados com 16 processos. Por fim, quanto ao número de MOPS/Processo é o compilador da \textit{Intel} que é o melhor, uma vez que é com este, que encontramos os melhores valores para esta métrica, contudo, ao contrário do que acontece com os tempos e com os MOPS, é com 8 processos que encontramos os melhores valores para esta métrica.
+
+Referente à realização deste trabalho, efetuei inúmeros testes no \textit{Cluster Search}, para a realização desses testes tive de criar uma forma de automatizar o trabalho, para isso recorri a \textit{Shell Scripts} e ferramentas de escalonamento de tarefas, como o PBS. Depois de efetuados os testes, tive de processar os dados de forma a criar gráficos que exprimissem os meus resultados, para isso usei ferramentas de processamento de linguagens como é o caso do \textit{gawk} e do \textit{grep}, por fim, depois de ter todos os dados organizados, recorri ao excel para a geração dos gráficos. 
+
+Este trabalho permitiu-me ambientar de uma forma mais objetiva num ambiente de \textit{clustering}, sendo que passei por algumas dificuldades principalmente na execução dos testes para a versão MPI, dificuldades essas que não foram totalmente ultrapassadas, pelo menos na execução em \textit{Myrinet}. Para alem dessas dificuldades, apesar de ter automatizado grande parte do trabalho com as \textit{scripts}, penso que perdi demasiado tempo na criação dos gráficos, uma vez que os fiz todos à mão e não era esse o objetivo. Contudo, faço um balanço positivo da maior parte do trabalho, sendo que, como trabalho futuro pretendo aperfeiçoar principalmente o meu processo de automatização, de forma a não perder demasiado tempo em algumas partes, bem como conseguir efetuar todos os testes que defini ao inicio. 
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
