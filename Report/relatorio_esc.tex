@@ -32,7 +32,7 @@
 %% necessarily endorsed by the IEEE.
 %%
 %% This work is distributed under the LaTeX Project Public License (LPPL)
-%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,t
 %% distributed and modified. A copy of the LPPL, version 1.3, is included
 %% in the base LaTeX documentation of all distributions of LaTeX released
 %% 2003/12/01 or later.
@@ -414,10 +414,10 @@ Este trabalho foi realizado no âmbito da disciplina de Engenharia de Sistemas d
 Este \textit{Benchmark} é constituído por 5 \textit{Kernels} e 3 simulações bem como um conjunto de 8 classes de dados, destes 5 \textit{Kernels} tive de escolher alguns de forma a efectuar um conjunto de testes, para posteriormente fazer uma analise/comparação detalhada desses mesmos testes, para além da escolha dos \textit{Kernels} ainda foi necessário escolher um conjunto de classes de dados para os testes.
 
 
-Os testes consistiram na repetição destes nas diferentes classes de arquitecturas de nós existentes, usando as versões sequenciais e paralelas (memória distribuida - OpenMPI e memória partilhada - OpenMP), nos diferentes compiladores (gnu e intel), diferentes opções de compilação, diferentes tecnologias de comunicação e diferentes dimensões de dados (classes).
+Os testes consistiram na repetição destes nas diferentes classes de arquitecturas de nós existentes, usando as versões sequenciais e paralelas (memória distribuída - OpenMPI e memória partilhada - OpenMP), nos diferentes compiladores (gnu e intel), diferentes opções de compilação, diferentes tecnologias de comunicação e diferentes dimensões de dados (classes).
 
 
-A análise/comparação dos resultados obtidos deverá ser feita tendo em consideração medições precisas de tempos de execução/ócio/bloqueio, da ocupação da memória, da comutação do tempo de E/S, bem como outras métricas das ferramentas de monitorização.
+A análise e comparação dos resultados obtidos deverá ser feita tendo em consideração medições precisas de tempos de execução, da ocupação da memória, da comutação do tempo de E/S, bem como outras métricas das ferramentas de monitorização.
 
 
 Para a realização destes testes foi desenvolvido um \textit{Script} que me permitiu fazer a execução dos testes em lotes com base no sistema PBS.
@@ -856,7 +856,8 @@ O gráfico da figura \ref{fig:mops-process_mpi_eth} mostra a relação entre os 
 
 No \textit{Kernel} EP o comportamento dos MOPS por processo é semelhante ao comportamento dos MOPS, isto é, tendem a ter os mesmo valores (aproximadamente), à medida que se aumenta a classe de dados. Para o \textit{Kernel} IS, os MOPS por processo tendem a ter os mesmos valores, à semelhança do que acontece com no gráfico da figura \ref{fig:mops_mpi_eth}.
 
-\section{Ganhos}
+\section{Ganhos}\label{sec:ganhos}
+
 No que toca aos ganhos, decidi filtrar um bocado os dados uma vez que, caso não o fizesse o relatório iria ficar muito extenso. Com isto, decidi escolher o \textit{Kernel} IS com as classes de dados A, B e C, compilado com o compilador da \textit{Intel} com flag -O3.
 
 \subsection{Sequencial vs OMP}
@@ -900,19 +901,17 @@ Nesta secção irei analizar estas estatísticas para um dado \textit{Kernel}, n
 \subsection{Versão Sequencial}
 Na versão sequencial apenas apresento os gráficos do \textit{dstat} respetivos ao melhor tempo de execusão.
 
-No que toca ao uso do \textit{CPU}, para o \textit{Kernel} IS com a classe de dados C na máquina 431
-
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.325]{dstat/SER/dstat_seq_cpu.png}
-\caption{Uso do CPU}
+\caption{Percentagem de Uso do CPU}
 \label{fig:dstat_seq_cpu}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.325]{dstat/SER/dstat_seq_memoria.png}
-\caption{Uso da Memória}
+\caption{Percentagem de Uso da Memória}
 \label{fig:dstat_seq_memoria}
 \end{figure}
 
@@ -923,16 +922,76 @@ No que toca ao uso do \textit{CPU}, para o \textit{Kernel} IS com a classe de da
 \label{fig:dstat_seq_disco}
 \end{figure}
 
+No que toca ao uso do \textit{CPU}, para o \textit{Kernel} IS com a classe de dados C, na máquina 431, na versão sequencial, analisando o gráfico da figura \ref{fig:dstat_seq_cpu} podemos verificar que a percentagem do uso para \textit{user} (\textit{usr}), sobe ligeiramente desde o instante inicial até aos 12 segundos, estabilizando a partir dai nos 5\%, aproximadamente, do uso do \textit{CPU}. A percentagem de uso do \textit{CPU} para \textit{system} (\textit{sys}) em todo o tempo de execução é sempre inferior a 1\%. De referir que o \textit{CPU}, em todo o instante de tempo de execução se encontra desocupado (\textit{idl}) com uma percentagem de cerca de 95\%, daí podemos concluir que o não estamos a tirar o máximo partido do \textit{CPU}, uma vez que a cada instante de tempo, o \textit{Kernel} apenas está a utilizar cerca de 6\% deste.
+
+Na percentagem de uso da memória, analisando o gráfico da figura \ref{fig:dstat_seq_memoria}, verificamos que desde os 14 e até ao fim da execução o \textit{Kernel} está a utilizar cerca de 5\%, aproximadamente, da memória. Sendo que desde o instante inicial, até aos 14 segundos, o \textit{Kernel} vai aumentado o uso da memória ligeiramente. Concluimos assim que o  \textit{Kernel} é \textit{CPU Bound} e não \textit{Memory Bound}. 
+
+Por fim, referente ao uso do disco, ao analisarmos o gráfico da figura \ref{fig:dstat_seq_disco}, verificamos que em todo o instante de execução não leituras (\textit{read}) do disco, sendo que no instante 5 segundos e 12 segundos está a ser escrito (\textit{write}) em disco cerca de 25 KB e 12.5 KB respetivamente.
+
 \subsection{Versão OMP}
-Na versão OMP apenas apresento os gráficos do \textit{dstat} respetivos ao melhor tempo de execução para o melhor número de \textit{Threads}, isto é, para o número de \textit{Threads} em que o tempo é menor.
-\subsubsection{CPU}
-\subsubsection{Memória}
-\subsubsection{Disco}
+Na versão OMP apenas apresento os gráficos do \textit{dstat} respetivos ao melhor tempo de execução para o melhor número de \textit{Threads}, isto é, para o número de \textit{Threads} em que o tempo é menor, neste caso para 24 \textit{Threads}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{dstat/OMP/dstat_omp_cpu.png}
+\caption{Percentagem de Uso do CPU}
+\label{fig:dstat_omp_cpu}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{dstat/OMP/dstat_omp_memoria.png}
+\caption{Percentagem de Uso da Memória}
+\label{fig:dstat_omp_memoria}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{dstat/OMP/dstat_omp_disco.png}
+\caption{Uso do Disco}
+\label{fig:dstat_omp_disco}
+\end{figure}
+
+Analisando o gráfico da figura \ref{fig:dstat_omp_cpu}, referente à percentagem de uso do \textit{CPU}, verificamos que, no primeiro segundo a percentagem de uso do \textit{CPU} para \textit{user} (\textit{usr}) é de cerca de 25\%, a partir do segundo segundo e até final do tempo de execução o uso do \textit{CPU} para \textit{user} (\textit{usr}) mantém-se nos 65\%, aproximadamente. Quanto ao uso do  \textit{CPU} para \textit{system} (\textit{sys}) no primeiro segundo, apresenta um valor inferior a 1\% sendo que a partir dai e até final apresenta um valor de aproximadamente 2\%. Podemos concluir a partir do gráfico que com o paradigma de memória partilhada conseguimos tirar um maior proveito do \textit{CPU} em relação ao sequencial, visto que apresenta uma percentagem de uso mais elevada.
+
+Referente ao uso da memória e analisando o gráfico da figura \ref{fig:dstat_omp_memoria}, verificamos que o \textit{Kernel} no primeiro segundo usa cerca de 2.5\% da memória e a partir do segundo segundo, este utiliza cerca de 5\% da memória, até ao final da execução. Analisando estes resultados podemos concluir que este \textit{Kernel} é \textit{CPU Bound} e não \textit{Memory Bound}, à semelhança do que acontece na versão sequencial.
+
+Para concluir a versão OMP e analisando o gráfico da figura \ref{fig:dstat_omp_disco}, vemos que no primeiro segundo é escrito \textit{write} em disco cerca de 500 KB e lido \textit{read} cerca de 11.5 KB. Nos restantes segundos, até final da execução não há mais leituras nem escritas do disco. 
+
 \subsection{Versão MPI}
-Na versão OMP apenas apresento os gráficos do \textit{dstat} respetivos ao melhor tempo de execução para o melhor número de Processos, isto é, para o número de Processos em que o tempo é menor.
-\subsubsection{CPU}
-\subsubsection{Memória}
-\subsubsection{Disco}
+Na versão OMP apenas apresento os gráficos do \textit{dstat} respetivos ao melhor tempo de execução para o melhor número de Processos, isto é, para o número de Processos em que o tempo é menor, neste caso com 16 Processos.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{dstat/MPI/dstat_mpi_cpu.png}
+\caption{Percentagem de Uso do CPU}
+\label{fig:dstat_mpi_cpu}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{dstat/MPI/dstat_mpi_memoria.png}
+\caption{Percentagem de Uso da Memória}
+\label{fig:dstat_mpi_memoria}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.325]{dstat/MPI/dstat_mpi_disco.png}
+\caption{Uso do Disco}
+\label{fig:dstat_mpi_disco}
+\end{figure}
+
+Na versão MPI, quanto ao uso do \textit{CPU} e analisando o gráfico da figura \ref{fig:dstat_mpi_cpu}, verificamos que no primeiro segundo a percentagem de uso para \textit{user} (\textit{usr}) é de cerca de 50\%, sendo que no segundo segundo, baixa para cerca de 38\%, voltando a aumentar nos segundos seguintes, e até final, para cerca de 50\%. Quanto ao uso do \textit{CPU} para \textit{system} (\textit{sys}) no primeiro segundo é de 5\%, baixando nos segundos seguintes, até ao instante final, no qual apresenta um valor inferior a 1\%. De referir que para esta versão MPI em todos os instantes de tempo o \textit{CPU} tem uma percentagem de desocupação (\textit{idl}) de cerca de 50\%.
+
+Nesta versão, a percentagem de uso da memória apresenta padrões semelhantes às versões anteriores (versão sequencial e versão MPI), subindo a cada instante de tempo, mas sempre com valores inferiores a 5\%. Mais uma vez podemos concluir que este \textit{Kernel} é \textit{CPU Bound} e não \textit{Memory Bound}.
+
+Na utilização do disco, verificamos através da analise do gráfico da figura \ref{fig:dstat_mpi_disco}, que no primeiro segundo é escrito (\textit{write}) em disco cerca de 540 KB e lidos (\textit{read}) cerca de 180 KB. No segundo segundo não é escrito nenhum \textit{Byte}, sendo que a partir deste instante não é lido qualquer \textit{Byte}, até final. No terceiro segundo é escrito cerca de 8 KB no disco e no quarto e ultimo segundo é escrito cerca de 150 KB em disco.
+
+\subsection{Análise Geral}
+Quanto à analise dos gráficos da ferramenta de monitorização \textit{dstat}, podemos concluir que, na versão OMP é utilizado mais \textit{CPU} em relação às outras versões (versão sequencial e versão MPI), sendo que a versão MPI também apresenta valores razoáveis de utilização do \textit{CPU}. Contudo é com o paradigma de memória distribuída (MPI) que se obtém maiores ganhos, como pode ser comprovado na secção \ref{sec:ganhos}.
+Com a análise dos gráficos da percentagem uso de memória, podemos concluir que este \textit{Kernel} é \textit{CPU Bound} e não \textit{Memory Bound}.
+Por fim, no que diz respeito ao uso da memória podemos concluir que é na versão MPI que é efetuado maior número de operações de escrita e leitura em disco, como pode ser comprovado pelos gráficos de uso de disco.
 
 \section{Conclusão}
 Depois de realizado todos os testes, do tratamento dos resultados e por fim a análise destes, posso concluir de uma maneira geral, que na versão sequencial na máquina 431, os tempos de execução são melhores, quando os \textit{Kernel's} são compilados com o compilador da \textit{Intel}, de notat que á medida que se aumenta os níveis de optimização, o intervalo de tempo de cada gráfico, também vai diminuindo, o que já era de esperar, uma vez que estamos a aumentar as optimizações. Quanto ao número de MOPS, também de uma maneira geral o compilador da \textit{Intel} se mostra o mais eficiente, apresentando valores superiores em relação aos outros compiladores. De notar também que à medida que vamos aumentando os níveis de optimização, o intervalo de valores de cada gráfico vai aumentando, sendo que do nível -O2 para -O3 esse aumento não é muito significativo.

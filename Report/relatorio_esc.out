@@ -18,13 +18,8 @@
 \BOOKMARK [1][-]{section.7}{Utilit\341rios de Monitoriza\347\343o}{}% 18
 \BOOKMARK [2][-]{subsection.7.1}{Vers\343o Sequencial}{section.7}% 19
 \BOOKMARK [2][-]{subsection.7.2}{Vers\343o OMP}{section.7}% 20
-\BOOKMARK [3][-]{subsubsection.7.2.1}{CPU}{subsection.7.2}% 21
-\BOOKMARK [3][-]{subsubsection.7.2.2}{Mem\363ria}{subsection.7.2}% 22
-\BOOKMARK [3][-]{subsubsection.7.2.3}{Disco}{subsection.7.2}% 23
-\BOOKMARK [2][-]{subsection.7.3}{Vers\343o MPI}{section.7}% 24
-\BOOKMARK [3][-]{subsubsection.7.3.1}{CPU}{subsection.7.3}% 25
-\BOOKMARK [3][-]{subsubsection.7.3.2}{Mem\363ria}{subsection.7.3}% 26
-\BOOKMARK [3][-]{subsubsection.7.3.3}{Disco}{subsection.7.3}% 27
-\BOOKMARK [1][-]{section.8}{Conclus\343o}{}% 28
-\BOOKMARK [1][-]{section*.1}{Refer\352ncias}{}% 29
-\BOOKMARK [1][-]{section*.2}{Ap\352ndice}{}% 30
+\BOOKMARK [2][-]{subsection.7.3}{Vers\343o MPI}{section.7}% 21
+\BOOKMARK [2][-]{subsection.7.4}{An\341lise Geral}{section.7}% 22
+\BOOKMARK [1][-]{section.8}{Conclus\343o}{}% 23
+\BOOKMARK [1][-]{section*.1}{Refer\352ncias}{}% 24
+\BOOKMARK [1][-]{section*.2}{Ap\352ndice}{}% 25
